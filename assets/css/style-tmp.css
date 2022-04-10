@@ -1,0 +1,1371 @@
+.bg-none {
+  background: none !important;
+}
+
+.theme-gradient {
+  background: linear-gradient(293.59deg, rgba(104, 43, 233, 0.56) 15.68%, rgba(104, 43, 233, 0) 69.72%, rgba(104, 43, 233, 0) 69.72%);
+  min-height: 70vh;
+}
+
+.container.content-wrap {
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+
+.container.content-wrap *,
+.container.content-wrap input::placeholder {
+  color: rgba(253, 242, 247, 0.68);
+}
+
+.container.content-wrap .content-title {
+  color: #FDF2F7 !important;
+  font-weight: 700;
+}
+
+.container.content-wrap .content-title.text-underline,
+.container.content-wrap a span.text-underline {
+  border-bottom: 2px solid;
+}
+
+.container.content-wrap .content-subtitle {
+  color: rgba(253, 242, 247, 0.78) !important;
+}
+
+.container.content-wrap .nav * {
+  color: rgba(253, 242, 247, 0.88) !important;
+}
+
+.theme-gradient .container.content-wrap .form-control-wrap,
+.container.content-wrap .wallet-nft-card-wrap .wallet-nft-card .card-option-wrap,
+.container.content-wrap .wallet-nft-card-wrap-xs .wallet-nft-card .card-option-wrap,
+.container.content-wrap .wallet-crypto-card-wrap .wallet-crypto-card .card-img-wrap .card-img-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.theme-gradient .container.content-wrap .form-control,
+.theme-gradient .container.content-wrap .form-select {
+  /* background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid #FDF2F7;
+  box-shadow: none !important; */
+
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid #E9E0F8;
+  backdrop-filter: blur(95px);
+  border-radius: 6px;
+}
+
+.theme-gradient .container.content-wrap .form-control-dark {
+  /* background: linear-gradient(25.24deg, #191435 20.1%, rgba(25, 20, 52, 0.26) 56.65%);
+  box-shadow: 0px 1px 2px rgba(233, 224, 248, 0.38) !important; */
+  background: #231435;
+  box-shadow: 0px 1px 2px rgba(253, 242, 247, 0.12) !important;
+  border-radius: 2px;
+}
+
+.theme-gradient .container.content-wrap .form-control-lg,
+.theme-gradient .container.content-wrap .form-select-lg {
+  padding: 0.8rem 1rem;
+  font-size: 14px;
+}
+
+.container.content-wrap input:focus,
+.container.content-wrap input:focus-visible,
+.container.content-wrap select:focus,
+.container.content-wrap button,
+.container.content-wrap .form-control:focus {
+  box-shadow: none;
+  outline: none !important;
+  border-color: none !important;
+  background-color: none !important;
+}
+
+.container.content-wrap .form-check-wrap * {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container.content-wrap .form-check-wrap .form-check-label {
+  font-size: 0.8rem;
+}
+
+.container.content-wrap input[type="checkbox"] {
+  display: none;
+}
+.container.content-wrap .form-check-wrap input[type="checkbox"] + label::before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: rgba(253, 242, 247, 0.43);
+  border: 1px solid #FDF2F7;
+  box-sizing: border-box;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+
+.container.content-wrap .form-check-wrap input[type="checkbox"]:checked + label::before {
+  content: '\F272';
+  font-family: 'bootstrap-icons';
+  font-size: x-large;
+  color: #181333;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container.content-wrap .form-check-inline-wrap .form-check-inline {
+  cursor: pointer;
+}
+
+.container.content-wrap .form-check-inline-wrap {
+  padding-left: 0.25rem;
+  font-size: 0.85rem;
+}
+
+.container.content-wrap .form-check-inline-wrap input[type="checkbox"] + label::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(253, 242, 247, 0.76);
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.container.content-wrap .form-check-inline-wrap input[type="checkbox"]:checked + label::before {
+  content: '\F272';
+  font-family: 'bootstrap-icons';
+  font-size: large;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container.content-wrap select.form-select {
+  background-image: url('../images/chevron-down.svg');
+  background-size: auto;
+}
+
+.container.content-wrap .form-btn {
+  border-radius: 100px;
+  border: 2px solid transparent;
+  background-image: linear-gradient(174.83deg, rgba(151, 79, 233, 0.7) 16.19%, rgba(61, 34, 119, 0.68) 114.12%), linear-gradient(119.11deg, rgba(151, 79, 233, 0.88) 22.29%, rgba(61, 34, 119, 0.68) 67.88%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  text-align: center;
+}
+
+.container.content-wrap .form-btn strong,
+.container.content-wrap .withdraw-content-wrap .content-btn strong,
+.container.content-wrap .nft-withdraw-content-wrap .content-btn strong {
+  font-size: 1.1rem;
+}
+
+.container.content-wrap .form-footer-link {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 0.8rem;
+}
+
+.container.content-wrap .form-footer-link-xs {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.container.content-wrap .form-hr-text {
+  display: flex;
+  align-items: center;
+}
+
+.container.content-wrap .form-hr-text .hr {
+  flex: auto;
+}
+
+.container.content-wrap .form-hr-text .hr hr {
+  border: 1px solid;
+}
+
+.container.content-wrap .form-hr-text .hr-text {
+  padding: 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.container.content-wrap .form-hr-text-footer {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.container.content-wrap .form-btn *,
+.container.content-wrap .btn-check-inline-wrap *,
+.container.content-wrap .card .card-text,
+.container.content-wrap .profile-status .profile-status-title,
+.container.content-wrap .following-wrap .following-title {
+  color: #FDF2F7 !important;
+}
+
+.container.content-wrap .link-text {
+  /* color: #EBB100 !important; */
+  color: rgba(235, 177, 0, 0.86) !important;
+}
+
+.container.content-wrap .table-wrap,
+.container.content-wrap .card-wrap .card {
+  background: rgba(104, 43, 233, 0.1);
+  box-shadow: 2px 2px 4px #232121, inset 2px 2px 6px rgba(252, 252, 252, 0.1);
+  border-radius: 6px;
+}
+
+.container.content-wrap .table-wrap {
+  padding: 1.5rem 3rem;
+  min-height: 400px;
+}
+
+.container.content-wrap table thead.border-bottom {
+  border-bottom: 2px solid rgba(253, 242, 247, 0.38) !important;
+}
+
+.container.content-wrap table th {
+  color: #FDF2F7;
+  font-weight: 700;
+}
+
+.container.content-wrap table th,
+.container.content-wrap table td {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.container.content-wrap table td {
+  font-size: 0.85rem;
+}
+
+.container.content-wrap .btn-check-inline {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.container.content-wrap .btn-check-inline-wrap input[type="checkbox"] + label {
+  background: linear-gradient(180deg, rgba(104, 43, 233, 0.76) 0%, #5F11AE 92.5%, #5F11AE 92.5%);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.38), inset 1px 2px 3px rgba(255, 255, 255, 0.25);
+  border-radius: 4px;
+}
+
+.container.content-wrap .btn-check-inline-wrap input[type="checkbox"]:checked + label {
+  background: linear-gradient(180deg, rgba(104, 43, 233, 0.76) 0%, #5F11AE 92.5%, #5F11AE 92.5%);
+  box-shadow: inset 2px 2px 3px rgba(11, 6, 18, 0.86);
+  border-radius: 4px;
+}
+
+.container.content-wrap .card-wrap .card {
+  padding: 0.25rem;
+}
+
+.container.content-wrap .profile-card-wrap {
+  display: flex;
+  justify-content: center;
+  background: none !important;
+}
+
+.container.content-wrap .profile-card {
+  background: none !important;
+  align-items: center;
+  text-align: center;
+}
+
+.container.content-wrap .profile-card .card-img {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #F2EEEE;
+}
+
+.container.content-wrap .profile-card .card-text {
+  font-size: 1.1rem;
+}
+
+.container.content-wrap .profile-card-wrap .card-btn,
+.container.content-wrap .account-setting-card .card-btn {
+  background: rgba(255, 192, 0, 0.82);
+  border-radius: 52px;
+  padding: 0.15rem 0.8rem;
+  color: #3F157A;
+  font-size: 0.85rem;
+  width: 5rem;
+}
+
+.container.content-wrap .profile-status-wrap {
+  background: rgba(71, 66, 66, 0.3);
+  box-shadow: 2px 2px 4px #232121, inset 2px 4px 4px rgba(252, 252, 252, 0.1);
+  border-radius: 6px;
+  padding-top: 0.6rem;
+  padding-bottom: 1rem;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}
+
+.container.content-wrap .profile-status {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container.content-wrap .profile-status .profile-status-title {
+  font-size: 0.9rem;
+}
+
+.container.content-wrap .profile-status .profile-status-text {
+  font-size: 0.75rem;
+}
+
+.container.content-wrap .account-setting-card-wrap {
+  display: flex;
+  justify-content: center;
+  background: rgba(35, 11, 69, 0.3);
+  box-shadow: 2px 2px 4px #232121, inset 2px 4px 4px rgba(252, 252, 252, 0.1);
+  border-radius: 6px;
+  padding: 4rem 0;
+}
+
+.container.content-wrap .account-setting-card {
+  background: none !important;
+  flex-direction: row;
+  border: none;
+  width: 285px;
+}
+
+.container.content-wrap .account-setting-card .card-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 34px;
+  min-width: 100px;
+  max-width: 100px;
+  min-height: 100px;
+  max-height: 100px;
+}
+
+.container.content-wrap .account-setting-card .card-icon i {
+  font-size: 3.7rem;
+  color: #000000;
+}
+
+.content-header {
+  background: #150629;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.container.content-wrap .my-nft-profile-card {
+  background: none !important;
+  /* flex-direction: row; */
+  border: none;
+}
+
+.container.content-wrap .my-nft-profile-card .card-img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.container.content-wrap .my-nft-profile-card .card-body,
+.container.content-wrap .wallet-nft-card-wrap .wallet-nft-card .card-body .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.container.content-wrap .my-nft-profile-card .card-content {
+  border-radius: 24px;
+  border: 2px solid transparent;
+  background-image: linear-gradient(#5B4D69, #5B4D69), linear-gradient(119.11deg, rgba(151, 79, 233, 0.88) 22.29%, rgba(61, 34, 119, 0.68) 67.88%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  /* display: inline-flex; */
+}
+
+.container.content-wrap .my-nft-profile-card .card-content-text {
+  display: inline-flex;
+  align-items: center;
+  color: rgba(253, 242, 247, 0.86);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.container.content-wrap .following-wrap {
+  max-width: 94px;
+  width: 5.5rem;
+  height: 106px;
+  border-radius: 6px;
+  border: 4px solid transparent;
+  background-image: linear-gradient(#150629, #150629), linear-gradient(170.66deg, rgba(151, 79, 233, 0.68) 54.43%, rgba(61, 34, 119, 0.68) 92.94%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.container.content-wrap .following-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container.content-wrap .my-nft-profile-card .card-text,
+.container.content-wrap .following-wrap .following-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.container.content-wrap .following-wrap .following-text {
+  font-size: 0.85rem;
+}
+
+.container.content-wrap .filter-select-wrap {
+  display: inline-block;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.38), inset 1px 2px 3px rgba(255, 255, 255, 0.25);
+  border-radius: 6px;
+  border: 1px solid transparent;
+  background-image: linear-gradient(#230B45, #230B45), linear-gradient(180deg, rgba(104, 43, 233, 0.5168) 0%, rgba(95, 17, 174, 0.68) 92.5%, rgba(95, 17, 174, 0.68) 92.5%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  height: 2.5rem;
+  width: 7.25rem;
+  text-align: center;
+}
+
+.container.content-wrap .filter-select {
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  color: #FDF2F7;
+}
+
+.container.content-wrap .custom-nav-tabs .nav-link {
+  padding: 0.5rem;
+}
+
+.container.content-wrap .custom-nav-tabs .nav-link.active {
+  border-bottom: 2px solid;
+  font-weight: 700;
+  color: #FDF2F7 !important;
+}
+
+.container.content-wrap .my-nft-card-wrap {
+  justify-content: center;
+}
+
+.container.content-wrap .my-nft-card-wrap .au__card .card__img img {
+  filter: none;
+}
+
+.container.content-wrap .inprogress-card-wrap {
+  background: rgba(253, 242, 247, 0.05);
+  border: 1px solid rgba(253, 242, 247, 0.08);
+  box-shadow: 1px 1px 3px 2px rgba(253, 242, 247, 0.12);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.container.content-wrap .wallet-crypto-card-wrap,
+.container.content-wrap .wallet-nft-card-wrap,
+.container.content-wrap .wallet-crypto-card-wrap-xs,
+.container.content-wrap .wallet-nft-card-wrap-xs {
+  background: rgba(71, 66, 66, 0.3);
+  box-shadow: 3px 4px 4px 1px rgba(253, 242, 247, 0.08);
+  border-radius: 4px;
+  /* padding: 2vw; */
+  padding: 32px;
+}
+
+.container.content-wrap .wallet-nft-card-wrap{
+  justify-content: space-around;
+  width: 100%;
+  display: flex;
+}
+
+.container.content-wrap .wallet-crypto-card-wrap-xs {
+  height: 360px;
+}
+
+.container.content-wrap .wallet-nft-card-wrap-xs {
+  height: 400px;
+}
+
+.container.content-wrap .wallet-crypto-card-wrap .wallet-crypto-card {
+  background: none !important;
+  flex-direction: row;
+  justify-content: space-between;
+  border: none;
+  min-height: 217px;
+  max-height: 217px;
+  gap: 5%;
+}
+
+.container.content-wrap .wallet-crypto-card-wrap-xs .wallet-crypto-card {
+  background: none !important;
+  border: none;
+  height: 100%;
+}
+
+.container.content-wrap .wallet-crypto-card-wrap-xs .wallet-crypto-card .card-img-wrap {
+  text-align: center;
+  margin-top: -15px;
+  margin-bottom: 0.6rem;
+}
+
+.container.content-wrap .wallet-crypto-card-wrap .wallet-crypto-card .card-img-wrap {
+  background: rgba(71, 66, 66, 0.3);
+  border-radius: 4px;
+  min-width: 160px;
+  padding: 0.6rem;
+}
+
+.container.content-wrap .wallet-crypto-card-wrap .wallet-crypto-card .card-img-wrap .card-img {
+  min-height: 145px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container.content-wrap .wallet-crypto-card-wrap .wallet-crypto-card .card-img-wrap .card-img img,
+.container.content-wrap .wallet-crypto-card-wrap-xs .wallet-crypto-card .card-img-wrap .card-img img {
+  width: 60px;
+  filter: drop-shadow(2px 4px 4px rgba(253, 242, 247, 0.14));
+}
+
+.container.content-wrap .wallet-crypto-card-wrap-xs .wallet-crypto-card .card-body .card-text {
+  display: inline-flex;
+  justify-content: end;
+  gap: 2rem;
+}
+
+.container.content-wrap .wallet-nft-card-wrap-xs .wallet-nft-card .card-body .card-content {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container.content-wrap .wallet-crypto-card-wrap .wallet-crypto-card .card-img-wrap .card-img-text .text-name,
+.container.content-wrap .wallet-crypto-card-wrap-xs .wallet-crypto-card .card-body .card-text .text-name,
+.container.content-wrap .wallet-nft-card-wrap-xs .wallet-nft-card .card-body .card-content .card-text .text-name {
+  font-size: 0.75rem;
+  color: rgba(253, 242, 247, 0.48);
+}
+
+.container.content-wrap .wallet-crypto-card-wrap-xs .wallet-crypto-card .card-body .card-text .text-name {
+  width: 52px;
+  text-align: start;
+}
+
+.container.content-wrap .wallet-crypto-card-wrap-xs .wallet-crypto-card .card-body .card-text .text-value,
+.container.content-wrap .wallet-nft-card-wrap-xs .wallet-nft-card .card-body .card-content .card-text .text-value {
+  font-size: 0.75rem;
+  color: rgba(253, 242, 247, 0.86);
+}
+
+.container.content-wrap .wallet-crypto-card-wrap .wallet-crypto-card .card-img-wrap .card-img-text .text-value  {
+  font-size: 0.95rem;
+  color: #FDF2F7;
+}
+
+.container.content-wrap .wallet-crypto-card-wrap .wallet-crypto-card .card-body,
+.container.content-wrap .wallet-nft-card-wrap .wallet-nft-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.container.content-wrap .wallet-crypto-card-wrap-xs .wallet-crypto-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 0;
+}
+
+.container.content-wrap .wallet-crypto-card-wrap .wallet-crypto-card .card-body .card-option,
+.container.content-wrap .wallet-crypto-card-wrap-xs .wallet-crypto-card .card-option {
+  text-align: end;
+}
+
+.container.content-wrap .wallet-crypto-card-wrap .wallet-crypto-card .card-body .card-option i,
+.container.content-wrap .wallet-nft-card-wrap .wallet-nft-card .card-body .card-option i,
+.container.content-wrap .wallet-crypto-card-wrap-xs .wallet-crypto-card .card-option i,
+.container.content-wrap .wallet-nft-card-wrap-xs .wallet-nft-card .card-option-wrap .card-option i {
+  font-size: 1.4rem;
+  color: #FDF2F7;
+}
+
+.container.content-wrap .wallet-crypto-card-wrap .wallet-crypto-card .card-body .card-content,
+.container.content-wrap .wallet-crypto-card-wrap-xs .wallet-crypto-card .card-body .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container.content-wrap .wallet-crypto-card-wrap .wallet-crypto-card .card-body .card-content .card-title,
+.container.content-wrap .wallet-crypto-card-wrap .wallet-crypto-card .card-body .card-content .card-title span,
+.container.content-wrap .wallet-crypto-card-wrap-xs .wallet-crypto-card .card-body .card-content .card-title,
+.container.content-wrap .wallet-crypto-card-wrap-xs .wallet-crypto-card .card-body .card-content .card-title span {
+  font-size: 1.6rem;
+  color: #FDF2F7;
+  margin-bottom: 0;
+}
+
+.container.content-wrap .wallet-crypto-card-wrap .wallet-crypto-card .card-body .card-content .card-subtitle,
+.container.content-wrap .wallet-crypto-card-wrap-xs .wallet-crypto-card .card-body .card-content .card-subtitle {
+  font-size: 0.75rem;
+  color: rgba(253, 242, 247, 0.48);
+}
+
+.container.content-wrap .wallet-crypto-card-wrap .wallet-crypto-card .card-body .card-btn-wrap,
+.container.content-wrap .wallet-crypto-card-wrap-xs .wallet-crypto-card .card-body .card-btn-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.container.content-wrap .wallet-crypto-card-wrap-xs .wallet-crypto-card .card-body .card-btn-wrap {
+  height: 48px;
+}
+
+.container.content-wrap .wallet-crypto-card-wrap .wallet-crypto-card .card-body .card-btn-wrap .card-btn,
+.container.content-wrap .wallet-crypto-card-wrap-xs .wallet-crypto-card .card-body .card-btn-wrap .card-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  min-width: 100px;
+  height: 100%;
+  background: rgba(71, 66, 66, 0.3);
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.08), inset 2px 3px 3px rgba(255, 255, 255, 0.25) !important;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: rgba(253, 242, 247, 0.86);
+}
+
+.container.content-wrap .wallet-crypto-card-wrap .wallet-crypto-card .card-body .card-btn-wrap .card-btn.active,
+.container.content-wrap .tab-pane .pane-top-btn.active,
+.container.content-wrap .wallet-nft-card-wrap .wallet-nft-card .card-body .card-btn-wrap .card-btn.active,
+.container.content-wrap .wallet-crypto-card-wrap-xs .wallet-crypto-card .card-body .card-btn-wrap .card-btn.active,
+.container.content-wrap .wallet-nft-card-wrap-xs .wallet-nft-card .card-body .card-btn-wrap .card-btn.active {
+  border: none;
+  background: #3D2277 !important;
+  box-shadow: inset 3px 4px 3px rgba(11, 6, 18, 0.86) !important;
+}
+
+.container.content-wrap .wallet-crypto-card-wrap .wallet-crypto-card .card-body .card-btn-wrap .card-btn img,
+.container.content-wrap .wallet-crypto-card-wrap-xs .wallet-crypto-card .card-body .card-btn-wrap .card-btn img {
+  width: 0.9rem;
+  margin-right: 0.5rem;
+}
+
+.container.content-wrap .inprogress-card-wrap:hover {
+  box-shadow: -5px -5px 30px 5px #3D2277, 5px 5px 30px 5px #974FE9;
+  transition: all .4s linear;
+}
+
+.container.content-wrap .inprogress-card {
+  background: none !important;
+  flex-direction: row;
+  border: none;
+  margin-bottom: 0.7rem;
+  height: 120px;
+}
+
+.container.content-wrap .inprogress-card-wrap .card-img {
+  min-width: 130px;
+  max-width: 130px;
+  min-height: 120px;
+  max-height: 120px;
+  margin-right: 0.5rem;
+  overflow: hidden;
+}
+
+.container.content-wrap .inprogress-card-wrap .card-img img {
+  /* width: 120px;
+  height: 120px; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.container.content-wrap .inprogress-card-wrap .card-img img:hover {
+  transform: scale(1.1);
+  transition: all .4s linear;
+}
+
+.container.content-wrap .inprogress-card-wrap .card-body {
+  padding: 0 0 0 0.5rem;
+}
+
+.container.content-wrap .inprogress-card-wrap .card-badge {
+  display: inline-block;
+  background: linear-gradient(166.96deg, rgba(151, 79, 233, 0.5984) 56.77%, rgba(61, 34, 119, 0.4624) 87.21%);
+  border-radius: 4px;
+  border: 2px solid transparent;
+  background-image: linear-gradient(166.96deg, rgba(151, 79, 233, 0.5984) 56.77%, rgba(61, 34, 119, 0.4624) 87.21%), linear-gradient(119.11deg, rgba(151, 79, 233, 0.5984) 22.29%, rgba(61, 34, 119, 0.4624) 67.88%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.container.content-wrap .inprogress-card-wrap .badge-text {
+  display: block;
+  padding: 0.05rem 0.45rem;
+  font-size: 0.7rem;
+  color: rgba(253, 242, 247, 0.86);
+}
+
+.container.content-wrap .inprogress-card-wrap .card-title {
+  color: rgba(253, 242, 247, 0.86);
+  font-size: 0.9rem;
+}
+
+.container.content-wrap .inprogress-card-wrap .card-subtitle {
+  font-size: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.container.content-wrap .inprogress-card-wrap .card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem; 
+}
+
+.container.content-wrap .inprogress-card-wrap .inprogress-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+.container.content-wrap .inprogress-card-wrap .inprogress-card-footer .footer-img,
+.container.content-wrap .wallet-nft-card-wrap .wallet-nft-card .card-option-wrap .card-option-img,
+.container.content-wrap .wallet-nft-card-wrap-xs .wallet-nft-card .card-option-wrap .card-option-img,
+.container.content-wrap .wallet-nft-card-wrap .wallet-nft-card .card-content .card-text {
+  font-size: 0.75rem;
+}
+
+.container.content-wrap .inprogress-card-wrap .inprogress-card-footer .footer-img img {
+  width: 24px;
+  border-radius: 50%;
+  margin-right: 2px;
+}
+
+.container.content-wrap .inprogress-card-wrap .card-btn,
+.container.content-wrap .inprogress-card-wrap .card-btn-2 {
+  background: linear-gradient(164.48deg, rgba(151, 79, 233, 0.88) 11.96%, rgba(96, 52, 163, 0.758044) 53%, rgba(151, 79, 233, 0.88) 79.27%);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.38), inset 3px 4px 3px rgba(255, 255, 255, 0.25) !important;
+  border-radius: 38px;
+  width: 5.25rem;
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
+  color: #FDF2F7;
+  font-size: 0.9rem;
+}
+
+.container.content-wrap .inprogress-card-wrap .card-btn-2 {
+  background: #3D2277 !important;
+}
+
+.container.content-wrap .deposit-content-wrap,
+.container.content-wrap .withdraw-content-wrap,
+.container.content-wrap .nft-deposit-content-wrap,
+.container.content-wrap .nft-withdraw-content-wrap,
+.container.content-wrap .deposit-content-wrap-xs {
+  background: #FFFFFF;
+  border-radius: 2px;
+  padding: 2rem;
+  height: 100%;
+}
+
+.container.content-wrap .deposit-content-wrap .content-title,
+.container.content-wrap .withdraw-content-wrap .content-title,
+.container.content-wrap .nft-deposit-content-wrap .content-title,
+.container.content-wrap .nft-withdraw-content-wrap .content-title,
+.container.content-wrap .deposit-content-wrap-xs .content-title {
+  color: rgba(21, 6, 41, 0.86) !important;
+  font-weight: 700;
+}
+
+.container.content-wrap .deposit-content-wrap .content-img {
+  text-align: center;
+  padding: 4.5rem 0;
+}
+
+.container.content-wrap .deposit-content-wrap-xs .content-img {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.container.content-wrap .deposit-content-wrap .content-input,
+.container.content-wrap .nft-deposit-content-wrap .content-input {
+  height: 48px;
+  background: rgba(253, 242, 247, 0.2) !important;
+  border: 1px solid rgba(21, 6, 41, 0.32);
+  border-radius: 4px;
+}
+
+.container.content-wrap .deposit-content-wrap-xs .content-input-btn input {
+  font-size: 0.75rem;
+  text-align: center;
+  background: none !important;
+  color: rgba(21, 6, 41, 0.68);
+}
+
+.container.content-wrap .deposit-content-wrap-xs .content-input-btn .content-btn {
+  background: #3D2277;
+  backdrop-filter: blur(4px);
+  border-radius: 2px;
+  color: #FDF2F7;
+  width: 86px;
+  font-size: 0.9rem;
+}
+
+.container.content-wrap .deposit-content-wrap .content-input .input-group input,
+.container.content-wrap .nft-deposit-content-wrap .content-input .input-group input {
+  font-size: 0.75rem;
+  text-align: center;
+  color: rgba(21, 6, 41, 0.68) !important;
+  background: rgba(253, 242, 247, 0.2) !important;
+}
+
+.container.content-wrap .deposit-content-wrap .content-input .input-group .input-group-text,
+.container.content-wrap .nft-deposit-content-wrap .content-input .input-group .input-group-text {
+  background: rgba(21, 6, 41, 0.24);
+}
+
+.container.content-wrap .deposit-content-wrap .content-text,
+.container.content-wrap .deposit-content-wrap .content-text *,
+.container.content-wrap .withdraw-content-wrap .content-text *,
+.container.content-wrap .nft-deposit-content-wrap .content-text,
+.container.content-wrap .nft-deposit-content-wrap .content-text *,
+.container.content-wrap .nft-withdraw-content-wrap .content-text *,
+.container.content-wrap .nft-withdraw-item-wrap .item-text *,
+.container.content-wrap .deposit-content-wrap-xs .content-text,
+.container.content-wrap .deposit-content-wrap-xs .content-text * {
+  font-size: 0.75rem;
+  color: rgba(21, 6, 41, 0.4);
+}
+
+.container.content-wrap .history-wrap,
+.container.content-wrap .nft-withdraw-item-wrap {
+  background: rgba(244, 240, 249, 0.92);
+  border-radius: 2px;
+  padding: 2rem;
+  height: 100%;
+}
+
+.container.content-wrap .history-wrap .history-title,
+.container.content-wrap .nft-withdraw-item-wrap .item-title {
+  color: rgba(21, 6, 41, 0.68) !important;
+  font-weight: 700;
+}
+
+.container.content-wrap .history-wrap .history-option {
+  color: rgba(21, 6, 41, 0.48);
+  font-size: 0.75rem;
+}
+
+.container.content-wrap .history-wrap .history-table {
+  background: #FFFFFF;
+  border-radius: 4px;
+  padding: 0 1rem;
+}
+
+.container.content-wrap .history-wrap .history-table * {
+  color: rgba(21, 6, 41, 0.68) !important;
+  font-size: 0.9rem;
+  word-break: break-all;
+}
+
+.container.content-wrap .history-wrap .history-table table {
+  width: 100%;
+}
+
+.container.content-wrap .history-wrap .history-table table * {
+  vertical-align: text-top;
+}
+
+.container.content-wrap .history-wrap .history-table table tr:first-child {
+  border-bottom: 2px solid rgba(21, 6, 41, 0.08) !important;
+}
+
+.container.content-wrap .history-wrap .history-table table tr:last-child {
+  height: 85px;
+}
+
+.container.content-wrap .history-wrap .history-table table tr:first-child th {
+  color: #2AA116 !important;
+}
+
+.container.content-wrap .history-wrap .history-table table tr th.fc-danger {
+  color: rgba(170, 18, 20, 1) !important;
+}
+
+.container.content-wrap .history-wrap .history-table-pagination * {
+  color: rgba(21, 6, 41, 0.68) !important;
+}
+
+.container.content-wrap .history-wrap .history-table-pagination .pagination .page-item,
+.container.content-wrap .tab-content .tab-pane .pane-pagination .page-item {
+  cursor: pointer;
+}
+
+.container.content-wrap .history-wrap .history-table-pagination .pagination .page-item:focus,
+.container.content-wrap .tab-content .tab-pane .pane-pagination .page-item:focus {
+  outline: none;
+}
+
+.container.content-wrap .history-wrap .history-table-pagination .pagination .page-item.active,
+.container.content-wrap .tab-content .tab-pane .pane-pagination .page-item.active {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.container.content-wrap .history-wrap .history-table-pagination .pagination .page-item.disabled,
+.container.content-wrap .history-wrap .history-table-pagination .pagination .page-item.disabled a span {
+  color: rgba(21, 6, 41, 0.32) !important;
+  cursor: default !important;
+}
+
+.container.content-wrap .tab-content .tab-pane .pane-pagination .page-item.disabled,
+.container.content-wrap .tab-content .tab-pane .pane-pagination .page-item.disabled a span {
+  color: rgba(253, 242, 247, 0.32) !important;
+  cursor: default !important;
+}
+
+.container.content-wrap .history-wrap .history-table-pagination .pagination .page-item .page-link,
+.container.content-wrap .tab-content .tab-pane .pane-pagination .page-item .page-link {
+  background: none !important;
+  border: none;
+}
+
+.container.content-wrap .withdraw-content-wrap .content-select-label,
+.container.content-wrap .withdraw-content-wrap .content-input-label,
+.container.content-wrap .nft-withdraw-content-wrap .content-select-label {
+  color: rgba(21, 6, 41, 0.68) !important;
+  font-size: 0.9rem;
+}
+
+.container.content-wrap .withdraw-content-wrap .content-select-label-btn a,
+.container.content-wrap .nft-withdraw-content-wrap .content-select-label-btn a {
+  color: rgba(235, 177, 0, 1);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.container.content-wrap .withdraw-content-wrap .content-select .form-select,
+.container.content-wrap .withdraw-content-wrap .content-input .form-control::placeholder,
+.container.content-wrap .nft-withdraw-content-wrap .content-select .form-select {
+  color: rgba(21, 6, 41, 0.4);
+  font-size: 0.75rem;
+  background-color: rgba(253, 242, 247, 0.2);
+}
+
+.container.content-wrap .withdraw-content-wrap .content-select .form-select,
+.container.content-wrap .nft-withdraw-content-wrap .content-select .form-select {
+  background-image: url('../images/chevron-down-dark.png');
+  background-size: 0.75rem;
+  height: 48px;
+}
+
+.container.content-wrap .withdraw-content-wrap .content-input .form-control {
+  height: 48px;
+}
+
+.container.content-wrap .withdraw-content-wrap .content-input-label-2 {
+  color: rgba(21, 6, 41, 0.68) !important;
+  font-size: 0.75rem;
+}
+
+.container.content-wrap .withdraw-content-wrap-xs .content-input-label-2 {
+  color: rgba(21, 6, 41, 0.48) !important;
+  font-size: 0.75rem;
+}
+
+.container.content-wrap .withdraw-content-wrap .hr hr,
+.container.content-wrap .nft-withdraw-content-wrap .hr hr {
+  border: 1px solid rgba(21, 6, 41, 0.4);
+}
+
+.container.content-wrap .withdraw-content-wrap .content-result *,
+.container.content-wrap .nft-withdraw-content-wrap .content-result * {
+  color: rgba(21, 6, 41, 0.86);
+  font-size: 1.1rem;
+}
+
+.container.content-wrap .withdraw-content-wrap .form-check-wrap *,
+.container.content-wrap .nft-withdraw-content-wrap .form-check-wrap * {
+  font-size: 0.7rem;
+  color: rgba(21, 6, 41, 0.4);
+}
+
+.container.content-wrap .withdraw-content-wrap .form-check-wrap input[type="checkbox"] + label::before,
+.container.content-wrap .nft-withdraw-content-wrap .form-check-wrap input[type="checkbox"] + label::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: rgba(233, 224, 248, 0.48);
+  border: 1px solid rgba(21, 6, 41, 0.24);
+  box-sizing: border-box;
+  border-radius: 2px;
+  margin-right: 4px;
+}
+
+.container.content-wrap .withdraw-content-wrap .form-check-wrap input[type="checkbox"]:checked + label::before,
+.container.content-wrap .nft-withdraw-content-wrap .form-check-wrap input[type="checkbox"]:checked + label::before {
+  content: '\F272';
+  font-family: 'bootstrap-icons';
+  font-size: 0.9rem;
+  color: rgba(24, 19, 51, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container.content-wrap .withdraw-content-wrap .content-btn,
+.container.content-wrap .nft-withdraw-content-wrap .content-btn {
+  height: 55px;
+  background: #230B45;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.38), inset 1px 2px 3px rgba(255, 255, 255, 0.36) !important;
+  border-radius: 34px;
+  text-align: center;
+}
+
+.container.content-wrap .withdraw-content-wrap .content-btn *,
+.container.content-wrap .nft-withdraw-content-wrap .content-btn * {
+  color: rgba(253, 242, 247, 0.92);
+}
+
+.container.content-wrap .tab-content .tab-pane .pane-top-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  min-width: 315px;
+  height: 60px;
+  background: #1E1422;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.08), inset 2px 3px 3px rgba(255, 255, 255, 0.25);
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.container.content-wrap .pane-search-input {
+  background: rgba(35, 11, 69, 0.12);
+  border: 1px solid rgba(253, 242, 247, 0.46);
+  box-shadow: inset 1px 2px 4px rgba(255, 255, 255, 0.36);
+  border-radius: 4px;
+  width: 40%;
+  min-width: 207px;
+  max-width: 350px;
+  height: 40px;
+}
+
+.container.content-wrap .pane-search-input .form-search,
+.container.content-wrap .pane-search-input .form-search-btn {
+  background: none;
+  border: 0;
+  font-size: 0.9rem;
+}
+
+.container.content-wrap .pane-search-input .form-search-btn i {
+  color: #FDF2F7 !important;
+}
+
+.container.content-wrap .wallet-nft-card-wrap .wallet-nft-card {
+  background: none !important;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  border: none;
+  gap: 5%;
+  height: 188px;
+  width: 100%;
+  max-width: 650px;
+}
+
+.container.content-wrap .wallet-nft-card-wrap-xs .wallet-nft-card {
+  background: none !important;
+  flex-direction: column;
+  border: none;
+  height: 100%;
+}
+
+.container.content-wrap .wallet-nft-card-wrap .wallet-nft-card .card-img,
+.container.content-wrap .wallet-nft-card-wrap-xs .wallet-nft-card .card-img {
+  min-width: 168px;
+  max-width: 168px;
+  min-height: 188px;
+  max-height: 188px;
+  overflow: hidden;
+  box-shadow: 1px 1px 2px 1px rgba(253, 242, 247, 0.21);
+}
+
+.container.content-wrap .wallet-nft-card-wrap-xs .wallet-nft-card .card-img {
+  min-width: 150px;
+  max-width: 150px;
+  min-height: 166px;
+  max-height: 166px;
+  align-self: center;
+}
+
+.container.content-wrap .wallet-nft-card-wrap .wallet-nft-card .card-img img,
+.container.content-wrap .wallet-nft-card-wrap-xs .wallet-nft-card .card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* .container.content-wrap .wallet-nft-card-wrap-xs .wallet-nft-card .card-img {
+  text-align: center;
+}
+
+.container.content-wrap .wallet-nft-card-wrap-xs .wallet-nft-card .card-img img {
+  width: 150px;
+  height: 166px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 2px 1px rgba(253, 242, 247, 0.21);
+} */
+
+.container.content-wrap .wallet-nft-card-wrap .card-img img:hover {
+  transform: scale(1.1);
+  transition: all .4s linear;
+}
+
+.container.content-wrap .wallet-nft-card-wrap .wallet-nft-card .card-option-wrap .card-option-img img,
+.container.content-wrap .wallet-nft-card-wrap-xs .wallet-nft-card .card-option-wrap .card-option-img img {
+  width: 16px;
+  border-radius: 50%;
+  margin-right: 2px;
+}
+
+.container.content-wrap .wallet-nft-card-wrap .wallet-nft-card .card-body .card-content .card-title,
+.container.content-wrap .wallet-nft-card-wrap-xs .wallet-nft-card .card-title {
+  color: #FDF2F7;
+  font-size: 1.05rem;
+}
+
+.container.content-wrap .wallet-nft-card-wrap .wallet-nft-card .card-body .card-content .card-text {
+  color: rgba(253, 242, 247, 0.46) !important;
+}
+
+.container.content-wrap .wallet-nft-card-wrap .wallet-nft-card .card-body .card-btn-wrap {
+  display: flex;
+  justify-content: end;
+}
+
+.container.content-wrap .wallet-nft-card-wrap-xs .wallet-nft-card .card-body .card-btn-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.container.content-wrap .wallet-nft-card-wrap .wallet-nft-card .card-body .card-btn-wrap .card-btn,
+.container.content-wrap .wallet-nft-card-wrap-xs .wallet-nft-card .card-body .card-btn-wrap .card-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 40%;
+  min-width: 120px;
+  max-width: 316px;
+  height: 60px;
+  background: rgba(71, 66, 66, 0.3);
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.08), inset 2px 3px 3px rgba(255, 255, 255, 0.25) !important;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  color: rgba(253, 242, 247, 0.86);
+}
+
+.container.content-wrap .wallet-nft-card-wrap .wallet-nft-card .card-body .card-btn-wrap .card-btn,
+.container.content-wrap .wallet-nft-card-wrap-xs .wallet-nft-card .card-body .card-btn-wrap .card-btn {
+  width: 232px;
+  min-width: 232px;
+  max-width: 232px;
+  height: 48px;
+}
+
+.container.content-wrap .nft-withdraw-item-wrap .item-list-group-wrap {
+  background: #FFFFFF;
+  border: 1px solid rgba(21, 6, 41, 0.32);
+  box-sizing: border-box;
+  backdrop-filter: blur(4px);
+  border-radius: 4px;
+  padding: 2rem 1rem;
+}
+
+.container.content-wrap .nft-withdraw-item-wrap .item-list-group-wrap .list-group {
+  height: 180px;
+  /* overflow-y: auto;
+  overflow-x: hidden; */
+  overflow: hidden;
+}
+
+.container.content-wrap .nft-withdraw-item-wrap .item-list-group-wrap .list-group:hover {
+  overflow-y: scroll;
+}
+
+.container.content-wrap .nft-withdraw-item-wrap .item-list-group-wrap .list-group .list-group-item {
+  border: 0;
+  color: rgba(21, 6, 41, 0.68);
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+
+.container.content-wrap .nft-withdraw-item-wrap .item-list-group-wrap .list-group .list-group-item input[type="radio"] {
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+}
+
+.container.content-wrap .nft-withdraw-item-wrap .item-list-group-wrap .list-group .list-group-item input[type="radio"]::after {
+  content: '';
+  display: -webkit-box;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #150629;
+  border-radius: 50%;
+}
+
+.container.content-wrap .nft-withdraw-item-wrap .item-list-group-wrap .list-group .list-group-item input[type="radio"]:checked::after {
+  content: '\F287';
+  font-family: 'bootstrap-icons';
+  color: #150629;
+  font-size: x-small;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.container.content-wrap .tab-content .tab-pane .filter-dropdown,
+.container.content-wrap .tab-content .tab-pane .filter-dropdown .dropdown-menu {
+  border: 2px solid transparent;
+  background-image: linear-gradient(#230B45, #230B45), linear-gradient(180deg, rgba(104, 43, 233, 0.5168) 0%, rgba(95, 17, 174, 0.68) 92.5%, rgba(95, 17, 174, 0.68) 92.5%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  /* box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.38), inset 1px 2px 3px rgba(255, 255, 255, 0.25); */
+  border-radius: 6px;
+  min-width: 122px;
+  max-width: 122px;
+}
+
+.container.content-wrap .tab-content .tab-pane .filter-dropdown button {
+  color: rgba(253, 242, 247, 0.92) !important;
+}
+
+.container.content-wrap .tab-content .tab-pane .filter-dropdown button::after {
+  content: '\F282';
+  font-family: 'bootstrap-icons';
+  font-size: small;
+  display: inline-block;
+  margin-left: 30%;
+}
+
+.container.content-wrap .tab-content .tab-pane .filter-dropdown button.show::after {
+  content: '\F286';
+}
+
+.container.content-wrap .tab-content .tab-pane .filter-dropdown .dropdown-menu .dropdown-item {
+  padding: 0.5rem 0;
+  cursor: pointer;
+}
+
+.container.content-wrap .tab-content .tab-pane .filter-dropdown .dropdown-menu .dropdown-item.active,
+.container.content-wrap .tab-content .tab-pane .filter-dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: #3C1D66;
+  color: rgba(253, 242, 247, 0.92) !important;
+}
+
+.container.content-wrap .tab-content .tab-pane .filter-dropdown .dropdown-menu {
+  transform: translate(-2px, 40px) !important;
+  padding: 0;
+  text-align: center;
+  font-size: 0.9rem;
+  border-top: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  inset: -4px auto auto 0px !important;
+}
+
+.container.content-wrap .tab-content .tab-pane .history-filter-btn {
+  border: 2px solid transparent;
+  background-image: linear-gradient(#230B45, #230B45), linear-gradient(180deg, rgba(104, 43, 233, 0.5168) 0%, rgba(95, 17, 174, 0.68) 92.5%, rgba(95, 17, 174, 0.68) 92.5%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: inset 3px 4px 3px rgba(11, 6, 18, 0.86) !important;
+  border-radius: 29px;
+  text-align: center;
+  /* min-width: 120px;
+  max-width: 120px; */
+}
+
+.container.content-wrap .tab-content .tab-pane .history-filter-btn button {
+  color: rgba(253, 242, 247, 0.92) !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container.content-wrap .tab-content .tab-pane .table .table-icon {
+  display: inline-block;
+  font-size: large;
+  cursor: pointer;
+}
+
+.container.content-wrap .tab-content .tab-pane .table .table-icon.active {
+  background: rgba(253, 242, 247, 0.38);
+  width: 24px;
+  height: 24px;
+}
+
+.container.content-wrap .tab-content .tab-pane .table .table-content-wrap {
+  border-radius: 6px;
+  border: 4px solid transparent;
+  background-image: linear-gradient(rgba(244, 240, 249, 0.92), rgba(244, 240, 249, 0.92)), linear-gradient(119.2deg, rgba(117, 37, 207, 0.7568) 22.26%, rgba(39, 17, 87, 0.5848) 67.79%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.container.content-wrap .tab-content .tab-pane .table .table-content-wrap .table-content {
+  padding: 1.5rem 2rem;
+  display: grid;
+  gap: 1rem;
+  text-align: start;
+}
+
+.container.content-wrap .tab-content .tab-pane .table .table-content-wrap .table-content .table-content-title {
+  width: 90px;
+}
+
+.container.content-wrap .tab-content .tab-pane .table .table-content-wrap .table-content .table-content-title strong,
+.container.content-wrap .tab-content .tab-pane .table .table-content-wrap .table-content .table-content-text {
+  color: rgba(21, 6, 41, 0.86) !important;
+}
+
+.container.content-wrap .tab-content .tab-pane .pane-search-calendar {
+  width: 40px;
+  height: 40px;
+  background: rgba(35, 11, 69, 0.12);
+  border: 1px solid rgba(253, 242, 247, 0.46);
+  box-shadow: inset 1px 2px 4px rgba(255, 255, 255, 0.36);
+  border-radius: 4px;
+  margin-right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container.content-wrap .tab-content .tab-pane .pane-search-calendar i {
+  color: #FDF2F7 !important;
+}
+

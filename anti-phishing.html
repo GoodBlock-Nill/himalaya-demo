@@ -1,0 +1,238 @@
+<!-- Account Info Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoodBlock NFT | Account</title>
+  <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
+  <link rel="canonical" href="https://getbootstrap.kr/docs/5.1/examples/offcanvas-navbar/">
+
+  <!-- Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+  <!-- CSS : Style -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/style-tmp.css" />
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+
+</head>
+<body>
+  <!-- Header start -->
+  <nav class="navbar navbar-expand-lg fixed-top js-header" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand" href="./after_login.html"><img src="./assets/images/logo.png" alt="" width="100%"></a>
+      <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="bi bi-list" style="color: #ccc; font-size: 2rem;"></i></span>
+      </button>
+  
+      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="hr"></div>
+          <li class="nav-item">
+            <a class="nav-link" href="./drops.html" role="button">
+              Drops
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./marketplace.html" role="button">
+              Marketplace
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Community
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Menu 1</a></li>
+              <li><a class="dropdown-item" href="#">Menu 2</a></li>
+              <li><a class="dropdown-item" href="#">Menu 3</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./my-nft.html" role="button">
+              My NFT
+            </a>
+          </li>
+          <li class="avatar-collapse">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              User info
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="./account-info.html">Account</a></li>
+              <li><a class="dropdown-item" href="./wallet.html">Wallet</a></li>
+            </ul>
+          </li>
+          <li class="notification-collapse">
+            <a class="nav-link dropdown-toggle" href="./notification.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Notification
+            </a>
+          </li>
+          <li class="lang-collapse">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Language
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">English</a></li>
+              <li><a class="dropdown-item" href="#">한국어</a></li>
+              <li><a class="dropdown-item" href="#">日本語</a></li>
+            </ul>
+          </li>
+          <div class="hr"></div>
+        </ul>
+
+        <div class="text-end">
+          <div class="d-flex align-items-center space-x-20">
+            <div class="navbar__avatar">
+              <div class="price">
+                <span>2.45 ETH</span>
+              </div>
+              <img class="avatar" src="./assets/images/creator2.png" alt="avatar">
+              <div class="avatar_popup">
+                <div class="row">
+                  <a href="./my-nft.html" class="avatar__nickname">
+                    <span>info@good-block.com</span>
+                  </a>
+                </div>
+                <div class="d-flex align-items-center" style="line-height: 1;">
+                  <img class="coin" src="./assets/images/coin.svg" alt="./">
+                  <div class="info">
+                    <p class="text-sm">Balance</p>
+                    <p class="w-full">2.45 ETH</p>
+                  </div>
+                </div>
+                <div class="hr"></div>
+                <div class="links">
+                  <a href="./account-info.html">
+                    <i class="bi bi-person-circle"></i> <span> Account </span>
+                  </a>
+                  <a href="./wallet.html">
+                    <i class="bi bi-wallet2"></i> <span> Wallet </span>
+                  </a>
+                  <div class="hr" style="margin-top: 1rem;"></div>
+                  <a href="./index.html">
+                    <i class="bi bi-box-arrow-right"></i> <span> Logout</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="notification-icon">
+              <a href="./notification.html" class="notification__btn">
+                <i class="bi bi-bell"></i>
+              </a>
+            </div>
+
+            <a href="./index.html" class="btn__logout">
+              <div class="btn-wrap">
+                <i class="bi bi-box-arrow-right"></i> 
+                Logout
+              </div>
+            </a>
+
+          </div>          
+          <div class="lang-select">
+            <div class="selectBox">
+              <button class="label">Language</button>
+              <ul class="optionList">
+                <li class="optionItem">English</li>
+                <li class="optionItem">한국어</li>
+                <li class="optionItem">日本語</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Header End -->
+
+  <!-- Content Start -->
+  <section class="anti">
+    <div class="container">
+      <div class="title-wrap">
+        <h2>Add Anti-Phishing Code</h2>
+        <p>After you've successfully set up the anti-phishing code, </p>
+        <p>it will appear in all official emails from Bybit to prevent phishing attempts.</p>
+      </div>
+      <div class="contents-wrap">
+        <h4>Anti-Phishing Code</h4>
+        <input type="text" placeholder="Please enter your Anti-Phishing code">
+        <div class="text">Please enter 4 to 20 characters that contain letters, numbers and underscores only. </div>
+        <div class="text">Please do not set your frequently used password as the anti-phishing code.</div>
+        <div class="link-text">
+          <a href="#">What is Anti-Phishing code?</a>
+        </div>
+        <div class="btn-wrap">
+          <button class="btn__one"><a href="./account-info.html">Cancel</a></button>
+          <button class="btn__two" type="submit"><a href="./account-info.html">Confirm</a></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Content End -->
+
+  <!-- Footer Start -->
+  <footer class="footer__1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 space-y-20">
+          <div class="footer__logo">
+            <a href="./">
+              <img src="./assets/images/logo.png" alt="logo">
+            </a>
+          </div>
+          <p class="footer__text">
+            GoodBlock NFT is a shared liquidity NFT market smart contract. Buy, sell, and discover exclusive digital items.
+          </p>
+          <div>
+            <ul class="footer__social">
+              <li><a href=""><i class="bi bi-facebook"></i></a></li>
+              <li><a href=""><i class="bi bi-messenger"></i></a></li>
+              <li><a href=""><i class="bi bi-discord"></i></a></li>
+              <li><a href=""><i class="bi bi-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-6">
+          <h6 class="footer__title">Marketplace</h6>
+          <ul class="footer__list">
+            <li> <a href="./drops.html"> NFT INO </a></li>
+            <li> <a href="./marketplace.html"> NFT Trade </a> </li>
+            <li> <a href="./drops.html"> NFT Auction </a> </li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-6">
+          <h6 class="footer__title">Community</h6>
+          <ul class="footer__list">
+            <li> <a href="#"> Creators </a></li>
+            <li> <a href="#"> Colletctions </a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-6">
+          <h6 class="footer__title">Company</h6>
+          <ul class="footer__list">
+            <li> <a href="https://good-block.com/about.html"> About </a></li>
+            <li> <a href="https://good-block.com/service.html"> Product & Service </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      <p class="copyright text-center">
+        © Copyright 2021 All Rights Reserved passion by GoodBlock LTD.
+      </p>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+  <!-- Swiper: JS -->
+  <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+  <!-- Jquery min -->
+  <script src="./assets/js/jquery-3.6.0.js"></script>
+  <!-- Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- Main : JS -->
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

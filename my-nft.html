@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoodBlock NFT | My NFT</title>
+  <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
+  <link rel="canonical" href="https://getbootstrap.kr/docs/5.1/examples/offcanvas-navbar/">
+
+  <!-- Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+  <!-- CSS : Style -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/style-tmp.css" />
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+
+</head>
+<body>
+  <!-- Header start -->
+  <nav class="navbar navbar-expand-lg fixed-top js-header" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand" href="./after_login.html"><img src="./assets/images/logo.png" alt="" width="100%"></a>
+      <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="bi bi-list" style="color: #ccc; font-size: 2rem;"></i></span>
+      </button>
+  
+      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="hr"></div>
+          <li class="nav-item">
+              <a class="nav-link" href="./drops.html" role="button">
+                Drops
+              </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./marketplace.html" role="button">
+              Marketplace
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Community
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Menu 1</a></li>
+              <li><a class="dropdown-item" href="#">Menu 2</a></li>
+              <li><a class="dropdown-item" href="#">Menu 3</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./my-nft.html" role="button" style="color: #fff;">
+              My NFT
+            </a>
+          </li>
+          <li class="avatar-collapse">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              User info
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Account</a></li>
+              <li><a class="dropdown-item" href="#">Wallet</a></li>
+            </ul>
+          </li>
+          <li class="notification-collapse">
+            <a class="nav-link dropdown-toggle" href="./notification.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Notification
+            </a>
+          </li>
+          <li class="lang-collapse">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Language
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">English</a></li>
+              <li><a class="dropdown-item" href="#">한국어</a></li>
+              <li><a class="dropdown-item" href="#">日本語</a></li>
+            </ul>
+          </li>
+          <div class="hr"></div>
+        </ul>
+
+        <div class="text-end">
+          <div class="d-flex align-items-center space-x-20">
+            <div class="navbar__avatar">
+              <div class="price">
+                <span>2.45 ETH</span>
+              </div>
+              <img class="avatar" src="./assets/images/creator2.png" alt="avatar">
+              <div class="avatar_popup">
+                <div class="row">
+                  <a href="./my-nft.html" class="avatar__nickname">
+                    <span>info@good-block.com</span>
+                  </a>
+                </div>
+                <div class="d-flex align-items-center" style="line-height: 1;">
+                  <img class="coin" src="./assets/images/coin.svg" alt="/">
+                  <div class="info">
+                    <p class="text-sm">Balance</p>
+                    <p class="w-full">2.45 ETH</p>
+                  </div>
+                </div>
+                <div class="hr"></div>
+                <div class="links">
+                  <a href="./account-info.html">
+                    <i class="bi bi-person-circle"></i> <span> Account </span>
+                  </a>
+                  <a href="./wallet.html">
+                    <i class="bi bi-wallet2"></i> <span> Wallet </span>
+                  </a>
+                  <div class="hr" style="margin-top: 1rem;"></div>
+                  <a href="./index.html">
+                    <i class="bi bi-box-arrow-right"></i> <span> Logout</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="notification-icon">
+              <a href="./notification.html" class="notification__btn">
+                <i class="bi bi-bell"></i>
+              </a>
+            </div>
+
+            <a href="./index.html" class="btn__logout">
+              <div class="btn-wrap">
+                <i class="bi bi-box-arrow-right"></i> 
+                Logout
+              </div>
+            </a>
+
+          </div>          
+          <div class="lang-select">
+            <div class="selectBox">
+              <button class="label">Language</button>
+              <ul class="optionList">
+                <li class="optionItem">English</li>
+                <li class="optionItem">한국어</li>
+                <li class="optionItem">日本語</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Header End -->
+
+  <!-- Content Start -->
+  <div class="content-header">
+    <div class="container content-wrap">
+      <div class="row justify-content-center align-items-center">
+        
+        <div class="d-none d-md-block col-6">
+          <div class="card my-nft-profile-card flex-row">
+            <img class="card-img" src="./assets/images/creator1.png" alt="...">
+            <div class="card-body">
+              <p class="card-text">ID123456</p>
+              <!-- 
+              <div class="card-content">
+                <div class="py-1 px-2">
+                  <img src="./assets/images/logo-ETH.png" alt="" class="me-2" width="24px">
+                  <div class="card-content-text">0x45b4637d8229914987a38eb53ae7093ec1c6f4f8</div>
+                </div>
+              </div>
+               -->
+            </div>
+          </div>
+        </div>
+        <div class="d-block d-md-none col-12">
+          <div class="card my-nft-profile-card align-items-center">
+            <img class="card-img" src="./assets/images/creator1.png" alt="...">
+            <div class="card-body">
+              <p class="card-text">ID123456</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="d-flex justify-content-center">
+            <div class="following-wrap me-2">
+              <div class="p-2">
+                <p class="following-title">10K</p>
+                <span class="following-text">Following</span>
+              </div>
+            </div>
+            <div class="following-wrap me-2">
+              <div class="p-2">
+                <p class="following-title">10K</p>
+                <span class="following-text">Following</span>
+              </div>
+            </div>
+            <div class="following-wrap me-2">
+              <div class="p-2">
+                <p class="following-title">10K</p>
+                <span class="following-text">Following</span>
+              </div>
+            </div>
+            <div class="following-wrap">
+              <div class="p-2">
+                <p class="following-title">10K</p>
+                <span class="following-text">Following</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container content-wrap" style="padding-top: 4rem;">
+    <div class="mb-5">
+      <!-- Tab Start -->
+      <ul class="mb-5 nav custom-nav-tabs justify-content-end" role="tablist">
+        <!-- On Sale Tab -->
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active" href="#" id="on-sale-tab" data-bs-toggle="tab" data-bs-target="#on-sale" role="tab" aria-controls="on-sale" aria-selected="false">On Sale</a>
+        </li>
+        <!-- Owned Tab -->
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" href="#" id="owned-tab" data-bs-toggle="tab" data-bs-target="#owned" role="tab" aria-controls="owned" aria-selected="false">Owned</a>
+        </li>
+        <!-- Created Tab -->
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" href="#" id="created-tab" data-bs-toggle="tab" data-bs-target="#created" role="tab" aria-controls="created" aria-selected="false">Created</a>
+        </li>
+        <!-- Inprogress Tab -->
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" href="#" id="inprogress-tab" data-bs-toggle="tab" data-bs-target="#inprogress" role="tab" aria-controls="inprogress" aria-selected="true">Inprogress</span></a>
+        </li>
+        <!-- History Tab -->
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" href="#" id="history-tab" data-bs-toggle="tab" data-bs-target="#history" role="tab" aria-controls="history" aria-selected="false">History</a>
+        </li>
+      </ul>
+      <!-- Tab End -->
+
+      <!-- Tab Panel Start -->
+      <div class="tab-content">
+        <!-- On Sale Tab Panel -->
+        <div class="tab-pane show active" id="on-sale" role="tabpanel" aria-labelledby="on-sale-tab">
+          <div class="mb-4">
+            <div class="filter-select-wrap">
+              <select class="filter-select">
+                <option selected>Filter</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4">
+              <div class="col">
+                <div class="auction-wrap tabMenu my-nft-card-wrap">
+                  <div class="au__card">
+                    <div class="card__img">
+                      <a href="./trading-detail.html"><img src="./assets/images/goodblock_a.JPG" alt="..."></a>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__icon">
+                        <i class="xi-library-image-o"></i>
+                        <button><i class="xi-heart-o"></i></button>
+                      </div>
+                      <div class="card__title">Product Name</div>
+                      <div class="card__price">
+                        <div class="item">Price</div>
+                        <div class="item">1.00</div>
+                        <div class="item">ETH</div>
+                      </div>
+                      <div class="card__creator">
+                        <div class="item">Creator</div>
+                        <div class="item">
+                          <a href=""><img src="./assets/images/creator2.png" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="auction-wrap tabMenu my-nft-card-wrap">
+                  <div class="au__card">
+                    <div class="card__img">
+                      <a href="./trading-detail.html"><img src="./assets/images/trade2.jpg" alt="..."></a>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__icon">
+                        <i class="xi-library-image-o"></i>
+                        <button><i class="xi-heart-o"></i></button>
+                      </div>
+                      <div class="card__title">Product Name</div>
+                      <div class="card__price">
+                        <div class="item">Price</div>
+                        <div class="item">1.00</div>
+                        <div class="item">ETH</div>
+                      </div>
+                      <div class="card__creator">
+                        <div class="item">Creator</div>
+                        <div class="item">
+                          <a href="#"><img src="./assets/images/creator3.png" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="auction-wrap tabMenu my-nft-card-wrap">
+                  <div class="au__card">
+                    <div class="card__img">
+                      <a href="./trading-detail.html"><img src="./assets/images/trade4.jpg" alt="..."></a>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__icon">
+                        <i class="xi-library-image-o"></i>
+                        <button><i class="xi-heart-o"></i></button>
+                      </div>
+                      <div class="card__title">Product Name</div>
+                      <div class="card__price">
+                        <div class="item">Price</div>
+                        <div class="item">1.00</div>
+                        <div class="item">ETH</div>
+                      </div>
+                      <div class="card__creator">
+                        <div class="item">Creator</div>
+                        <div class="item">
+                          <a href="#"><img src="./assets/images/creator1.png" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="auction-wrap tabMenu my-nft-card-wrap">
+                  <div class="au__card">
+                    <div class="card__img">
+                      <a href="./trading-detail.html"><img src="./assets/images/trade5.jpg" alt="..."></a>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__icon">
+                        <i class="xi-library-image-o"></i>
+                        <button><i class="xi-heart-o"></i></button>
+                      </div>
+                      <div class="card__title">Product Name</div>
+                      <div class="card__price">
+                        <div class="item">Price</div>
+                        <div class="item">1.00</div>
+                        <div class="item">ETH</div>
+                      </div>
+                      <div class="card__creator">
+                        <div class="item">Creator</div>
+                        <div class="item">
+                          <a href="#"><img src="./assets/images/creator2.png" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="auction-wrap tabMenu my-nft-card-wrap">
+                  <div class="au__card">
+                    <div class="card__img">
+                      <a href="./trading-detail.html"><img src="./assets/images/trade6.jpg" alt="..."></a>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__icon">
+                        <i class="xi-library-image-o"></i>
+                        <button><i class="xi-heart-o"></i></button>
+                      </div>
+                      <div class="card__title">Product Name</div>
+                      <div class="card__price">
+                        <div class="item">Price</div>
+                        <div class="item">1.00</div>
+                        <div class="item">ETH</div>
+                      </div>
+                      <div class="card__creator">
+                        <div class="item">Creator</div>
+                        <div class="item">
+                          <a href="#"><img src="./assets/images/creator3.png" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="auction-wrap tabMenu my-nft-card-wrap">
+                  <div class="au__card">
+                    <div class="card__img">
+                      <a href="./trading-detail.html"><img src="./assets/images/trade7.jpg" alt="..."></a>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__icon">
+                        <i class="xi-library-image-o"></i>
+                        <button><i class="xi-heart-o"></i></button>
+                      </div>
+                      <div class="card__title">Product Name</div>
+                      <div class="card__price">
+                        <div class="item">Price</div>
+                        <div class="item">1.00</div>
+                        <div class="item">ETH</div>
+                      </div>
+                      <div class="card__creator">
+                        <div class="item">Creator</div>
+                        <div class="item">
+                          <a href="#"><img src="./assets/images/creator1.png" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="auction-wrap tabMenu my-nft-card-wrap">
+                  <div class="au__card">
+                    <div class="card__img">
+                      <a href="./trading-detail.html"><img src="./assets/images/trade10.jpg" alt="..."></a>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__icon">
+                        <i class="xi-library-image-o"></i>
+                        <button><i class="xi-heart-o"></i></button>
+                      </div>
+                      <div class="card__title">Product Name</div>
+                      <div class="card__price">
+                        <div class="item">Price</div>
+                        <div class="item">1.00</div>
+                        <div class="item">ETH</div>
+                      </div>
+                      <div class="card__creator">
+                        <div class="item">Creator</div>
+                        <div class="item">
+                          <a href="#"><img src="./assets/images/creator2.png" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="auction-wrap tabMenu my-nft-card-wrap">
+                  <div class="au__card">
+                    <div class="card__img">
+                      <a href="./trading-detail.html"><img src="./assets/images/trade1.jpg" alt="..."></a>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__icon">
+                        <i class="xi-library-image-o"></i>
+                        <button><i class="xi-heart-o"></i></button>
+                      </div>
+                      <div class="card__title">Product Name</div>
+                      <div class="card__price">
+                        <div class="item">Price</div>
+                        <div class="item">1.00</div>
+                        <div class="item">ETH</div>
+                      </div>
+                      <div class="card__creator">
+                        <div class="item">Creator</div>
+                        <div class="item">
+                          <a href="#"><img src="./assets/images/creator3.png" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Owned Tab Panel -->
+        <div class="tab-pane fade" id="owned" role="tabpanel" aria-labelledby="owned-tab">
+          <div class="mb-4">
+            <div class="filter-select-wrap">
+              <select class="filter-select">
+                <option selected>Filter</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4">
+              <div class="col">
+                <div class="auction-wrap tabMenu my-nft-card-wrap">
+                  <div class="au__card">
+                    <div class="card__img">
+                      <a href="./trading-detail.html"><img src="./assets/images/goodblock_a.jpg" alt="..."></a>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__icon">
+                        <i class="xi-library-image-o"></i>
+                        <button><i class="xi-heart-o"></i></button>
+                      </div>
+                      <div class="card__title">Product Name</div>
+                      <div class="card__price">
+                        <div class="item">Price</div>
+                        <div class="item">1.00</div>
+                        <div class="item">ETH</div>
+                      </div>
+                      <div class="card__creator">
+                        <div class="item">Creator</div>
+                        <div class="item">
+                          <a href="./trading-detail.html"><img src="./assets/images/creator2.png" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="auction-wrap tabMenu my-nft-card-wrap">
+                  <div class="au__card">
+                    <div class="card__img">
+                      <a href="./trading-detail.html"><img src="./assets/images/trade2.jpg" alt="..."></a>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__icon">
+                        <i class="xi-library-image-o"></i>
+                        <button><i class="xi-heart-o"></i></button>
+                      </div>
+                      <div class="card__title">Product Name</div>
+                      <div class="card__price">
+                        <div class="item">Price</div>
+                        <div class="item">1.00</div>
+                        <div class="item">ETH</div>
+                      </div>
+                      <div class="card__creator">
+                        <div class="item">Creator</div>
+                        <div class="item">
+                          <a href="#"><img src="./assets/images/creator3.png" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="auction-wrap tabMenu my-nft-card-wrap">
+                  <div class="au__card">
+                    <div class="card__img">
+                      <a href="./trading-detail.html"><img src="./assets/images/trade4.jpg" alt="..."></a>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__icon">
+                        <i class="xi-library-image-o"></i>
+                        <button><i class="xi-heart-o"></i></button>
+                      </div>
+                      <div class="card__title">Product Name</div>
+                      <div class="card__price">
+                        <div class="item">Price</div>
+                        <div class="item">1.00</div>
+                        <div class="item">ETH</div>
+                      </div>
+                      <div class="card__creator">
+                        <div class="item">Creator</div>
+                        <div class="item">
+                          <a href="#"><img src="./assets/images/creator1.png" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="auction-wrap tabMenu my-nft-card-wrap">
+                  <div class="au__card">
+                    <div class="card__img">
+                      <a href="./trading-detail.html"><img src="./assets/images/trade5.jpg" alt="..."></a>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__icon">
+                        <i class="xi-library-image-o"></i>
+                        <button><i class="xi-heart-o"></i></button>
+                      </div>
+                      <div class="card__title">Product Name</div>
+                      <div class="card__price">
+                        <div class="item">Price</div>
+                        <div class="item">1.00</div>
+                        <div class="item">ETH</div>
+                      </div>
+                      <div class="card__creator">
+                        <div class="item">Creator</div>
+                        <div class="item">
+                          <a href="#"><img src="./assets/images/creator2.png" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="auction-wrap tabMenu my-nft-card-wrap">
+                  <div class="au__card">
+                    <div class="card__img">
+                      <a href="./trading-detail.html"><img src="./assets/images/trade6.jpg" alt="..."></a>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__icon">
+                        <i class="xi-library-image-o"></i>
+                        <button><i class="xi-heart-o"></i></button>
+                      </div>
+                      <div class="card__title">Product Name</div>
+                      <div class="card__price">
+                        <div class="item">Price</div>
+                        <div class="item">1.00</div>
+                        <div class="item">ETH</div>
+                      </div>
+                      <div class="card__creator">
+                        <div class="item">Creator</div>
+                        <div class="item">
+                          <a href="#"><img src="./assets/images/creator3.png" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="auction-wrap tabMenu my-nft-card-wrap">
+                  <div class="au__card">
+                    <div class="card__img">
+                      <a href="./trading-detail.html"><img src="./assets/images/trade7.jpg" alt="..."></a>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__icon">
+                        <i class="xi-library-image-o"></i>
+                        <button><i class="xi-heart-o"></i></button>
+                      </div>
+                      <div class="card__title">Product Name</div>
+                      <div class="card__price">
+                        <div class="item">Price</div>
+                        <div class="item">1.00</div>
+                        <div class="item">ETH</div>
+                      </div>
+                      <div class="card__creator">
+                        <div class="item">Creator</div>
+                        <div class="item">
+                          <a href="#"><img src="./assets/images/creator1.png" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="auction-wrap tabMenu my-nft-card-wrap">
+                  <div class="au__card">
+                    <div class="card__img">
+                      <a href="./trading-detail.html"><img src="./assets/images/trade10.jpg" alt="..."></a>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__icon">
+                        <i class="xi-library-image-o"></i>
+                        <button><i class="xi-heart-o"></i></button>
+                      </div>
+                      <div class="card__title">Product Name</div>
+                      <div class="card__price">
+                        <div class="item">Price</div>
+                        <div class="item">1.00</div>
+                        <div class="item">ETH</div>
+                      </div>
+                      <div class="card__creator">
+                        <div class="item">Creator</div>
+                        <div class="item">
+                          <a href="#"><img src="./assets/images/creator2.png" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="auction-wrap tabMenu my-nft-card-wrap">
+                  <div class="au__card">
+                    <div class="card__img">
+                      <a href="./trading-detail.html"><img src="./assets/images/trade1.jpg" alt="..."></a>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__icon">
+                        <i class="xi-library-image-o"></i>
+                        <button><i class="xi-heart-o"></i></button>
+                      </div>
+                      <div class="card__title">Product Name</div>
+                      <div class="card__price">
+                        <div class="item">Price</div>
+                        <div class="item">1.00</div>
+                        <div class="item">ETH</div>
+                      </div>
+                      <div class="card__creator">
+                        <div class="item">Creator</div>
+                        <div class="item">
+                          <a href="#"><img src="./assets/images/creator3.png" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Created Tab Panel -->
+        <div class="tab-pane fade" id="created" role="tabpanel" aria-labelledby="created-tab">
+          <div class="mb-4">
+            <div class="filter-select-wrap">
+              <select class="filter-select">
+                <option selected>Filter</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4">
+              <div class="col">
+                <div class="auction-wrap tabMenu my-nft-card-wrap">
+                  <div class="au__card">
+                    <div class="card__img">
+                      <a href="./trading-detail.html"><img src="./assets/images/goodblock_a.jpg" alt="..."></a>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__icon">
+                        <i class="xi-library-image-o"></i>
+                        <button><i class="xi-heart-o"></i></button>
+                      </div>
+                      <div class="card__title">Product Name</div>
+                      <div class="card__price">
+                        <div class="item">Price</div>
+                        <div class="item">1.00</div>
+                        <div class="item">ETH</div>
+                      </div>
+                      <div class="card__creator">
+                        <div class="item">Creator</div>
+                        <div class="item">
+                          <a href="#"><img src="./assets/images/creator2.png" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="auction-wrap tabMenu my-nft-card-wrap">
+                  <div class="au__card">
+                    <div class="card__img">
+                      <a href="./trading-detail.html"><img src="./assets/images/trade2.jpg" alt="..."></a>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__icon">
+                        <i class="xi-library-image-o"></i>
+                        <button><i class="xi-heart-o"></i></button>
+                      </div>
+                      <div class="card__title">Product Name</div>
+                      <div class="card__price">
+                        <div class="item">Price</div>
+                        <div class="item">1.00</div>
+                        <div class="item">ETH</div>
+                      </div>
+                      <div class="card__creator">
+                        <div class="item">Creator</div>
+                        <div class="item">
+                          <a href="#"><img src="./assets/images/creator3.png" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="auction-wrap tabMenu my-nft-card-wrap">
+                  <div class="au__card">
+                    <div class="card__img">
+                      <a href="./trading-detail.html"><img src="./assets/images/trade4.jpg" alt="..."></a>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__icon">
+                        <i class="xi-library-image-o"></i>
+                        <button><i class="xi-heart-o"></i></button>
+                      </div>
+                      <div class="card__title">Product Name</div>
+                      <div class="card__price">
+                        <div class="item">Price</div>
+                        <div class="item">1.00</div>
+                        <div class="item">ETH</div>
+                      </div>
+                      <div class="card__creator">
+                        <div class="item">Creator</div>
+                        <div class="item">
+                          <a href="#"><img src="./assets/images/creator1.png" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="auction-wrap tabMenu my-nft-card-wrap">
+                  <div class="au__card">
+                    <div class="card__img">
+                      <a href="./trading-detail.html"><img src="./assets/images/trade5.jpg" alt="..."></a>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__icon">
+                        <i class="xi-library-image-o"></i>
+                        <button><i class="xi-heart-o"></i></button>
+                      </div>
+                      <div class="card__title">Product Name</div>
+                      <div class="card__price">
+                        <div class="item">Price</div>
+                        <div class="item">1.00</div>
+                        <div class="item">ETH</div>
+                      </div>
+                      <div class="card__creator">
+                        <div class="item">Creator</div>
+                        <div class="item">
+                          <a href="#"><img src="./assets/images/creator2.png" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="auction-wrap tabMenu my-nft-card-wrap">
+                  <div class="au__card">
+                    <div class="card__img">
+                      <a href="./trading-detail.html"><img src="./assets/images/trade6.jpg" alt="..."></a>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__icon">
+                        <i class="xi-library-image-o"></i>
+                        <button><i class="xi-heart-o"></i></button>
+                      </div>
+                      <div class="card__title">Product Name</div>
+                      <div class="card__price">
+                        <div class="item">Price</div>
+                        <div class="item">1.00</div>
+                        <div class="item">ETH</div>
+                      </div>
+                      <div class="card__creator">
+                        <div class="item">Creator</div>
+                        <div class="item">
+                          <a href="#"><img src="./assets/images/creator3.png" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="auction-wrap tabMenu my-nft-card-wrap">
+                  <div class="au__card">
+                    <div class="card__img">
+                      <a href="./trading-detail.html"><img src="./assets/images/trade7.jpg" alt="..."></a>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__icon">
+                        <i class="xi-library-image-o"></i>
+                        <button><i class="xi-heart-o"></i></button>
+                      </div>
+                      <div class="card__title">Product Name</div>
+                      <div class="card__price">
+                        <div class="item">Price</div>
+                        <div class="item">1.00</div>
+                        <div class="item">ETH</div>
+                      </div>
+                      <div class="card__creator">
+                        <div class="item">Creator</div>
+                        <div class="item">
+                          <a href="#"><img src="./assets/images/creator1.png" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="auction-wrap tabMenu my-nft-card-wrap">
+                  <div class="au__card">
+                    <div class="card__img">
+                      <a href="./trading-detail.html"><img src="./assets/images/trade10.jpg" alt="..."></a>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__icon">
+                        <i class="xi-library-image-o"></i>
+                        <button><i class="xi-heart-o"></i></button>
+                      </div>
+                      <div class="card__title">Product Name</div>
+                      <div class="card__price">
+                        <div class="item">Price</div>
+                        <div class="item">1.00</div>
+                        <div class="item">ETH</div>
+                      </div>
+                      <div class="card__creator">
+                        <div class="item">Creator</div>
+                        <div class="item">
+                          <a href="#"><img src="./assets/images/creator2.png" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="auction-wrap tabMenu my-nft-card-wrap">
+                  <div class="au__card">
+                    <div class="card__img">
+                      <a href="./trading-detail.html"><img src="./assets/images/trade1.jpg" alt="..."></a>
+                    </div>
+                    <div class="card__content">
+                      <div class="card__icon">
+                        <i class="xi-library-image-o"></i>
+                        <button><i class="xi-heart-o"></i></button>
+                      </div>
+                      <div class="card__title">Product Name</div>
+                      <div class="card__price">
+                        <div class="item">Price</div>
+                        <div class="item">1.00</div>
+                        <div class="item">ETH</div>
+                      </div>
+                      <div class="card__creator">
+                        <div class="item">Creator</div>
+                        <div class="item">
+                          <a href="#"><img src="./assets/images/creator3.png" alt="..."></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Inprogress Tab Panel -->
+        <div class="tab-pane fade" id="inprogress" role="tabpanel" aria-labelledby="inprogress-tab">
+          <div class="mb-5">
+            <div class="filter-select-wrap">
+              <select class="filter-select">
+                <option selected>Filter</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+              <div class="col">
+                <div class="inprogress-card-wrap">
+                  <div class="card inprogress-card">
+                    <div class="card-img">
+                      <img src="./assets/images/goodblock_a.JPG" alt="">
+                    </div>
+                    <div class="card-body text-truncate">
+                      <div class="card-badge">
+                        <span class="badge-text">On Sale</span>
+                      </div>
+                      <div class="card-title text-truncate">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                      </div>
+                      <div class="card-subtitle">
+                        <span>#1234</span>
+                      </div>
+                      <div class="card-content">
+                        <span>Price</span>
+                        <span>20,000 USDT</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="inprogress-card-footer">
+                    <div class="footer-img">
+                      <img src="./assets/images/creator1.png" alt="">
+                      <span>Creator</span>
+                    </div> 
+                    <div>
+                      <a href="#" class="btn card-btn">Cancel</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="inprogress-card-wrap">
+                  <div class="card inprogress-card">
+                    <div class="card-img">
+                      <img src="./assets/images/newpro2.jpg" alt="">
+                    </div>
+                    <div class="card-body text-truncate">
+                      <div class="card-badge">
+                        <span class="badge-text">On Sale</span>
+                      </div>
+                      <div class="card-title text-truncate">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                      </div>
+                      <div class="card-subtitle">
+                        <span>#1234</span>
+                      </div>
+                      <div class="card-content">
+                        <span>Price</span>
+                        <span>20,000 USDT</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="inprogress-card-footer">
+                    <div class="footer-img">
+                      <img src="./assets/images/creator3.png" alt="">
+                      <span>Creator</span>
+                    </div> 
+                    <div>
+                      <a href="#" class="btn card-btn">Cancel</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="inprogress-card-wrap">
+                  <div class="card inprogress-card">
+                    <div class="card-img">
+                      <img src="./assets/images/newpro3.jpg" alt="">
+                    </div>
+                    <div class="card-body text-truncate">
+                      <div class="card-badge">
+                        <span class="badge-text">On Sale</span>
+                      </div>
+                      <div class="card-title text-truncate">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                      </div>
+                      <div class="card-subtitle">
+                        <span>#1234</span>
+                      </div>
+                      <div class="card-content">
+                        <span>Price</span>
+                        <span>20,000 USDT</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="inprogress-card-footer">
+                    <div class="footer-img">
+                      <img src="./assets/images/creator1.png" alt="">
+                      <span>Creator</span>
+                    </div> 
+                    <div>
+                      <a href="#" class="btn card-btn">Cancel</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="inprogress-card-wrap">
+                  <div class="card inprogress-card">
+                    <div class="card-img">
+                      <img src="./assets/images/newpro4.jpg" alt="">
+                    </div>
+                    <div class="card-body text-truncate">
+                      <div class="card-badge">
+                        <span class="badge-text">Make Offer</span>
+                      </div>
+                      <div class="card-title text-truncate">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                      </div>
+                      <div class="card-subtitle">
+                        <span >#1234</span>
+                      </div>
+                      <div class="card-content">
+                        <span>Price</span>
+                        <span>20,000 USDT</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="inprogress-card-footer">
+                    <div class="footer-img">
+                      <img src="./assets/images/creator2.png" alt="">
+                      <span>Creator</span>
+                    </div> 
+                    <div>
+                      <a href="#" class="btn card-btn">Cancel</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="inprogress-card-wrap">
+                  <div class="card inprogress-card">
+                    <div class="card-img">
+                      <img src="./assets/images/project4.jpg" alt="">
+                    </div>
+                    <div class="card-body text-truncate">
+                      <div class="card-badge">
+                        <span class="badge-text">Received Offer</span>
+                      </div>
+                      <div class="card-title text-truncate">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                      </div>
+                      <div class="card-subtitle">
+                        <span>#1234</span>
+                      </div>
+                      <div class="card-content">
+                        <span>Price</span>
+                        <span>20,000 USDT</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="inprogress-card-footer">
+                    <div class="footer-img">
+                      <img src="./assets/images/creator3.png" alt="">
+                      <span>Creator</span>
+                    </div> 
+                    <div>
+                      <a href="#" class="btn card-btn-2 me-1">Reject</a>
+                      <a href="#" class="btn card-btn">Accept</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="inprogress-card-wrap">
+                  <div class="card inprogress-card">
+                    <div class="card-img">
+                      <img src="./assets/images/project5.jpg" alt="">
+                    </div>
+                    <div class="card-body text-truncate">
+                      <div class="card-badge">
+                        <span class="badge-text">Auction</span>
+                      </div>
+                      <div class="card-title text-truncate">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                      </div>
+                      <div class="card-subtitle">
+                        <span>#1234</span>
+                      </div>
+                      <div class="card-content">
+                        <span>Price</span>
+                        <span>20,000 USDT</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="inprogress-card-footer">
+                    <div class="footer-img">
+                      <img src="./assets/images/creator2.png" alt="">
+                      <span>Creator</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- History Tab Panel -->
+        <div class="tab-pane fade" id="history" role="tabpanel" aria-labelledby="history-tab">
+          <div class="mb-5">
+            <div class="filter-select-wrap">
+              <select class="filter-select">
+                <option selected>Filter</option>
+              </select>
+            </div>
+          </div>
+          <div class="table-responsive" style="min-height: 400px;">
+            <table class="table table-borderless text-center" style="table-layout: fixed;">
+              <colgroup>
+                <col width="25%">
+                <col width="10%">
+                <col width="15%">
+                <col width="15%">
+                <col width="15%">
+                <col width="20%">
+              </colgroup>
+              <thead class="border-bottom">
+                <tr>
+                  <th scope="col">Product</th>
+                  <th scope="col">Market</th>
+                  <th scope="col">Price</th>
+                  <th scope="col">Fee</th>
+                  <th scope="col">Status</th>
+                  <th scope="col">Date / Time</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="text-truncate">
+                    <img src="./assets/images/latest5.gif" alt="" class="me-1" style="width: 30px;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </td>
+                  <td>Trade</td>
+                  <td>20,000 USDT</td>
+                  <td>200 USDT</td>
+                  <td>On Sale</td>
+                  <td>2022-01-13 11:11:11</td>
+                </tr>
+                <tr>
+                  <td class="text-truncate">
+                    <img src="./assets/images/latest4.gif" alt="" class="me-1" style="width: 30px;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </td>
+                  <td>NFT</td>
+                  <td>20,000 USDT</td>
+                  <td>200 USDT</td>
+                  <td>Make Offer</td>
+                  <td>2022-01-13 11:11:11</td>
+                </tr>
+                <tr>
+                  <td class="text-truncate">
+                    <img src="./assets/images/latest3.gif" alt="" class="me-1" style="width: 30px;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </td>
+                  <td>Auction</td>
+                  <td>20,000 USDT</td>
+                  <td>200 USDT</td>
+                  <td>Bidding</td>
+                  <td>2022-01-13 11:11:11</td>
+                </tr>
+                <tr>
+                  <td class="text-truncate">
+                    <img src="./assets/images/latest2.gif" alt="" class="me-1" style="width: 30px;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </td>
+                  <td>Trade</td>
+                  <td>20,000 USDT</td>
+                  <td>0.200 USDT</td>
+                  <td>On Sale</td>
+                  <td>2022-01-13 11:11:11</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- Tab Panel End -->
+
+    </div>
+  </div>
+  <!-- Content End -->
+
+  <!-- Footer Start -->
+  <footer class="footer__1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 space-y-20">
+          <div class="footer__logo">
+            <a href="./">
+              <img src="./assets/images/logo.png" alt="logo">
+            </a>
+          </div>
+          <p class="footer__text">
+            GoodBlock NFT is a shared liquidity NFT market smart contract. Buy, sell, and discover exclusive digital items.
+          </p>
+          <div>
+            <ul class="footer__social">
+              <li><a href=""><i class="bi bi-facebook"></i></a></li>
+              <li><a href=""><i class="bi bi-messenger"></i></a></li>
+              <li><a href=""><i class="bi bi-discord"></i></a></li>
+              <li><a href=""><i class="bi bi-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-6">
+          <h6 class="footer__title">Marketplace</h6>
+          <ul class="footer__list">
+            <li> <a href="./drops.html"> NFT INO </a></li>
+            <li> <a href="./marketplace.html"> NFT Trade </a> </li>
+            <li> <a href="./drops.html"> NFT Auction </a> </li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-6">
+          <h6 class="footer__title">Community</h6>
+          <ul class="footer__list">
+            <li> <a href="#"> Creators </a></li>
+            <li> <a href="#"> Colletctions </a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-6">
+          <h6 class="footer__title">Company</h6>
+          <ul class="footer__list">
+            <li> <a href="https://good-block.com/about.html"> About </a></li>
+            <li> <a href="https://good-block.com/service.html"> Product & Service </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      <p class="copyright text-center">
+        © Copyright 2021 All Rights Reserved passion by GoodBlock LTD.
+      </p>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+  <!-- Swiper: JS -->
+  <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+  <!-- Jquery min -->
+  <script src="./assets/js/jquery-3.6.0.js"></script>
+  <!-- Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- Main : JS -->
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

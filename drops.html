@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+  <title>GoodBlock NFT | Drops</title>
+  <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
+  <link rel="canonical" href="https://getbootstrap.kr/docs/5.1/examples/offcanvas-navbar/">
+
+  <!-- Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+  <!-- Swiper : CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
+
+ <!-- Material icon -->
+ <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+  <!-- CSS : Style -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+
+</head>
+<body>
+  <!-- Header start -->
+  <nav class="navbar navbar-expand-lg fixed-top js-header" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand" href="./after_login.html"><img src="./assets/images/logo.png" alt="" width="100%"></a>
+      <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="bi bi-list" style="color: #ccc; font-size: 2rem;"></i></span>
+      </button>
+  
+      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="hr"></div>
+          <li class="nav-item">
+            <a class="nav-link" href="./drops.html" role="button" style="color: #fff">
+              Drops
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./marketplace.html" role="button">
+              Marketplace
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Community
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Menu 1</a></li>
+              <li><a class="dropdown-item" href="#">Menu 2</a></li>
+              <li><a class="dropdown-item" href="#">Menu 3</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./my-nft.html" role="button">
+              My NFT
+            </a>
+          </li>
+          <li class="avatar-collapse">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              User info
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="./account-info.html">Account</a></li>
+              <li><a class="dropdown-item" href="./wallet.html">Wallet</a></li>
+            </ul>
+          </li>
+          <li class="notification-collapse">
+            <a class="nav-link dropdown-toggle" href="./notification.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Notification
+            </a>
+          </li>
+          <li class="lang-collapse">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Language
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">English</a></li>
+              <li><a class="dropdown-item" href="#">한국어</a></li>
+              <li><a class="dropdown-item" href="#">日本語</a></li>
+            </ul>
+          </li>
+          <div class="hr"></div>
+        </ul>
+
+        <div class="text-end">
+          <div class="d-flex align-items-center space-x-20">
+            <div class="navbar__avatar">
+              <div class="price">
+                <span>2.45 ETH</span>
+              </div>
+              <img class="avatar" src="./assets/images/creator2.png" alt="avatar">
+              <div class="avatar_popup">
+                <div class="row">
+                  <a href="./my-nft.html" class="avatar__nickname">
+                    <span>info@good-block.com</span>
+                  </a>
+                </div>
+                <div class="d-flex align-items-center" style="line-height: 1;">
+                  <img class="coin" src="./assets/images/coin.svg" alt="./">
+                  <div class="info">
+                    <p class="text-sm">Balance</p>
+                    <p class="w-full">2.45 ETH</p>
+                  </div>
+                </div>
+                <div class="hr"></div>
+                <div class="links">
+                  <a href="./account-info.html">
+                    <i class="bi bi-person-circle"></i> <span> Account </span>
+                  </a>
+                  <a href="./wallet.html">
+                    <i class="bi bi-wallet2"></i> <span> Wallet </span>
+                  </a>
+                  <div class="hr" style="margin-top: 1rem;"></div>
+                  <a href="./index.html">
+                    <i class="bi bi-box-arrow-right"></i> <span> Logout</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="notification-icon">
+              <a href="./notification.html" class="notification__btn">
+                <i class="bi bi-bell"></i>
+              </a>
+            </div>
+
+            <a href="./index.html" class="btn__logout">
+              <div class="btn-wrap">
+                <i class="bi bi-box-arrow-right"></i> 
+                Logout
+              </div>
+            </a>
+
+          </div>          
+          <div class="lang-select">
+            <div class="selectBox">
+              <button class="label">Language</button>
+              <ul class="optionList">
+                <li class="optionItem">English</li>
+                <li class="optionItem">한국어</li>
+                <li class="optionItem">日本語</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Header End -->
+  
+  <!-- Section : Hero Start -->
+  <div class="hero">
+    <div class="container-fluid">
+      <div class="inner">
+        <div class="hero__bg">
+          <div class="hero__title">
+            <h1><i class="bi bi-award"></i> INO & AUCTION</h1>
+            <div class="guide-contents">
+              <div class="group">
+                <h4 class="guide-title">What is INO?</h4>
+                <a href="#" class="guide__btn">More</a>
+              </div>
+              <span class="guide-text">INOs, or Initial NFT Offering, are NFT assets from top-tier NFT projects available exclusively on Goodblock NFT.</span>
+            <div class="guide-contents">
+              <div class="group">
+                <h4 class="guide-title">What is NFT Auction?</h4>
+                <a href="#" class="guide__btn">More</a>
+              </div>
+              <span class="guide-text">NFT Auction is NFT assets from top-tier NFT projects available exclusively on Goodblock NFT.</span>       
+            </div>
+            </div>
+          </div>
+          <img src="./assets/images/hero/hero_drops.png" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Section : Hero End -->
+
+  <!-- Section : Page Guide Start -->
+  <!-- <section class="page-guide">
+    <div class="container">
+      <div class="inner">
+        <div class="guide">
+          <div class="guide-img">
+            <img src="./assets/images/icon/icon-box2.png" alt="">
+          </div>
+          <div class="guide-contents">
+            <h4 class="guide-title">What is INO?</h4>
+            <p class="guide-text">INOs, or Initial NFT Offering, are NFT assets from top-tier NFT projects available exclusively on Goodblock NFT.</p>
+            <a href="#" class="guide__btn">Learn More</a>
+          </div>
+        </div>
+        <div class="guide">
+          <div class="guide-img">
+            <img src="./assets/images/icon/icon-box3.png" alt="">
+          </div>
+          <div class="guide-contents">
+            <h4 class="guide-title">What is NFT Auction?</h4>
+            <p class="guide-text">NFT Auction is NFT assets from top-tier NFT projects available exclusively on Goodblock NFT.</p>
+            <a href="#" class="guide__btn">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- Section : Page Guide End -->
+
+  <!-- Section : Project Start -->
+  <section class="project">
+    <div class="container">
+      <h2><i class="xi-star"></i> Participating Brands</h2>
+      <div class="inner">
+        <div class="swiper projectSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/images/project1.jpg" alt="" class="project__img">
+              <div class="project__contents">
+                <h4 class="project__title">Project Name</h4>
+                <p class="project__text"> Players can disassemble a Minion into 6 parts and combine with others. Holders will have exclusive access to background stories, comics, anime and games for Minions in the future.</p>
+                <a href="#" class="project__btn">View</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/project2.jpg" alt="" class="project__img">
+              <div class="project__contents">
+                <h4 class="project__title">Project Name</h4>
+                <p class="project__text"> Players can disassemble a Minion into 6 parts and combine with others. Holders will have exclusive access to background stories, comics, anime and games for Minions in the future.</p>
+                <a href="#" class="project__btn">View</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/project3.jpg" alt="" class="project__img">
+              <div class="project__contents">
+                <h4 class="project__title">Project Name</h4>
+                <p class="project__text"> Players can disassemble a Minion into 6 parts and combine with others. Holders will have exclusive access to background stories, comics, anime and games for Minions in the future.</p>
+                <a href="#" class="project__btn">View</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/project4.jpg" alt="" class="project__img">
+              <div class="project__contents">
+                <h4 class="project__title">Project Name</h4>
+                <p class="project__text"> Players can disassemble a Minion into 6 parts and combine with others. Holders will have exclusive access to background stories, comics, anime and games for Minions in the future.</p>
+                <a href="#" class="project__btn">View</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/project5.jpg" alt="" class="project__img">
+              <div class="project__contents">
+                <h4 class="project__title">Project Name</h4>
+                <p class="project__text"> Players can disassemble a Minion into 6 parts and combine with others. Holders will have exclusive access to background stories, comics, anime and games for Minions in the future.</p>
+                <a href="#" class="project__btn">View</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/project6.jpg" alt="" class="project__img">
+              <div class="project__contents">
+                <h4 class="project__title">Project Name</h4>
+                <p class="project__text"> Players can disassemble a Minion into 6 parts and combine with others. Holders will have exclusive access to background stories, comics, anime and games for Minions in the future.</p>
+                <a href="#" class="project__btn">View</a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/images/project7.jpg" alt="" class="project__img">
+              <div class="project__contents">
+                <h4 class="project__title">Project Name</h4>
+                <p class="project__text"> Players can disassemble a Minion into 6 parts and combine with others. Holders will have exclusive access to background stories, comics, anime and games for Minions in the future.</p>
+                <a href="#" class="project__btn">View</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section : Project End -->
+  
+  <!-- Section : NewProduct Start-->
+  <section class="newproducts">
+    <div class="container">
+      <h2><i class="bi bi-stars"></i> Recommend Drops</h2>
+      <div class="newproducts-line">
+        <div class="swiper newproductsSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="./ino-detail.html">
+                <div class="card">
+                  <img src="./assets/images/newpro1.jpg" class="newproducts-card" alt="...">
+                  <div class="card-body">
+                    <h4 class="card-title">NFT / INO</h4>
+                    <div class="card-text"> Players can disassemble a Minion into 6 parts and combine with others. Holders will have exclusive access to background stories, comics, anime and games for Minions in the future. </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="./auction-detail.html">
+                <div class="card">
+                  <img src="./assets/images/newpro4.jpg" class="newproducts-card" alt="...">
+                  <div class="card-body">
+                    <h4 class="card-title">NFT Auction</h4>
+                    <div class="card-text"> Players can disassemble a Minion into 6 parts and combine with others. Holders will have exclusive access to background stories, comics, anime and games for Minions in the future. </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="./ino-detail.html">
+                <div class="card">
+                  <img src="./assets/images/newpro2.jpg" class="newproducts-card" alt="...">
+                  <div class="card-body">
+                    <h4 class="card-title">NFT / INO</h4>
+                    <div class="card-text"> Players can disassemble a Minion into 6 parts and combine with others. Holders will have exclusive access to background stories, comics, anime and games for Minions in the future. </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="./assets/images/newpro3.jpg" class="newproducts-card" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">NFT Auction</h4>
+                  <div class="card-text"> Players can disassemble a Minion into 6 parts and combine with others. Holders will have exclusive access to background stories, comics, anime and games for Minions in the future. </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <a href="./ino-detail.html">
+                <div class="card">
+                  <img src="./assets/images/newpro5.jpg" class="newproducts-card" alt="...">
+                  <div class="card-body">
+                    <h4 class="card-title">NFT / INO</h4>
+                    <div class="card-text"> Players can disassemble a Minion into 6 parts and combine with others. Holders will have exclusive access to background stories, comics, anime and games for Minions in the future. </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="./auction-detail.html">
+                <div class="card">
+                  <img src="./assets/images/newpro6.jpg" class="newproducts-card" alt="...">
+                  <div class="card-body">
+                    <h4 class="card-title">NFT Auction</h4>
+                    <div class="card-text"> Players can disassemble a Minion into 6 parts and combine with others. Holders will have exclusive access to background stories, comics, anime and games for Minions in the future. </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="./ino-detail.html">
+                <div class="card">
+                  <img src="./assets/images/newpro7.jpg" class="newproducts-card" alt="...">
+                  <div class="card-body">
+                    <h4 class="card-title">NFT / INO</h4>
+                    <div class="card-text"> Players can disassemble a Minion into 6 parts and combine with others. Holders will have exclusive access to background stories, comics, anime and games for Minions in the future. </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- <div class="swiper-pagination"></div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section : NewProduct End -->
+  
+  <!-- Section : Drops Start -->
+  <section class="drops">
+    <div class="container">
+      <h2><i class="xi-lightning"></i> Drops</h2>
+      <div class="menu-wrap">
+        <div class="drop-menu">
+          <button class="ino__btn tablink1 btn__active" onclick="openTab(event,'INO')">INO</button>
+          <button class="auction__btn tablink1" onclick="openTab(event,'Auction')">Auction</button>
+        </div>
+      </div>
+        <div class="inner">
+          <div class="option__start">
+            <div class="filter">
+              <h4><i class="bi bi-sliders"></i> Filter</h4>
+              <button class="reset__btn"><i class="xi-refresh"></i></button>
+            </div>
+            <hr>
+
+            <div class="accordion-wrap">
+              <button class="accordion">Categories</button>
+              <div class="panel">
+                <button>Art</button>
+                <button>Gaming</button>
+                <button>Collectibles</button>
+                <button>Entertainment</button>
+              </div>
+
+              <button class="accordion">Type</button>
+              <div class="panel">
+                <button><i class="xi-library-image-o"></i>&nbsp;image</button>
+                <button><i class="xi-videocam-o"></i>&nbsp;Video</button>
+                <button><i class="xi-headset"></i>&nbsp;Audio</button>
+              </div>
+
+              <button class="accordion">Sale Type</button>
+              <div class="panel">
+                <button><i class="xi-spinner-3 xi-spin"></i>&nbsp;Live Sale</button>
+                <button><i class="xi-recording-stop"></i>&nbsp;Ended Sale</button>
+              </div>
+
+              <button class="accordion">Currencies</button>
+              <div class="panel">
+                <button>ETH(Ether)</button>
+                <button>USDT</button>
+              </div>
+
+            </div>
+          </div>
+          <div class="inner__wrap">
+            <div class="option__end">
+              <div class="search-container">
+                <form action="#">
+                  <input type="text" placeholder="Search for items or creators." name="search">
+                  <button type="submit"><i class="bi bi-search"></i></button>
+                </form>
+              </div>
+              
+              <div class="filter__respon">
+                <button class="filter__btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">Filter</button>
+
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">FILTER</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body small">
+                    <div class="option__start filter__wrap">
+                      <div class="filter">
+                        <h4><i class="bi bi-sliders"></i> Filter Menu</h4>
+                        <button class="reset__btn"><i class="xi-refresh"></i></button>
+                      </div>
+                      <hr>
+          
+                      <div class="accordion-wrap">
+                        <button class="accordion">Categories</button>
+                        <div class="panel">
+                          <button>Art</button>
+                          <button>Gaming</button>
+                          <button>Collectibles</button>
+                          <button>Entertainment</button>
+                        </div>
+          
+                        <button class="accordion">Type</button>
+                        <div class="panel">
+                          <button><i class="xi-library-image-o"></i>&nbsp;image</button>
+                          <button><i class="xi-videocam-o"></i>&nbsp;Video</button>
+                          <button><i class="xi-headset"></i>&nbsp;Audio</button>
+                        </div>
+          
+                        <button class="accordion">Sale Type</button>
+                        <div class="panel">
+                          <button><i class="xi-spinner-3 xi-spin"></i>&nbsp;Live Sale</button>
+                          <button><i class="xi-recording-stop"></i>&nbsp;Ended Sale</button>
+                        </div>
+          
+                        <button class="accordion">Currencies</button>
+                        <div class="panel">
+                          <button>ETH(Ether)</button>
+                          <button>USDT</button>
+                        </div>
+          
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <select class="form-select" aria-label="sort by">
+                  <option selected>Ending soon</option>
+                  <option value="1">Recently listd</option>
+                  <option value="2">Most favorited</option>
+                  <option value="3">Price low - high</option>
+                  <option value="4">Price high - low</option>
+                </select>
+              </div>
+              <!-- <div class="input-group search__box">
+                <input type="text" class="form-control" placeholder="Search for items or creators." aria-label="search" aria-describedby="basic-addon1">
+                <btn type="button" class="btn btn-outline-secondary" id="basic-addon1"><i class="xi-search"></i></btn>
+              </div>
+              <select class="form-select form-select-sm" aria-label="sort by">
+                <option selected>Ending soon</option>
+                <option value="1">Recently listd</option>
+                <option value="2">Most favorited</option>
+                <option value="3">Price low - high</option>
+                <option value="4">Price high - low</option>
+              </select> -->
+            </div>
+            <div id="INO" class="ino-wrap tabMenu1">
+              <div class="ino__card">
+                <div class="card__content">
+                  <div class="card__img">
+                    <a href="./ino-detail.html"><img src="./assets/images/newpro1.jpg" alt="..."></a>
+                  </div>
+                  <div class="card__text">
+                    <div class="card__title">Product Title</div>
+                    <div class="card__info">
+                      <div class="info__item">
+                        <p>Quantity</p>
+                      </div>
+                      <div class="info__item num">
+                        <p>1,000</p>
+                      </div>
+                      <div class="info__item">
+                        <p>Price</p>
+                      </div>
+                      <div class="info__item num">
+                        <p>1,000.00 ETH</p>
+                      </div>
+                      <div class="card__usd">
+                        <div class="item">=$3,000.00</div>
+                      </div>
+                      <div class="info__item">Sale period :</div>
+                      <div class="info__date">2022.02.22 - 2022.02.28</div>
+                      <div class="info__icon">
+                        <div class="avatar__wrap">
+                          <div class="avatar__img">
+                            <img src="./assets/images/creator1.png" alt="...">
+                          </div>
+                          <div class="avatar__name">Creator1</div>
+                        </div>
+                        <div class="icon__wrap">
+                          <div class="icon__img"><i class="xi-library-image-o"></i></div>
+                          <button class="icon__img"><i class="xi-heart-o"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card__bar">
+                  <div class="bar__base">
+                    <div class="bar__prog"></div>
+                    <div class="bar__status"><p>Remaning 800 / 1,000</p></div>
+                  </div>
+                </div>
+              </div>
+              <div class="ino__card">
+                <div class="card__content">
+                  <div class="card__img">
+                    <a href="./ino-detail.html"><img src="./assets/images/trade6.jpg" alt="..."></a>
+                  </div>
+                  <div class="card__text">
+                    <div class="card__title">Product Title</div>
+                    <div class="card__info">
+                      <div class="info__item">
+                        <p>Quantity</p>
+                      </div>
+                      <div class="info__item num">
+                        <p>1,000</p>
+                      </div>
+                      <div class="info__item">
+                        <p>Price</p>
+                      </div>
+                      <div class="info__item num">
+                        <p>1,000.00 ETH</p>
+                      </div>
+                      <div class="card__usd">
+                        <div class="item">=$3,000.00</div>
+                      </div>
+                      <div class="info__item">Sale period :</div>
+                      <div class="info__date">2022.02.22 - 2022.02.28</div>
+                      <div class="info__icon">
+                        <div class="avatar__wrap">
+                          <div class="avatar__img">
+                            <img src="./assets/images/creator1.png" alt="...">
+                          </div>
+                          <div class="avatar__name">Creator1</div>
+                        </div>
+                        <div class="icon__wrap">
+                          <div class="icon__img"><i class="xi-library-image-o"></i></div>
+                          <button class="icon__img"><i class="xi-heart-o"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card__bar">
+                  <div class="bar__base">
+                    <div class="bar__prog"></div>
+                    <div class="bar__status"><p>Remaning 800 / 1,000</p></div>
+                  </div>
+                </div>
+              </div>
+              <div class="ino__card">
+                <div class="card__content">
+                  <div class="card__img">
+                    <a href="./ino-detail.html"><img src="./assets/images/newpro1.jpg" alt="..."></a>
+                  </div>
+                  <div class="card__text">
+                    <div class="card__title">Product Title</div>
+                    <div class="card__info">
+                      <div class="info__item">
+                        <p>Quantity</p>
+                      </div>
+                      <div class="info__item num">
+                        <p>1,000</p>
+                      </div>
+                      <div class="info__item">
+                        <p>Price</p>
+                      </div>
+                      <div class="info__item num">
+                        <p>1,000.00 ETH</p>
+                      </div>
+                      <div class="card__usd">
+                        <div class="item">=$3,000.00</div>
+                      </div>
+                      <div class="info__item">Sale period :</div>
+                      <div class="info__date">2022.02.22 - 2022.02.28</div>
+                      <div class="info__icon">
+                        <div class="avatar__wrap">
+                          <div class="avatar__img">
+                            <img src="./assets/images/creator2.png" alt="...">
+                          </div>
+                          <div class="avatar__name">Creator1</div>
+                        </div>
+                        <div class="icon__wrap">
+                          <div class="icon__img"><i class="xi-library-image-o"></i></div>
+                          <button class="icon__img"><i class="xi-heart-o"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card__bar">
+                  <div class="bar__base">
+                    <div class="bar__prog"></div>
+                    <div class="bar__status"><p>Remaning 800 / 1,000</p></div>
+                  </div>
+                </div>
+              </div>
+              <div class="ino__card">
+                <div class="card__content">
+                  <div class="card__img">
+                    <a href="./ino-detail.html"><img src="./assets/images/newpro3.jpg" alt="..."></a>
+                  </div>
+                  <div class="card__text">
+                    <div class="card__title">Product Title</div>
+                    <div class="card__info">
+                      <div class="info__item">
+                        <p>Quantity</p>
+                      </div>
+                      <div class="info__item num">
+                        <p>1,000</p>
+                      </div>
+                      <div class="info__item">
+                        <p>Price</p>
+                      </div>
+                      <div class="info__item num">
+                        <p>1,000.00 ETH</p>
+                      </div>
+                      <div class="card__usd">
+                        <div class="item">=$3,000.00</div>
+                      </div>
+                      <div class="info__item">Sale period :</div>
+                      <div class="info__date">2022.02.22 - 2022.02.28</div>
+                      <div class="info__icon">
+                        <div class="avatar__wrap">
+                          <div class="avatar__img">
+                            <img src="./assets/images/creator3.png" alt="...">
+                          </div>
+                          <div class="avatar__name">Creator1</div>
+                        </div>
+                        <div class="icon__wrap">
+                          <div class="icon__img"><i class="xi-library-image-o"></i></div>
+                          <button class="icon__img"><i class="xi-heart-o"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card__bar">
+                  <div class="bar__base">
+                    <div class="bar__prog"></div>
+                    <div class="bar__status"><p>Remaning 800 / 1,000</p></div>
+                  </div>
+                </div>
+              </div>
+              <div class="ino__card">
+                <div class="card__content">
+                  <div class="card__img">
+                    <a href="./ino-detail.html"><img src="./assets/images/newpro4.jpg" alt="..."></a>
+                  </div>
+                  <div class="card__text">
+                    <div class="card__title">Product Title</div>
+                    <div class="card__info">
+                      <div class="info__item">
+                        <p>Quantity</p>
+                      </div>
+                      <div class="info__item num">
+                        <p>1,000</p>
+                      </div>
+                      <div class="info__item">
+                        <p>Price</p>
+                      </div>
+                      <div class="info__item num">
+                        <p>1,000.00 ETH</p>
+                      </div>
+                      <div class="card__usd">
+                        <div class="item">=$3,000.00</div>
+                      </div>
+                      <div class="info__item">Sale period :</div>
+                      <div class="info__date">2022.02.22 - 2022.02.28</div>
+                      <div class="info__icon">
+                        <div class="avatar__wrap">
+                          <div class="avatar__img">
+                            <img src="./assets/images/creator1.png" alt="...">
+                          </div>
+                          <div class="avatar__name">Creator1</div>
+                        </div>
+                        <div class="icon__wrap">
+                          <div class="icon__img"><i class="xi-library-image-o"></i></div>
+                          <button class="icon__img"><i class="xi-heart-o"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card__bar">
+                  <div class="bar__base">
+                    <div class="bar__prog"></div>
+                    <div class="bar__status"><p>Remaning 800 / 1,000</p></div>
+                  </div>
+                </div>
+              </div>
+              <div class="ino__card">
+                <div class="card__content">
+                  <div class="card__img">
+                    <a href="./ino-detail.html"><img src="./assets/images/newpro5.jpg" alt="..."></a>
+                  </div>
+                  <div class="card__text">
+                    <div class="card__title">Product Title</div>
+                    <div class="card__info">
+                      <div class="info__item">
+                        <p>Quantity</p>
+                      </div>
+                      <div class="info__item num">
+                        <p>1,000</p>
+                      </div>
+                      <div class="info__item">
+                        <p>Price</p>
+                      </div>
+                      <div class="info__item num">
+                        <p>1,000.00 ETH</p>
+                      </div>
+                      <div class="card__usd">
+                        <div class="item">=$3,000.00</div>
+                      </div>
+                      <div class="info__item">Sale period :</div>
+                      <div class="info__date">2022.02.22 - 2022.02.28</div>
+                      <div class="info__icon">
+                        <div class="avatar__wrap">
+                          <div class="avatar__img">
+                            <img src="./assets/images/creator2.png" alt="...">
+                          </div>
+                          <div class="avatar__name">Creator1</div>
+                        </div>
+                        <div class="icon__wrap">
+                          <div class="icon__img"><i class="xi-library-image-o"></i></div>
+                          <button class="icon__img"><i class="xi-heart-o"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card__bar">
+                  <div class="bar__base">
+                    <div class="bar__prog"></div>
+                    <div class="bar__status"><p>Remaning 800 / 1,000</p></div>
+                  </div>
+                </div>
+              </div>
+              <div class="ino__card">
+                <div class="card__content">
+                  <div class="card__img">
+                    <a href="./ino-detail.html"><img src="./assets/images/newpro6.jpg" alt="..."></a>
+                  </div>
+                  <div class="card__text">
+                    <div class="card__title">Product Title</div>
+                    <div class="card__info">
+                      <div class="info__item">
+                        <p>Quantity</p>
+                      </div>
+                      <div class="info__item num">
+                        <p>1,000</p>
+                      </div>
+                      <div class="info__item">
+                        <p>Price</p>
+                      </div>
+                      <div class="info__item num">
+                        <p>1,000.00 ETH</p>
+                      </div>
+                      <div class="card__usd">
+                        <div class="item">=$3,000.00</div>
+                      </div>
+                      <div class="info__item">Sale period :</div>
+                      <div class="info__date">2022.02.22 - 2022.02.28</div>
+                      <div class="info__icon">
+                        <div class="avatar__wrap">
+                          <div class="avatar__img">
+                            <img src="./assets/images/creator3.png" alt="...">
+                          </div>
+                          <div class="avatar__name">Creator1</div>
+                        </div>
+                        <div class="icon__wrap">
+                          <div class="icon__img"><i class="xi-library-image-o"></i></div>
+                          <button class="icon__img"><i class="xi-heart-o"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card__bar">
+                  <div class="bar__base">
+                    <div class="bar__prog"></div>
+                    <div class="bar__status"><p>Remaning 800 / 1,000</p></div>
+                  </div>
+                </div>
+              </div>
+              <div class="ino__card">
+                <div class="card__content">
+                  <div class="card__img">
+                    <a href="./ino-detail.html"><img src="./assets/images/newpro7.jpg" alt="..."></a>
+                  </div>
+                  <div class="card__text">
+                    <div class="card__title">Product Title</div>
+                    <div class="card__info">
+                      <div class="info__item">
+                        <p>Quantity</p>
+                      </div>
+                      <div class="info__item num">
+                        <p>1,000</p>
+                      </div>
+                      <div class="info__item">
+                        <p>Price</p>
+                      </div>
+                      <div class="info__item num">
+                        <p>1,000.00 ETH</p>
+                      </div>
+                      <div class="card__usd">
+                        <div class="item">=$3,000.00</div>
+                      </div>
+                      <div class="info__item">Sale period :</div>
+                      <div class="info__date">2022.02.22 - 2022.02.28</div>
+                      <div class="info__icon">
+                        <div class="avatar__wrap">
+                          <div class="avatar__img">
+                            <img src="./assets/images/creator1.png" alt="...">
+                          </div>
+                          <div class="avatar__name">Creator1</div>
+                        </div>
+                        <div class="icon__wrap">
+                          <div class="icon__img"><i class="xi-library-image-o"></i></div>
+                          <button class="icon__img"><i class="xi-heart-o"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card__bar">
+                  <div class="bar__base">
+                    <div class="bar__prog"></div>
+                    <div class="bar__status"><p>Remaning 800 / 1,000</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="Auction" class="auction-wrap tabMenu1" style="display: none;">
+              <div class="au__card">
+                <div class="countdown">
+                  <div class="count__wrap">
+                    <i class="xi-spinner-4 xi-spin"></i>
+                    <div id="time1"></div>
+                    <div class="item">left</div>
+                  </div>
+                </div>
+                <div class="card__img">
+                  <a href="./auction-detail.html"><img class="live" src="./assets/images/trade10.jpg" alt="..."></a>
+                </div>
+                <div class="card__content">
+                  <div class="card__icon">
+                    <i class="xi-library-image-o"></i>
+                    <button><i class="xi-heart-o"></i></button>
+                  </div>
+                  <div class="card__title">Product Name</div>
+                  <div class="card__price">
+                    <div class="item">Top Bid</div>
+                    <div class="item">1.00</div>
+                    <div class="item">ETH</div>
+                  </div>
+                  <div class="card__usd">
+                    <div class="item">=$3,000.00</div>
+                  </div>
+                  <div class="card__creator">
+                    <div class="item">Creator</div>
+                    <div class="item">
+                      <a href="#"><img src="./assets/images/creator2.png" alt="..."></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="au__card">
+                <div class="countdown">
+                  <div class="count__wrap">
+                    <i class="xi-recording-stop"></i>
+                    <div class="time">00 : 00 : 00</div>
+                    <div class="item">left</div>
+                  </div>
+                </div>
+                <div class="card__img">
+                  <a href="./auction-detail.html"><img src="./assets/images/trade1.jpg" alt="..."></a>
+                </div>
+                <div class="card__content">
+                  <div class="card__icon">
+                    <i class="xi-library-image-o"></i>
+                    <button><i class="xi-heart-o"></i></button>
+                  </div>
+                  <div class="card__title">Product Name</div>
+                  <div class="card__price">
+                    <div class="item">Top Bid</div>
+                    <div class="item">1.00</div>
+                    <div class="item">ETH</div>
+                  </div>
+                  <div class="card__usd">
+                    <div class="item">=$3,000.00</div>
+                  </div>
+                  <div class="card__creator">
+                    <div class="item">Creator</div>
+                    <div class="item">
+                      <a href="#"><img src="./assets/images/creator1.png" alt="..."></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="au__card">
+                <div class="countdown">
+                  <div class="count__wrap">
+                    <i class="xi-recording-stop"></i>
+                    <div class="time">00 : 00 : 00</div>
+                    <div class="item">left</div>
+                  </div>
+                </div>
+                <div class="card__img">
+                  <a href="./auction-detail.html"><img src="./assets/images/trade2.jpg" alt="..."></a>
+                </div>
+                <div class="card__content">
+                  <div class="card__icon">
+                    <i class="xi-library-image-o"></i>
+                    <button><i class="xi-heart-o"></i></button>
+                  </div>
+                  <div class="card__title">Product Name</div>
+                  <div class="card__price">
+                    <div class="item">Top Bid</div>
+                    <div class="item">1.00</div>
+                    <div class="item">ETH</div>
+                  </div>
+                  <div class="card__usd">
+                    <div class="item">=$3,000.00</div>
+                  </div>
+                  <div class="card__creator">
+                    <div class="item">Creator</div>
+                    <div class="item">
+                      <a href="#"><img src="./assets/images/creator3.png" alt="..."></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="au__card">
+                <div class="countdown">
+                  <div class="count__wrap">
+                    <i class="xi-recording-stop"></i>
+                    <div class="time">00 : 00 : 00</div>
+                    <div class="item">left</div>
+                  </div>
+                </div>
+                <div class="card__img">
+                  <a href="./auction-detail.html"><img src="./assets/images/trade5.jpg" alt="..."></a>
+                </div>
+                <div class="card__content">
+                  <div class="card__icon">
+                    <i class="xi-library-image-o"></i>
+                    <button><i class="xi-heart-o"></i></button>
+                  </div>
+                  <div class="card__title">Product Name</div>
+                  <div class="card__price">
+                    <div class="item">Top Bid</div>
+                    <div class="item">1.00</div>
+                    <div class="item">ETH</div>
+                  </div>
+                  <div class="card__usd">
+                    <div class="item">=$3,000.00</div>
+                  </div>
+                  <div class="card__creator">
+                    <div class="item">Creator</div>
+                    <div class="item">
+                      <a href="#"><img src="./assets/images/creator1.png" alt="..."></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="au__card">
+                <div class="countdown">
+                  <div class="count__wrap">
+                    <i class="xi-recording-stop"></i>
+                    <div class="time">00 : 00 : 00</div>
+                    <div class="item">left</div>
+                  </div>
+                </div>
+                <div class="card__img">
+                  <a href="./auction-detail.html"><img src="./assets/images/latest1.gif" alt="..."></a>
+                </div>
+                <div class="card__content">
+                  <div class="card__icon">
+                    <i class="xi-library-image-o"></i>
+                    <button><i class="xi-heart-o"></i></button>
+                  </div>
+                  <div class="card__title">Product Name</div>
+                  <div class="card__price">
+                    <div class="item">Top Bid</div>
+                    <div class="item">1.00</div>
+                    <div class="item">ETH</div>
+                  </div>
+                  <div class="card__usd">
+                    <div class="item">=$3,000.00</div>
+                  </div>
+                  <div class="card__creator">
+                    <div class="item">Creator</div>
+                    <div class="item">
+                      <a href="#"><img src="./assets/images/creator3.png" alt="..."></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="au__card">
+                <div class="countdown">
+                  <div class="count__wrap">
+                    <i class="xi-recording-stop"></i>
+                    <div class="time">00 : 00 : 00</div>
+                    <div class="item">left</div>
+                  </div>
+                </div>
+                <div class="card__img">
+                  <a href="./auction-detail.html"><img src="./assets/images/trade7.jpg" alt="..."></a>
+                </div>
+                <div class="card__content">
+                  <div class="card__icon">
+                    <i class="xi-library-image-o"></i>
+                    <button><i class="xi-heart-o"></i></button>
+                  </div>
+                  <div class="card__title">Product Name</div>
+                  <div class="card__price">
+                    <div class="item">Top Bid</div>
+                    <div class="item">1.00</div>
+                    <div class="item">ETH</div>
+                  </div>
+                  <div class="card__usd">
+                    <div class="item">=$3,000.00</div>
+                  </div>
+                  <div class="card__creator">
+                    <div class="item">Creator</div>
+                    <div class="item">
+                      <a href="#"><img src="./assets/images/creator1.png" alt="..."></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Section : Drops End-->
+  
+  <!-- Footer Start -->
+  <footer class="footer__1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 space-y-20">
+          <div class="footer__logo">
+            <a href="./">
+              <img src="./assets/images/logo.png" alt="logo">
+            </a>
+          </div>
+          <p class="footer__text">
+            GoodBlock NFT is a shared liquidity NFT market smart contract. Buy, sell, and discover exclusive digital items.
+          </p>
+          <div>
+            <ul class="footer__social">
+              <li><a href=""><i class="bi bi-facebook"></i></a></li>
+              <li><a href=""><i class="bi bi-messenger"></i></a></li>
+              <li><a href=""><i class="bi bi-discord"></i></a></li>
+              <li><a href=""><i class="bi bi-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-6">
+          <h6 class="footer__title">Marketplace</h6>
+          <ul class="footer__list">
+            <li> <a href="./drops.html"> NFT INO </a></li>
+            <li> <a href="./marketplace.html"> NFT Trade </a> </li>
+            <li> <a href="./drops.html"> NFT Auction </a> </li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-6">
+          <h6 class="footer__title">Community</h6>
+          <ul class="footer__list">
+            <li> <a href="#"> Creators </a></li>
+            <li> <a href="#"> Colletctions </a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-6">
+          <h6 class="footer__title">Company</h6>
+          <ul class="footer__list">
+            <li> <a href="https://good-block.com/about.html"> About </a></li>
+            <li> <a href="https://good-block.com/service.html"> Product & Service </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      <p class="copyright text-center">
+        © Copyright 2021 All Rights Reserved passion by GoodBlock LTD.
+      </p>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+  <!-- Jquery min -->
+  <!-- Swiper: JS -->
+  <script src="./assets/js/swiper-bundle.min.js"></script>
+  <script src="./assets/js/jquery-3.6.0.js"></script>
+  <!-- Bootstrap-->
+  <!-- <script src="./assets/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- Youtube : JS -->
+  <script src="./assets/js/youtube.js"></script>
+  <!-- Main : JS -->
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

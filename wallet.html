@@ -1,0 +1,2912 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+  <title>GoodBlock NFT | Home</title>
+  <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
+  <link rel="canonical" href="https://getbootstrap.kr/docs/5.1/examples/offcanvas-navbar/">
+
+  <!-- Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+  <!-- Swiper : CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
+
+  <!-- Material icon -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+  <!-- CSS : Style -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+  <link rel="stylesheet" href="./assets/css/style-tmp.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" integrity="sha512-mSYUmp1HYZDFaVKK//63EcZq4iFWFjxSL+Z3T/aCt4IO9Cejm03q3NKKYN6pFQzY0SBOr8h+eCIAZHPXcpZaNw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+  <!-- Header start -->
+  <nav class="navbar navbar-expand-lg fixed-top js-header" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand" href="./after_login.html"><img src="./assets/images/logo.png" alt="" width="100%"></a>
+      <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="bi bi-list" style="color: #ccc; font-size: 2rem;"></i></span>
+      </button>
+  
+      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="hr"></div>
+          <li class="nav-item">
+            <a class="nav-link" href="./drops.html" role="button">
+              Drops
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./marketplace.html" role="button">
+              Marketplace
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Community
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Menu 1</a></li>
+              <li><a class="dropdown-item" href="#">Menu 2</a></li>
+              <li><a class="dropdown-item" href="#">Menu 3</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./my-nft.html" role="button">
+              My NFT
+            </a>
+          </li>
+          <li class="avatar-collapse">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              User info
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Account</a></li>
+              <li><a class="dropdown-item" href="#">Wallet</a></li>
+            </ul>
+          </li>
+          <li class="notification-collapse">
+            <a class="nav-link dropdown-toggle" href="./notification.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Notification
+            </a>
+          </li>
+          <li class="lang-collapse">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Language
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">English</a></li>
+              <li><a class="dropdown-item" href="#">한국어</a></li>
+              <li><a class="dropdown-item" href="#">日本語</a></li>
+            </ul>
+          </li>
+          <div class="hr"></div>
+        </ul>
+
+        <div class="text-end">
+          <div class="d-flex align-items-center space-x-20">
+            <div class="navbar__avatar">
+              <div class="price">
+                <span>2.45 ETH</span>
+              </div>
+              <img class="avatar" src="./assets/images/creator2.png" alt="avatar">
+              <div class="avatar_popup">
+                <div class="row">
+                  <a href="#" class="avatar__nickname">
+                    <span>info@good-block.com</span>
+                  </a>
+                </div>
+                <div class="d-flex align-items-center" style="line-height: 1;">
+                  <img class="coin" src="./assets/images/coin.svg" alt="/">
+                  <div class="info">
+                    <p class="text-sm">Balance</p>
+                    <p class="w-full">2.45 ETH</p>
+                  </div>
+                </div>
+                <div class="hr"></div>
+                <div class="links">
+                  <a href="./account-info.html">
+                    <i class="bi bi-person-circle"></i> <span> Account </span>
+                  </a>
+                  <a href="#">
+                    <i class="bi bi-wallet2"></i> <span> Wallet </span>
+                  </a>
+                  <div class="hr" style="margin-top: 1rem;"></div>
+                  <a href="./index.html">
+                    <i class="bi bi-box-arrow-right"></i> <span> Logout</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="notification-icon">
+              <a href="#" class="notification__btn">
+                <i class="bi bi-bell"></i>
+              </a>
+            </div>
+
+            <a href="./index.html" class="btn__logout">
+              <div class="btn-wrap">
+                <i class="bi bi-box-arrow-right"></i> 
+                Logout
+              </div>
+            </a>
+
+          </div>          
+          <div class="lang-select">
+            <div class="selectBox">
+              <button class="label">Language</button>
+              <ul class="optionList">
+                <li class="optionItem">English</li>
+                <li class="optionItem">한국어</li>
+                <li class="optionItem">日本語</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Header End -->
+
+  <!-- Content Start -->
+  <div class="container content-wrap">
+    <div class="pt-5 mb-5">
+      <!-- Tab Start -->
+      <ul class="mb-5 nav custom-nav-tabs justify-content-end gap-3" role="tablist">
+        <!-- Crypto Tab -->
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active" href="#" id="crypto-tab" data-bs-toggle="tab" data-bs-target="#crypto" role="tab" aria-controls="crypto" aria-selected="false">Crypto</a>
+        </li>
+        <!-- NFT Tab -->
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" href="#" id="nft-tab" data-bs-toggle="tab" data-bs-target="#nft" role="tab" aria-controls="nft" aria-selected="false">NFT</a>
+        </li>
+        <!-- History Tab -->
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" href="#" id="history-tab" data-bs-toggle="tab" data-bs-target="#history" role="tab" aria-controls="history" aria-selected="false">History</a>
+        </li>
+      </ul>
+      <!-- Tab End -->
+
+      <!-- Tab Panel Start -->
+      <div class="tab-content">
+        <!-- Crypto Tab Panel -->
+        <div class="tab-pane show active" id="crypto" role="tabpanel" aria-labelledby="crypto-tab">
+          <div class="d-none d-sm-block">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-10 col-lg-12 col-xl-10" id="resize-target">
+                <div class="row row-cols-1 row-cols-lg-2 gy-4">
+                  <div class="col">
+                    <!-- First Card -->
+                    <div class="wallet-crypto-card-wrap">
+                      <div class="card wallet-crypto-card">
+                        <div class="card-img-wrap">
+                          <div class="card-img">
+                            <img src="./assets/images/logo-ETH.png" alt="">
+                          </div>
+                          <div class="d-grid gap-1">
+                            <div class="card-img-text">
+                              <span class="text-name">Available</span>
+                              <span class="text-value">123,123,456</span>
+                            </div>
+                            <div class="card-img-text">
+                              <span class="text-name">In Order</span>
+                              <span class="text-value">123,456,236</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-body">
+                          <div class="card-option">
+                            <i class="xi-ellipsis-v"></i>
+                          </div>
+                          <div class="card-content">
+                            <strong class="card-title">234,258,025 <span style="font-size: 0.7rem;">ETH</span></strong>
+                            <span class="card-subtitle">$ 234,258,025</span>
+                          </div>
+                          <div class="card-btn-wrap">
+                            <a href="#" class="btn card-btn" id="btn-deposit-1" data-target="#crypto-deposit-wrapper-1">
+                              <img src="./assets/images/icon-deposit.png">
+                              Deposit
+                            </a>
+                            <a href="#" class="btn card-btn" id="btn-withdraw-1" data-target="#crypto-withdraw-wrapper-1">
+                              <img src="./assets/images/icon-withdraw.png">
+                              Withdraw
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- First Card - Deposit Wrapper -->
+                    <div class="resize-wrapper pt-5" style="display: none;" id="crypto-deposit-wrapper-1">
+                      <div class="col-12">
+                        <div class="row gy-4">
+                          <div class="col-12 col-lg-5">
+                            <div class="deposit-content-wrap">
+                              <div>
+                                <p class="content-title">ETH Deposit Address</p>
+                              </div>
+                              <div class="content-img mb-4">
+                                <img src="./assets/images/qr-code.png" alt="">
+                              </div>
+                              <div class="content-input mb-4">
+                                <div class="input-group h-100">
+                                  <input type="text" class="form-control" aria-describedby="basic-addon2" value="0x84d5b6c276430d01e8bbaf3b3c462e740a286f2b" readonly>
+                                  <span class="input-group-text" id="basic-addon2">
+                                    <img src="./assets/images/icon-clipboard.png" alt="">
+                                  </span>
+                                </div>
+                              </div>
+                              <div class="content-text mb-5">
+                                Please do not deposit any other tokens to the above address, otherwise the assets will not be retrieve able; Deposit requires <strong>10 block</strong> confirmation to reach the account. Once the deposit is complete, you can go to the history page to track progress
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-7">
+                            <div class="history-wrap">
+                              <div class="d-flex justify-content-between align-items-center">
+                                <p class="history-title">Deposit History</p>
+                                <p class="history-option">More &raquo;</p>
+                              </div>
+                              <div class="d-grid gap-2 mb-4">
+                                <div class="history-table">
+                                  <table>
+                                    <colgroup>
+                                      <col width="25%" />
+                                      <col width="40%" />
+                                      <col width="35%" />
+                                    </colgroup>
+                                    <tr>
+                                      <th>Completed</th>
+                                      <td>5.12345678 ($5,123,235)</td>
+                                      <td class="text-end">2022-02-22  21:23:58</td>
+                                    </tr>
+                                    <tr>
+                                      <th>TXID</th>
+                                      <td colspan="2" class="text-decoration-underline">0xc9e1b9bb22ff33d3b29144fdb687d00d26e29b19c57bd648bae81590bee8a8a2</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                                <div class="history-table">
+                                  <table>
+                                    <colgroup>
+                                      <col width="25%" />
+                                      <col width="40%" />
+                                      <col width="35%" />
+                                    </colgroup>
+                                    <tr>
+                                      <th>Completed</th>
+                                      <td>5.12345678 ($5,123,235)</td>
+                                      <td class="text-end">2022-02-22  21:23:58</td>
+                                    </tr>
+                                    <tr>
+                                      <th>TXID</th>
+                                      <td colspan="2" class="text-decoration-underline">0xc9e1b9bb22ff33d3b29144fdb687d00d26e29b19c57bd648bae81590bee8a8a2</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                                <div class="history-table">
+                                  <table>
+                                    <colgroup>
+                                      <col width="25%" />
+                                      <col width="40%" />
+                                      <col width="35%" />
+                                    </colgroup>
+                                    <tr>
+                                      <th>Completed</th>
+                                      <td>5.12345678 ($5,123,235)</td>
+                                      <td class="text-end">2022-02-22  21:23:58</td>
+                                    </tr>
+                                    <tr>
+                                      <th>TXID</th>
+                                      <td colspan="2" class="text-decoration-underline">0xc9e1b9bb22ff33d3b29144fdb687d00d26e29b19c57bd648bae81590bee8a8a2</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                              </div>
+
+                              <div class="history-table-pagination">
+                                <nav aria-label="Page navigation example">
+                                  <ul class="pagination pagination-sm justify-content-center mb-0">
+                                    <li class="page-item disabled">
+                                      <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&lt;</span>
+                                      </a>
+                                    </li>
+                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                    <li class="page-item">
+                                      <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">&gt;</span>
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </nav>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- First Card - Withdraw Wrapper -->
+                    <div class="resize-wrapper pt-5" style="display: none;" id="crypto-withdraw-wrapper-1">
+                      <div class="col-12">
+                        <div class="row gy-4">
+                          <div class="col-12 col-lg-5">
+                            <div class="withdraw-content-wrap">
+                              <div class="mb-5">
+                                <p class="content-title">Withdraw ETH</p>
+                              </div>
+                              <div class="d-grid gap-4 mb-5">
+                                <div>
+                                  <div class="d-flex justify-content-between align-items-center">
+                                    <label class="content-select-label">Withdrawal Address</label>
+                                    <div class="content-select-label-btn">
+                                      <a class="me-3">Edit</a>
+                                      <a>Add</a>
+                                    </div>
+                                  </div>
+                                  <div class="content-select">
+                                    <select class="form-select form-select-lg" aria-label="Default select example">
+                                      <option selected>Withdrawal Address</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div>
+                                  <div class="d-flex justify-content-between align-items-center">
+                                    <label class="content-input-label">Withdrawal Amount</label>
+                                    <span class="content-input-label-2">Available: 1,234,123 ETH</span>
+                                  </div>
+                                  <div class="content-input">
+                                    <input type="text" class="form-control text-end" placeholder="Minimum withdrawal amount : 0.02 ETH">
+                                  </div>
+                                </div>
+                                <div class="d-flex justify-content-between content-text">
+                                  <span>Fee</span>
+                                  <span>0.01800000 ETH</span>
+                                </div>
+                                <div>
+                                  <div class="hr"><hr></div>
+                                </div>
+                                <div class="d-flex justify-content-between content-result">
+                                  <span>Total</span>
+                                  <strong>4.01800000 ETH</strong>
+                                </div>
+                              </div>
+                              <div class="mb-5">
+                                <div class="form-control form-control-wrap border-0 p-0">
+                                  <div class="form-check-wrap">
+                                    <input class="form-check-input" type="checkbox" value="" id="crypto-input-checkbox-1" checked>
+                                    <label class="form-check-label" for="crypto-input-checkbox-1">
+                                      (Required) I agree to <a class="text-decoration-none link-text fw-bold ms-1" href="#">Instructions and Precautions.</a>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <div class="content-btn d-inline-block w-100">
+                                  <button type="button" class="btn btn-lg h-100">
+                                    <a href="#"><strong>Submit</strong></a>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-7">
+                            <div class="history-wrap">
+                              <div class="d-flex justify-content-between align-items-center">
+                                <p class="history-title">Withdrawal History</p>
+                                <p class="history-option">More &raquo;</p>
+                              </div>
+                              <div class="d-grid gap-2 mb-4">
+                                <div class="history-table">
+                                  <table>
+                                    <colgroup>
+                                      <col width="25%" />
+                                      <col width="40%" />
+                                      <col width="35%" />
+                                    </colgroup>
+                                    <tr>
+                                      <th>Completed</th>
+                                      <td>5.12345678 ($5,123,235)</td>
+                                      <td class="text-end">2022-02-22 21:23:58</td>
+                                    </tr>
+                                    <tr>
+                                      <th>TXID</th>
+                                      <td colspan="2" class="text-decoration-underline">0xc9e1b9bb22ff33d3b29144fdb687d00d26e29b19c57bd648bae81590bee8a8a2</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                                <div class="history-table">
+                                  <table>
+                                    <colgroup>
+                                      <col width="25%" />
+                                      <col width="40%" />
+                                      <col width="35%" />
+                                    </colgroup>
+                                    <tr>
+                                      <th class="fc-danger">Failed</th>
+                                      <td>5.12345678 ($5,123,235)</td>
+                                      <td class="text-end">2022-02-22 21:23:58</td>
+                                    </tr>
+                                    <tr>
+                                      <th>TXID</th>
+                                      <td colspan="2">-</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                                <div class="history-table">
+                                  <table>
+                                    <colgroup>
+                                      <col width="25%" />
+                                      <col width="40%" />
+                                      <col width="35%" />
+                                    </colgroup>
+                                    <tbody>
+                                    <tr>
+                                      <th>Completed</th>
+                                      <td>5.12345678 ($5,123,235)</td>
+                                      <td class="text-end">2022-02-22 21:23:58</td>
+                                    </tr>
+                                    <tr>
+                                      <th>TXID</th>
+                                      <td colspan="2" class="text-decoration-underline">0xc9e1b9bb22ff33d3b29144fdb687d00d26e29b19c57bd648bae81590bee8a8a2</td>
+                                    </tr>
+                                  </tbody>
+                                  </table>
+                                </div>
+                              </div>
+
+                              <div class="history-table-pagination">
+                                <nav aria-label="Page navigation example">
+                                  <ul class="pagination pagination-sm justify-content-center mb-0">
+                                    <li class="page-item disabled">
+                                      <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&lt;</span>
+                                      </a>
+                                    </li>
+                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                    <li class="page-item">
+                                      <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">&gt;</span>
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </nav>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <!-- Second Card -->
+                    <div class="wallet-crypto-card-wrap">
+                      <div class="card wallet-crypto-card">
+                        <div class="card-img-wrap">
+                          <div class="card-img">
+                            <img src="./assets/images/logo-tether.png" alt="">
+                          </div>
+                          <div class="d-grid gap-1">
+                            <div class="card-img-text">
+                              <span class="text-name">Available</span>
+                              <span class="text-value">123,123,456</span>
+                            </div>
+                            <div class="card-img-text">
+                              <span class="text-name">In Order</span>
+                              <span class="text-value">123,456,236</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-body">
+                          <div class="card-option">
+                            <i class="xi-ellipsis-v"></i>
+                          </div>
+                          <div class="card-content">
+                            <strong class="card-title">234,258,025 <span style="font-size: 0.75rem;">USDT</span></strong>
+                            <span class="card-subtitle">$ 234,258,025</span>
+                          </div>
+                          <div class="card-btn-wrap">
+                            <a href="#" class="btn card-btn" id="btn-deposit-2" data-target="#crypto-deposit-wrapper-2">
+                              <img src="./assets/images/icon-deposit.png">
+                              Deposit
+                            </a>
+                            <a href="#" class="btn card-btn" id="btn-withdraw-2" data-target="#crypto-withdraw-wrapper-2">
+                              <img src="./assets/images/icon-withdraw.png">
+                              Withdraw
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Second Card - Deposit Wrapper -->
+                    <div class="resize-wrapper pt-5 float-end" style="display: none;" id="crypto-deposit-wrapper-2">
+                      <div class="col-12">
+                        <div class="row gy-4">
+                          <div class="col-12 col-lg-5">
+                            <div class="deposit-content-wrap">
+                              <div>
+                                <p class="content-title">USDT Deposit Address</p>
+                              </div>
+                              <div class="content-img mb-4">
+                                <img src="./assets/images/qr-code.png" alt="">
+                              </div>
+                              <div class="content-input mb-4">
+                                <div class="input-group h-100">
+                                  <input type="text" class="form-control" aria-describedby="basic-addon2" value="0x84d5b6c276430d01e8bbaf3b3c462e740a286f2b" readonly>
+                                  <span class="input-group-text" id="basic-addon2">
+                                    <img src="./assets/images/icon-clipboard.png" alt="">
+                                  </span>
+                                </div>
+                              </div>
+                              <div class="content-text mb-5">
+                                Please do not deposit any other tokens to the above address, otherwise the assets will not be retrieve able; Deposit requires <strong>10 block</strong> confirmation to reach the account. Once the deposit is complete, you can go to the history page to track progress
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-7">
+                            <div class="history-wrap">
+                              <div class="d-flex justify-content-between align-items-center">
+                                <p class="history-title">Deposit History</p>
+                                <p class="history-option">More &raquo;</p>
+                              </div>
+                              <div class="d-grid gap-2 mb-4">
+                                <div class="history-table">
+                                  <table>
+                                    <colgroup>
+                                      <col width="25%" />
+                                      <col width="40%" />
+                                      <col width="35%" />
+                                    </colgroup>
+                                    <tr>
+                                      <th>Completed</th>
+                                      <td>5.12345678 ($5,123,235)</td>
+                                      <td class="text-end">2022-02-22  21:23:58</td>
+                                    </tr>
+                                    <tr>
+                                      <th>TXID</th>
+                                      <td colspan="2" class="text-decoration-underline">0xc9e1b9bb22ff33d3b29144fdb687d00d26e29b19c57bd648bae81590bee8a8a2</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                                <div class="history-table">
+                                  <table>
+                                    <colgroup>
+                                      <col width="25%" />
+                                      <col width="40%" />
+                                      <col width="35%" />
+                                    </colgroup>
+                                    <tr>
+                                      <th>Completed</th>
+                                      <td>5.12345678 ($5,123,235)</td>
+                                      <td class="text-end">2022-02-22  21:23:58</td>
+                                    </tr>
+                                    <tr>
+                                      <th>TXID</th>
+                                      <td colspan="2" class="text-decoration-underline">0xc9e1b9bb22ff33d3b29144fdb687d00d26e29b19c57bd648bae81590bee8a8a2</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                                <div class="history-table">
+                                  <table>
+                                    <colgroup>
+                                      <col width="25%" />
+                                      <col width="40%" />
+                                      <col width="35%" />
+                                    </colgroup>
+                                    <tr>
+                                      <th>Completed</th>
+                                      <td>5.12345678 ($5,123,235)</td>
+                                      <td class="text-end">2022-02-22  21:23:58</td>
+                                    </tr>
+                                    <tr>
+                                      <th>TXID</th>
+                                      <td colspan="2" class="text-decoration-underline">0xc9e1b9bb22ff33d3b29144fdb687d00d26e29b19c57bd648bae81590bee8a8a2</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                              </div>
+
+                              <div class="history-table-pagination">
+                                <nav aria-label="Page navigation example">
+                                  <ul class="pagination pagination-sm justify-content-center mb-0">
+                                    <li class="page-item disabled">
+                                      <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&lt;</span>
+                                      </a>
+                                    </li>
+                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                    <li class="page-item">
+                                      <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">&gt;</span>
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </nav>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Second Card - Withdraw Wrapper -->
+                    <div class="resize-wrapper pt-5 float-end" style="display: none;" id="crypto-withdraw-wrapper-2">
+                      <div class="col-12">
+                        <div class="row gy-4">
+                          <div class="col-12 col-lg-5">
+                            <div class="withdraw-content-wrap">
+                              <div class="mb-5">
+                                <p class="content-title">Withdraw USDT</p>
+                              </div>
+                              <div class="d-grid gap-4 mb-5">
+                                <div>
+                                  <div class="d-flex justify-content-between align-items-center">
+                                    <label class="content-select-label">Withdrawal Address</label>
+                                    <div class="content-select-label-btn">
+                                      <a class="me-3">Edit</a>
+                                      <a>Add</a>
+                                    </div>
+                                  </div>
+                                  <div class="content-select">
+                                    <select class="form-select form-select-lg" aria-label="Default select example">
+                                      <option selected>Withdrawal Address</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div>
+                                  <div class="d-flex justify-content-between align-items-center">
+                                    <label class="content-input-label">Withdrawal Amount</label>
+                                    <span class="content-input-label-2">Available: 1,234,123 USDT</span>
+                                  </div>
+                                  <div class="content-input">
+                                    <input type="text" class="form-control text-end" placeholder="Minimum withdrawal amount : 0.02 USDT">
+                                  </div>
+                                </div>
+                                <div class="d-flex justify-content-between content-text">
+                                  <span>Fee</span>
+                                  <span>0.01800000 USDT</span>
+                                </div>
+                                <div>
+                                  <div class="hr"><hr></div>
+                                </div>
+                                <div class="d-flex justify-content-between content-result">
+                                  <span>Total</span>
+                                  <strong>4.01800000 USDT</strong>
+                                </div>
+                              </div>
+                              <div class="mb-5">
+                                <div class="form-control form-control-wrap border-0 p-0">
+                                  <div class="form-check-wrap">
+                                    <input class="form-check-input" type="checkbox" value="" id="crypto-input-checkbox-2" checked>
+                                    <label class="form-check-label" for="crypto-input-checkbox-2">
+                                      (Required) I agree to <a class="text-decoration-none link-text fw-bold ms-1" href="#">Instructions and Precautions.</a>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <div class="content-btn d-inline-block w-100">
+                                  <button type="button" class="btn btn-lg h-100">
+                                    <a href="#"><strong>Submit</strong></a>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-7">
+                            <div class="history-wrap">
+                              <div class="d-flex justify-content-between align-items-center">
+                                <p class="history-title">Withdrawal History</p>
+                                <p class="history-option">More &raquo;</p>
+                              </div>
+                              <div class="d-grid gap-2 mb-4">
+                                <div class="history-table">
+                                  <table>
+                                    <colgroup>
+                                      <col width="25%" />
+                                      <col width="40%" />
+                                      <col width="35%" />
+                                    </colgroup>
+                                    <tr>
+                                      <th>Completed</th>
+                                      <td>5.12345678 ($5,123,235)</td>
+                                      <td class="text-end">2022-02-22 21:23:58</td>
+                                    </tr>
+                                    <tr>
+                                      <th>TXID</th>
+                                      <td colspan="2" class="text-decoration-underline">0xc9e1b9bb22ff33d3b29144fdb687d00d26e29b19c57bd648bae81590bee8a8a2</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                                <div class="history-table">
+                                  <table>
+                                    <colgroup>
+                                      <col width="25%" />
+                                      <col width="40%" />
+                                      <col width="35%" />
+                                    </colgroup>
+                                    <tr>
+                                      <th class="fc-danger">Failed</th>
+                                      <td>5.12345678 ($5,123,235)</td>
+                                      <td class="text-end">2022-02-22 21:23:58</td>
+                                    </tr>
+                                    <tr>
+                                      <th>TXID</th>
+                                      <td colspan="2">-</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                                <div class="history-table">
+                                  <table>
+                                    <colgroup>
+                                      <col width="25%" />
+                                      <col width="40%" />
+                                      <col width="35%" />
+                                    </colgroup>
+                                    <tbody>
+                                    <tr>
+                                      <th>Completed</th>
+                                      <td>5.12345678 ($5,123,235)</td>
+                                      <td class="text-end">2022-02-22 21:23:58</td>
+                                    </tr>
+                                    <tr>
+                                      <th>TXID</th>
+                                      <td colspan="2" class="text-decoration-underline">0xc9e1b9bb22ff33d3b29144fdb687d00d26e29b19c57bd648bae81590bee8a8a2</td>
+                                    </tr>
+                                  </tbody>
+                                  </table>
+                                </div>
+                              </div>
+
+                              <div class="history-table-pagination">
+                                <nav aria-label="Page navigation example">
+                                  <ul class="pagination pagination-sm justify-content-center mb-0">
+                                    <li class="page-item disabled">
+                                      <a class="page-link" href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&lt;</span>
+                                      </a>
+                                    </li>
+                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                    <li class="page-item">
+                                      <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">&gt;</span>
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </nav>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+
+          <div class="d-block d-sm-none">
+            <div class="row justify-content-center gy-4">
+              <div class="col-12">
+                <!-- First Card -->
+                <div class="wallet-crypto-card-wrap-xs">
+                  <div class="card wallet-crypto-card">
+                    <div class="card-option">
+                      <i class="xi-ellipsis-v"></i>
+                    </div>
+                    <div class="card-img-wrap">
+                      <div class="card-img">
+                        <img src="./assets/images/logo-ETH.png" alt="">
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="card-content">
+                        <strong class="card-title">234,258,025 <span style="font-size: 0.7rem;">ETH</span></strong>
+                        <span class="card-subtitle">$ 234,258,025</span>
+                      </div>
+                      <div>
+                        <div class="d-grid gap-1 mb-2 text-end">
+                          <div class="card-text">
+                            <span class="text-name">In Order</span>
+                            <span class="text-value">123,456,236</span>
+                          </div>
+                          <div class="card-text">
+                            <span class="text-name">Available</span>
+                            <span class="text-value">123,123,456</span>
+                          </div>
+                        </div>
+                        <div class="card-btn-wrap">
+                          <a href="#" class="btn card-btn" id="btn-deposit-3" data-target="#crypto-deposit-wrapper-3">
+                            <img src="./assets/images/icon-deposit.png">
+                            Deposit
+                          </a>
+                          <a href="#" class="btn card-btn" id="btn-withdraw-3" data-target="#crypto-withdraw-wrapper-3">
+                            <img src="./assets/images/icon-withdraw.png">
+                            Withdraw
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- First Card - Deposit Wrapper -->
+                <div class="data-target-wrapper pt-4" style="display: none;" id="crypto-deposit-wrapper-3">
+                  <div class="col-12">
+                    <div class="deposit-content-wrap-xs">
+                      <div>
+                        <p class="content-title">ETH Deposit Address</p>
+                      </div>
+                      <div class="content-img">
+                        <img src="./assets/images/qr-code.png" alt="" width="80px">
+                      </div>
+                      <div class="content-input-btn mb-4">
+                        <input type="text" class="form-control form-control-plaintext" aria-describedby="basic-addon2" value="0x84d5b6c276430d01e8bbaf3b3c462e740a286f2b" readonly>
+                        <div class="text-center">
+                          <button class="btn content-btn" type="button">
+                            <img src="./assets/images/icon-clipboard.png" alt="">
+                            Copy
+                          </button>
+                        </div>
+                      </div>
+                      <div class="content-text">
+                        Please do not deposit any other tokens to the above address, otherwise the assets will not be retrieve able; Deposit requires <strong>10 block</strong> confirmation to reach the account. Once the deposit is complete, you can go to the history page to track progress
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- First Card - Withdraw Wrapper -->
+                <div class="data-target-wrapper pt-4" style="display: none;" id="crypto-withdraw-wrapper-3">
+                  <div class="col-12">
+                    <div class="withdraw-content-wrap withdraw-content-wrap-xs">
+                      <div class="mb-5">
+                        <p class="content-title">Withdraw ETH</p>
+                      </div>
+                      <div class="d-grid gap-4 mb-5">
+                        <div>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <label class="content-select-label">Withdrawal Address</label>
+                            <div class="content-select-label-btn">
+                              <a class="me-3">Edit</a>
+                              <a>Add</a>
+                            </div>
+                          </div>
+                          <div class="content-select">
+                            <select class="form-select form-select-lg" aria-label="Default select example">
+                              <option selected>Withdrawal Address</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div>
+                          <div class="d-flex flex-column">
+                            <label class="content-input-label">Withdrawal Amount</label>
+                            <span class="content-input-label-2 text-end">Available: 1,234,123 ETH</span>
+                          </div>
+                          <div class="content-input">
+                            <input type="text" class="form-control text-end" placeholder="Minimum withdrawal amount : 0.02 ETH">
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-between content-text">
+                          <span>Fee</span>
+                          <span>0.01800000 ETH</span>
+                        </div>
+                        <div>
+                          <div class="hr"><hr></div>
+                        </div>
+                        <div class="d-flex justify-content-between content-result">
+                          <span>Total</span>
+                          <strong>4.01800000 ETH</strong>
+                        </div>
+                      </div>
+                      <div class="mb-5">
+                        <div class="form-control form-control-wrap border-0 p-0">
+                          <div class="form-check-wrap">
+                            <input class="form-check-input" type="checkbox" value="" id="crypto-input-checkbox-1" checked>
+                            <label class="form-check-label" for="crypto-input-checkbox-1">
+                              I agree to <a class="text-decoration-none link-text fw-bold ms-1" href="#">Instructions and Precautions.</a>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="content-btn d-inline-block w-100">
+                          <button type="button" class="btn btn-lg h-100">
+                            <a href="#"><strong>Submit</strong></a>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <!-- Second Card -->
+                <div class="wallet-crypto-card-wrap-xs">
+                  <div class="card wallet-crypto-card">
+                    <div class="card-option">
+                      <i class="xi-ellipsis-v"></i>
+                    </div>
+                    <div class="card-img-wrap">
+                      <div class="card-img">
+                        <img src="./assets/images/logo-tether.png" alt="">
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="card-content">
+                        <strong class="card-title">234,258,025 <span style="font-size: 0.7rem;">USDT</span></strong>
+                        <span class="card-subtitle">$ 234,258,025</span>
+                      </div>
+                      <div>
+                        <div class="d-grid gap-1 mb-2 text-end">
+                          <div class="card-text">
+                            <span class="text-name">In Order</span>
+                            <span class="text-value">123,456,236</span>
+                          </div>
+                          <div class="card-text">
+                            <span class="text-name">Available</span>
+                            <span class="text-value">123,123,456</span>
+                          </div>
+                        </div>
+                        <div class="card-btn-wrap">
+                          <a href="#" class="btn card-btn" id="btn-deposit-3" data-target="#crypto-deposit-wrapper-4">
+                            <img src="./assets/images/icon-deposit.png">
+                            Deposit
+                          </a>
+                          <a href="#" class="btn card-btn" id="btn-withdraw-3" data-target="#crypto-withdraw-wrapper-4">
+                            <img src="./assets/images/icon-withdraw.png">
+                            Withdraw
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Second Card - Deposit Wrapper -->
+                <div class="data-target-wrapper pt-4" style="display: none;" id="crypto-deposit-wrapper-4">
+                  <div class="col-12">
+                    <div class="deposit-content-wrap-xs">
+                      <div>
+                        <p class="content-title">USDT Deposit Address</p>
+                      </div>
+                      <div class="content-img">
+                        <img src="./assets/images/qr-code.png" alt="" width="80px">
+                      </div>
+                      <div class="content-input-btn mb-4">
+                        <input type="text" class="form-control form-control-plaintext" aria-describedby="basic-addon2" value="0x84d5b6c276430d01e8bbaf3b3c462e740a286f2b" readonly>
+                        <div class="text-center">
+                          <button class="btn content-btn" type="button">
+                            <img src="./assets/images/icon-clipboard.png" alt="">
+                            Copy
+                          </button>
+                        </div>
+                      </div>
+                      <div class="content-text">
+                        Please do not deposit any other tokens to the above address, otherwise the assets will not be retrieve able; Deposit requires <strong>10 block</strong> confirmation to reach the account. Once the deposit is complete, you can go to the history page to track progress
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Second Card - Withdraw Wrapper -->
+                <div class="data-target-wrapper pt-4" style="display: none;" id="crypto-withdraw-wrapper-4">
+                  <div class="col-12">
+                    <div class="withdraw-content-wrap withdraw-content-wrap-xs">
+                      <div class="mb-5">
+                        <p class="content-title">Withdraw USDT</p>
+                      </div>
+                      <div class="d-grid gap-4 mb-5">
+                        <div>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <label class="content-select-label">Withdrawal Address</label>
+                            <div class="content-select-label-btn">
+                              <a class="me-3">Edit</a>
+                              <a>Add</a>
+                            </div>
+                          </div>
+                          <div class="content-select">
+                            <select class="form-select form-select-lg" aria-label="Default select example">
+                              <option selected>Withdrawal Address</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div>
+                          <div class="d-flex flex-column">
+                            <label class="content-input-label">Withdrawal Amount</label>
+                            <span class="content-input-label-2 text-end">Available: 1,234,123 USDT</span>
+                          </div>
+                          <div class="content-input">
+                            <input type="text" class="form-control text-end" placeholder="Minimum withdrawal amount : 0.02 USDT">
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-between content-text">
+                          <span>Fee</span>
+                          <span>0.01800000 USDT</span>
+                        </div>
+                        <div>
+                          <div class="hr"><hr></div>
+                        </div>
+                        <div class="d-flex justify-content-between content-result">
+                          <span>Total</span>
+                          <strong>4.01800000 USDT</strong>
+                        </div>
+                      </div>
+                      <div class="mb-5">
+                        <div class="form-control form-control-wrap border-0 p-0">
+                          <div class="form-check-wrap">
+                            <input class="form-check-input" type="checkbox" value="" id="crypto-input-checkbox-1" checked>
+                            <label class="form-check-label" for="crypto-input-checkbox-1">
+                              I agree to <a class="text-decoration-none link-text fw-bold ms-1" href="#">Instructions and Precautions.</a>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="content-btn d-inline-block w-100">
+                          <button type="button" class="btn btn-lg h-100">
+                            <a href="#"><strong>Submit</strong></a>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- NFT Panel -->
+        <div class="tab-pane fade" id="nft" role="tabpanel" aria-labelledby="nft-tab">
+          <div class="d-none d-sm-block">
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-10 col-lg-12 col-xl-10" id="resize-target">
+                <!-- Panel Tob Button & Content -->
+                <div style="margin-bottom: 5rem;">
+                  <div class="text-center">
+                    <button type="button" class="btn btn-lg pane-top-btn" data-target="#nft-deposit-wrapper">
+                      <img src="./assets/images/icon-deposit.png" alt="" style="width: 20px;">
+                      View NFT Deposit Address
+                    </button>
+                  </div>
+                  <div class="data-target-wrapper pt-5" style="display: none;" id="nft-deposit-wrapper">
+                    <div class="col-12 col-lg-8 offset-lg-2">
+                      <div class="nft-deposit-content-wrap">
+                        <div>
+                          <p class="content-title">ETH Deposit Address</p>
+                        </div>
+                        <div class="d-flex">
+                          <div class="content-img me-3">
+                            <img src="./assets/images/qr-code.png" alt="" width="144px">
+                          </div>
+                          <div class="d-flex flex-column">
+                            <div class="content-input mb-4">
+                              <div class="input-group h-100">
+                                <input type="text" class="form-control" aria-describedby="basic-addon2" value="0x84d5b6c276430d01e8bbaf3b3c462e740a286f2b" readonly>
+                                <span class="input-group-text" id="basic-addon2">
+                                  <img src="./assets/images/icon-clipboard.png" alt="">
+                                </span>
+                              </div>
+                            </div>
+                            <div class="content-text">
+                              Please do not deposit any other tokens to the above address, otherwise the assets will not be retrieve able; Deposit requires <strong>10 block</strong> confirmation to reach the account. Once the deposit is complete, you can go to the history page to track progress
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Panel Search -->
+                <div class="mb-5 d-flex justify-content-end">
+                  <div class="input-group pane-search-input">
+                    <input type="text" class="form-control form-control-lg form-search" placeholder="Search" aria-label="Search" aria-describedby="button-addon1">
+                    <button class="btn form-search-btn" type="button" id="button-addon1">
+                      <i class="xi-search"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Panel Card -->
+                <div class="row gy-4">
+                  <div class="col-12">
+                    <div class="wallet-nft-card-wrap">
+                      <!-- Wallet NFT Card -->
+                      <div class="card wallet-nft-card">
+                        <div class="card-img">
+                          <img src="./assets/images/goodblock_a.JPG" alt="">
+                        </div>
+                        <div class="card-body">
+                          <div>
+                            <div class="card-option-wrap mb-1">
+                              <div class="card-option-img">
+                                <img src="./assets/images/creator1.png" alt="">
+                                <span>Creator</span>
+                              </div> 
+                              <div class="card-option">
+                                <i class="xi-ellipsis-v"></i>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title">Product Title</span>
+                              <span class="card-text mb-1">Owned 30</span>
+                              <span class="card-text">Available 5</span>
+                            </div>
+                          </div>
+                          <div class="card-btn-wrap">
+                            <button type="button" class="btn btn-lg card-btn" data-target="#nft-withdraw-wrapper-1">
+                              <img src="./assets/images/icon-withdraw.png">
+                              Withdraw
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Wallet NFT Card - Withdraw Wrapper -->
+                    <div class="data-target-wrapper pt-5" style="display: none;" id="nft-withdraw-wrapper-1">
+                      <div class="col-12">
+                        <div class="row gy-4">
+                          <div class="col-12 col-lg-5">
+                            <div class="nft-withdraw-item-wrap">
+                              <div>
+                                <p class="item-title">Select Serial #</p>
+                              </div>
+                              <div class="item-list-group-wrap mb-4">
+                                <div class="list-group">
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="item-text">
+                                <span>Please do not deposit any other tokens to the above address, otherwise the assets will not be retrieve able; Deposit requires <strong>10 block</strong> confirmation to reach the account. Once the deposit is complete, you can go to the history page to track progress</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-7">
+                            <div class="nft-withdraw-content-wrap">
+                              <div class="mb-5">
+                                <p class="content-title">Withdraw ETH</p>
+                              </div>
+                              <div class="d-grid gap-4 mb-5">
+                                <div>
+                                  <div class="d-flex justify-content-between align-items-center">
+                                    <label class="content-select-label">Withdrawal Address</label>
+                                    <div class="content-select-label-btn">
+                                      <a class="me-3">Edit</a>
+                                      <a>Add</a>
+                                    </div>
+                                  </div>
+                                  <div class="content-select">
+                                    <select class="form-select form-select-lg" aria-label="Default select example">
+                                      <option selected>Withdrawal Address</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="d-flex justify-content-between content-text">
+                                  <span>Fee</span>
+                                  <span>0.01800000 ETH</span>
+                                </div>
+                                <div>
+                                  <div class="hr"><hr></div>
+                                </div>
+                                <div class="d-flex justify-content-between content-result">
+                                  <span>Total</span>
+                                  <strong>4.01800000 ETH</strong>
+                                </div>
+                              </div>
+                              <div class="mb-5">
+                                <div class="form-control form-control-wrap border-0 p-0">
+                                  <div class="form-check-wrap">
+                                    <input class="form-check-input" type="checkbox" value="" id="nft-input-checkbox-1" checked>
+                                    <label class="form-check-label" for="nft-input-checkbox-1">
+                                      (Required) I agree to <a class="text-decoration-none link-text fw-bold ms-1" href="#">Instructions and Precautions.</a>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <div class="content-btn d-inline-block w-100">
+                                  <button type="button" class="btn btn-lg h-100">
+                                    <a href="#"><strong>Submit</strong></a>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <!-- Wallet NFT Card -->
+                    <div class="wallet-nft-card-wrap">
+                      <div class="card wallet-nft-card">
+                        <div class="card-img">
+                          <img src="./assets/images/project1.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                          <div>
+                            <div class="card-option-wrap mb-1">
+                              <div class="card-option-img">
+                                <img src="./assets/images/creator2.png" alt="">
+                                <span>Creator</span>
+                              </div> 
+                              <div class="card-option">
+                                <i class="xi-ellipsis-v"></i>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title">Product Title</span>
+                              <span class="card-text mb-1">Owned 30</span>
+                              <span class="card-text">Available 5</span>
+                            </div>
+                          </div>
+                          <div class="card-btn-wrap">
+                            <button type="button" class="btn btn-lg card-btn" data-target="#nft-withdraw-wrapper-2">
+                              <img src="./assets/images/icon-withdraw.png">
+                              Withdraw
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Wallet NFT Card - Withdraw Wrapper -->
+                    <div class="data-target-wrapper pt-5" style="display: none;" id="nft-withdraw-wrapper-2">
+                      <div class="col-12">
+                        <div class="row gy-4">
+                          <div class="col-12 col-lg-5">
+                            <div class="nft-withdraw-item-wrap">
+                              <div>
+                                <p class="item-title">Select Serial #</p>
+                              </div>
+                              <div class="item-list-group-wrap mb-4">
+                                <div class="list-group">
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="item-text">
+                                <span>Please do not deposit any other tokens to the above address, otherwise the assets will not be retrieve able; Deposit requires <strong>10 block</strong> confirmation to reach the account. Once the deposit is complete, you can go to the history page to track progress</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-7">
+                            <div class="nft-withdraw-content-wrap">
+                              <div class="mb-5">
+                                <p class="content-title">Withdraw ETH</p>
+                              </div>
+                              <div class="d-grid gap-4 mb-5">
+                                <div>
+                                  <div class="d-flex justify-content-between align-items-center">
+                                    <label class="content-select-label">Withdrawal Address</label>
+                                    <div class="content-select-label-btn">
+                                      <a class="me-3">Edit</a>
+                                      <a>Add</a>
+                                    </div>
+                                  </div>
+                                  <div class="content-select">
+                                    <select class="form-select form-select-lg" aria-label="Default select example">
+                                      <option selected>Withdrawal Address</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="d-flex justify-content-between content-text">
+                                  <span>Fee</span>
+                                  <span>0.01800000 ETH</span>
+                                </div>
+                                <div>
+                                  <div class="hr"><hr></div>
+                                </div>
+                                <div class="d-flex justify-content-between content-result">
+                                  <span>Total</span>
+                                  <strong>4.01800000 ETH</strong>
+                                </div>
+                              </div>
+                              <div class="mb-5">
+                                <div class="form-control form-control-wrap border-0 p-0">
+                                  <div class="form-check-wrap">
+                                    <input class="form-check-input" type="checkbox" value="" id="nft-input-checkbox-2" checked>
+                                    <label class="form-check-label" for="nft-input-checkbox-2">
+                                      (Required) I agree to <a class="text-decoration-none link-text fw-bold ms-1" href="#">Instructions and Precautions.</a>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <div class="content-btn d-inline-block w-100">
+                                  <button type="button" class="btn btn-lg h-100">
+                                    <a href="#"><strong>Submit</strong></a>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <!-- Wallet NFT Card -->
+                    <div class="wallet-nft-card-wrap">
+                      <div class="card wallet-nft-card">
+                        <div class="card-img">
+                          <img src="./assets/images/project6.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                          <div>
+                            <div class="card-option-wrap mb-1">
+                              <div class="card-option-img">
+                                <img src="./assets/images/creator3.png" alt="">
+                                <span>Creator</span>
+                              </div> 
+                              <div class="card-option">
+                                <i class="xi-ellipsis-v"></i>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title">Product Title</span>
+                              <span class="card-text mb-1">Owned 30</span>
+                              <span class="card-text">Available 5</span>
+                            </div>
+                          </div>
+                          <div class="card-btn-wrap">
+                            <button type="button" class="btn btn-lg card-btn" data-target="#nft-withdraw-wrapper-3">
+                              <img src="./assets/images/icon-withdraw.png">
+                              Withdraw
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Wallet NFT Card - Withdraw Wrapper -->
+                    <div class="data-target-wrapper pt-5" style="display: none;" id="nft-withdraw-wrapper-3">
+                      <div class="col-12">
+                        <div class="row gy-4">
+                          <div class="col-12 col-lg-5">
+                            <div class="nft-withdraw-item-wrap">
+                              <div>
+                                <p class="item-title">Select Serial #</p>
+                              </div>
+                              <div class="item-list-group-wrap mb-4">
+                                <div class="list-group">
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="item-text">
+                                <span>Please do not deposit any other tokens to the above address, otherwise the assets will not be retrieve able; Deposit requires <strong>10 block</strong> confirmation to reach the account. Once the deposit is complete, you can go to the history page to track progress</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-7">
+                            <div class="nft-withdraw-content-wrap">
+                              <div class="mb-5">
+                                <p class="content-title">Withdraw ETH</p>
+                              </div>
+                              <div class="d-grid gap-4 mb-5">
+                                <div>
+                                  <div class="d-flex justify-content-between align-items-center">
+                                    <label class="content-select-label">Withdrawal Address</label>
+                                    <div class="content-select-label-btn">
+                                      <a class="me-3">Edit</a>
+                                      <a>Add</a>
+                                    </div>
+                                  </div>
+                                  <div class="content-select">
+                                    <select class="form-select form-select-lg" aria-label="Default select example">
+                                      <option selected>Withdrawal Address</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="d-flex justify-content-between content-text">
+                                  <span>Fee</span>
+                                  <span>0.01800000 ETH</span>
+                                </div>
+                                <div>
+                                  <div class="hr"><hr></div>
+                                </div>
+                                <div class="d-flex justify-content-between content-result">
+                                  <span>Total</span>
+                                  <strong>4.01800000 ETH</strong>
+                                </div>
+                              </div>
+                              <div class="mb-5">
+                                <div class="form-control form-control-wrap border-0 p-0">
+                                  <div class="form-check-wrap">
+                                    <input class="form-check-input" type="checkbox" value="" id="nft-input-checkbox-3" checked>
+                                    <label class="form-check-label" for="nft-input-checkbox-3">
+                                      (Required) I agree to <a class="text-decoration-none link-text fw-bold ms-1" href="#">Instructions and Precautions.</a>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <div class="content-btn d-inline-block w-100">
+                                  <button type="button" class="btn btn-lg h-100">
+                                    <a href="#"><strong>Submit</strong></a>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <!-- Wallet NFT Card -->
+                    <div class="wallet-nft-card-wrap">
+                      <div class="card wallet-nft-card">
+                        <div class="card-img">
+                          <img src="./assets/images/project5.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                          <div>
+                            <div class="card-option-wrap mb-1">
+                              <div class="card-option-img">
+                                <img src="./assets/images/creator1.png" alt="">
+                                <span>Creator</span>
+                              </div> 
+                              <div class="card-option">
+                                <i class="xi-ellipsis-v"></i>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title">Product Title</span>
+                              <span class="card-text mb-1">Owned 30</span>
+                              <span class="card-text">Available 5</span>
+                            </div>
+                          </div>
+                          <div class="card-btn-wrap">
+                            <button type="button" class="btn btn-lg card-btn" data-target="#nft-withdraw-wrapper-4">
+                              <img src="./assets/images/icon-withdraw.png">
+                              Withdraw
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Wallet NFT Card - Withdraw Wrapper -->
+                    <div class="data-target-wrapper pt-5" style="display: none;" id="nft-withdraw-wrapper-4">
+                      <div class="col-12">
+                        <div class="row gy-4">
+                          <div class="col-12 col-lg-5">
+                            <div class="nft-withdraw-item-wrap">
+                              <div>
+                                <p class="item-title">Select Serial #</p>
+                              </div>
+                              <div class="item-list-group-wrap mb-4">
+                                <div class="list-group">
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="item-text">
+                                <span>Please do not deposit any other tokens to the above address, otherwise the assets will not be retrieve able; Deposit requires <strong>10 block</strong> confirmation to reach the account. Once the deposit is complete, you can go to the history page to track progress</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-7">
+                            <div class="nft-withdraw-content-wrap">
+                              <div class="mb-5">
+                                <p class="content-title">Withdraw ETH</p>
+                              </div>
+                              <div class="d-grid gap-4 mb-5">
+                                <div>
+                                  <div class="d-flex justify-content-between align-items-center">
+                                    <label class="content-select-label">Withdrawal Address</label>
+                                    <div class="content-select-label-btn">
+                                      <a class="me-3">Edit</a>
+                                      <a>Add</a>
+                                    </div>
+                                  </div>
+                                  <div class="content-select">
+                                    <select class="form-select form-select-lg" aria-label="Default select example">
+                                      <option selected>Withdrawal Address</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="d-flex justify-content-between content-text">
+                                  <span>Fee</span>
+                                  <span>0.01800000 ETH</span>
+                                </div>
+                                <div>
+                                  <div class="hr"><hr></div>
+                                </div>
+                                <div class="d-flex justify-content-between content-result">
+                                  <span>Total</span>
+                                  <strong>4.01800000 ETH</strong>
+                                </div>
+                              </div>
+                              <div class="mb-5">
+                                <div class="form-control form-control-wrap border-0 p-0">
+                                  <div class="form-check-wrap">
+                                    <input class="form-check-input" type="checkbox" value="" id="nft-input-checkbox-4" checked>
+                                    <label class="form-check-label" for="nft-input-checkbox-4">
+                                      (Required) I agree to <a class="text-decoration-none link-text fw-bold ms-1" href="#">Instructions and Precautions.</a>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <div class="content-btn d-inline-block w-100">
+                                  <button type="button" class="btn btn-lg h-100">
+                                    <a href="#"><strong>Submit</strong></a>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="pane-pagination">
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination pagination-sm justify-content-center mb-0">
+                        <li class="page-item disabled">
+                          <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&lt;</span>
+                          </a>
+                        </li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&gt;</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-block d-sm-none">
+            <div class="row justify-content-center">
+              <div class="col-12">
+                <!-- Panel Tob Button & Content -->
+                <div class="mb-5">
+                  <div class="text-center">
+                    <button type="button" class="btn btn-lg pane-top-btn" data-target="#nft-deposit-wrapper-2">
+                      <img src="./assets/images/icon-deposit.png" alt="" style="width: 20px;">
+                      View NFT Deposit Address
+                    </button>
+                  </div>
+                  <div class="data-target-wrapper pt-4" style="display: none;" id="nft-deposit-wrapper-2">
+                    <div class="col-12">
+                      <div class="deposit-content-wrap-xs">
+                        <div>
+                          <p class="content-title">NFT Deposit Address</p>
+                        </div>
+                        <div class="content-img">
+                          <img src="./assets/images/qr-code.png" alt="" width="80px">
+                        </div>
+                        <div class="content-input-btn mb-4">
+                          <input type="text" class="form-control form-control-plaintext" aria-describedby="basic-addon2" value="0x84d5b6c276430d01e8bbaf3b3c462e740a286f2b" readonly>
+                          <div class="text-center">
+                            <button class="btn content-btn" type="button">
+                              <img src="./assets/images/icon-clipboard.png" alt="">
+                              Copy
+                            </button>
+                          </div>
+                        </div>
+                        <div class="content-text">
+                          Please do not deposit any other tokens to the above address, otherwise the assets will not be retrieve able; Deposit requires <strong>10 block</strong> confirmation to reach the account. Once the deposit is complete, you can go to the history page to track progress
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Panel Search -->
+                <div class="mb-5 d-flex justify-content-end">
+                  <div class="input-group pane-search-input w-100 mw-100">
+                    <input type="text" class="form-control form-control-lg form-search" placeholder="Search" aria-label="Search" aria-describedby="button-addon1">
+                    <button class="btn form-search-btn" type="button" id="button-addon1">
+                      <i class="xi-search"></i>
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Panel Card -->
+                <div class="row gy-4">
+                  <div class="col-12">
+                    <div class="wallet-nft-card-wrap-xs">
+                      <!-- Wallet NFT Card -->
+                      <div class="card wallet-nft-card">
+                        <div class="card-option-wrap">
+                          <span class="card-title">Product Title</span>
+                          <div class="card-option">
+                            <i class="xi-ellipsis-v"></i>
+                          </div>
+                        </div>
+                        <div class="card-option-wrap mb-2">
+                          <div class="card-option-img">
+                            <img src="./assets/images/creator1.png" alt="">
+                            <span>Creator</span>
+                          </div>
+                        </div>
+                        <div class="card-img mb-4">
+                          <img src="./assets/images/project5.jpg" alt="">
+                        </div>
+                        <div class="card-body py-0">
+                          <div class="d-flex justify-content-center mb-3">
+                            <div class="card-content">
+                              <div class="card-text">
+                                <span class="text-name">Owned</span>
+                                <span class="text-value">30</span>
+                              </div>
+                              <div class="card-text">
+                                <span class="text-name">Available</span>
+                                <span class="text-value">5</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card-btn-wrap">
+                            <button type="button" class="btn btn-lg card-btn" data-target="#nft-withdraw-wrapper-5">
+                              <img src="./assets/images/icon-withdraw.png">
+                              Withdraw
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Wallet NFT Card - Withdraw Wrapper -->
+                    <div class="data-target-wrapper pt-4" style="display: none;" id="nft-withdraw-wrapper-5">
+                      <div class="col-12">
+                        <div class="row gy-4">
+                          <div class="col-12 col-lg-5">
+                            <div class="nft-withdraw-item-wrap">
+                              <div>
+                                <p class="item-title">Select Serial #</p>
+                              </div>
+                              <div class="item-list-group-wrap mb-4">
+                                <div class="list-group">
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="item-text">
+                                <span>Please do not deposit any other tokens to the above address, otherwise the assets will not be retrieve able; Deposit requires <strong>10 block</strong> confirmation to reach the account. Once the deposit is complete, you can go to the history page to track progress</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-7">
+                            <div class="nft-withdraw-content-wrap">
+                              <div class="mb-5">
+                                <p class="content-title">Withdraw ETH</p>
+                              </div>
+                              <div class="d-grid gap-4 mb-5">
+                                <div>
+                                  <div class="d-flex justify-content-between align-items-center">
+                                    <label class="content-select-label">Withdrawal Address</label>
+                                    <div class="content-select-label-btn">
+                                      <a class="me-3">Edit</a>
+                                      <a>Add</a>
+                                    </div>
+                                  </div>
+                                  <div class="content-select">
+                                    <select class="form-select form-select-lg" aria-label="Default select example">
+                                      <option selected>Withdrawal Address</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="d-flex justify-content-between content-text">
+                                  <span>Fee</span>
+                                  <span>0.01800000 ETH</span>
+                                </div>
+                                <div>
+                                  <div class="hr"><hr></div>
+                                </div>
+                                <div class="d-flex justify-content-between content-result">
+                                  <span>Total</span>
+                                  <strong>4.01800000 ETH</strong>
+                                </div>
+                              </div>
+                              <div class="mb-5">
+                                <div class="form-control form-control-wrap border-0 p-0">
+                                  <div class="form-check-wrap">
+                                    <input class="form-check-input" type="checkbox" value="" id="nft-input-checkbox-1" checked>
+                                    <label class="form-check-label" for="nft-input-checkbox-1">
+                                      I agree to <a class="text-decoration-none link-text fw-bold ms-1" href="#">Instructions and Precautions.</a>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <div class="content-btn d-inline-block w-100">
+                                  <button type="button" class="btn btn-lg h-100">
+                                    <a href="#"><strong>Submit</strong></a>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="wallet-nft-card-wrap-xs">
+                      <!-- Wallet NFT Card -->
+                      <div class="card wallet-nft-card">
+                        <div class="card-option-wrap">
+                          <span class="card-title">Product Title</span>
+                          <div class="card-option">
+                            <i class="xi-ellipsis-v"></i>
+                          </div>
+                        </div>
+                        <div class="card-option-wrap mb-2">
+                          <div class="card-option-img">
+                            <img src="./assets/images/creator2.png" alt="">
+                            <span>Creator</span>
+                          </div>
+                        </div>
+                        <div class="card-img mb-4">
+                          <img src="./assets/images/project1.jpg" alt="">
+                        </div>
+                        <div class="card-body py-0">
+                          <div class="d-flex justify-content-center mb-3">
+                            <div class="card-content">
+                              <div class="card-text">
+                                <span class="text-name">Owned</span>
+                                <span class="text-value">30</span>
+                              </div>
+                              <div class="card-text">
+                                <span class="text-name">Available</span>
+                                <span class="text-value">5</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card-btn-wrap">
+                            <button type="button" class="btn btn-lg card-btn" data-target="#nft-withdraw-wrapper-6">
+                              <img src="./assets/images/icon-withdraw.png">
+                              Withdraw
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Wallet NFT Card - Withdraw Wrapper -->
+                    <div class="data-target-wrapper pt-4" style="display: none;" id="nft-withdraw-wrapper-6">
+                      <div class="col-12">
+                        <div class="row gy-4">
+                          <div class="col-12 col-lg-5">
+                            <div class="nft-withdraw-item-wrap">
+                              <div>
+                                <p class="item-title">Select Serial #</p>
+                              </div>
+                              <div class="item-list-group-wrap mb-4">
+                                <div class="list-group">
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="item-text">
+                                <span>Please do not deposit any other tokens to the above address, otherwise the assets will not be retrieve able; Deposit requires <strong>10 block</strong> confirmation to reach the account. Once the deposit is complete, you can go to the history page to track progress</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-7">
+                            <div class="nft-withdraw-content-wrap">
+                              <div class="mb-5">
+                                <p class="content-title">Withdraw ETH</p>
+                              </div>
+                              <div class="d-grid gap-4 mb-5">
+                                <div>
+                                  <div class="d-flex justify-content-between align-items-center">
+                                    <label class="content-select-label">Withdrawal Address</label>
+                                    <div class="content-select-label-btn">
+                                      <a class="me-3">Edit</a>
+                                      <a>Add</a>
+                                    </div>
+                                  </div>
+                                  <div class="content-select">
+                                    <select class="form-select form-select-lg" aria-label="Default select example">
+                                      <option selected>Withdrawal Address</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="d-flex justify-content-between content-text">
+                                  <span>Fee</span>
+                                  <span>0.01800000 ETH</span>
+                                </div>
+                                <div>
+                                  <div class="hr"><hr></div>
+                                </div>
+                                <div class="d-flex justify-content-between content-result">
+                                  <span>Total</span>
+                                  <strong>4.01800000 ETH</strong>
+                                </div>
+                              </div>
+                              <div class="mb-5">
+                                <div class="form-control form-control-wrap border-0 p-0">
+                                  <div class="form-check-wrap">
+                                    <input class="form-check-input" type="checkbox" value="" id="nft-input-checkbox-1" checked>
+                                    <label class="form-check-label" for="nft-input-checkbox-1">
+                                      I agree to <a class="text-decoration-none link-text fw-bold ms-1" href="#">Instructions and Precautions.</a>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <div class="content-btn d-inline-block w-100">
+                                  <button type="button" class="btn btn-lg h-100">
+                                    <a href="#"><strong>Submit</strong></a>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="wallet-nft-card-wrap-xs">
+                      <!-- Wallet NFT Card -->
+                      <div class="card wallet-nft-card">
+                        <div class="card-option-wrap">
+                          <span class="card-title">Product Title</span>
+                          <div class="card-option">
+                            <i class="xi-ellipsis-v"></i>
+                          </div>
+                        </div>
+                        <div class="card-option-wrap mb-2">
+                          <div class="card-option-img">
+                            <img src="./assets/images/creator3.png" alt="">
+                            <span>Creator</span>
+                          </div>
+                        </div>
+                        <div class="card-img mb-4">
+                          <img src="./assets/images/project6.jpg" alt="">
+                        </div>
+                        <div class="card-body py-0">
+                          <div class="d-flex justify-content-center mb-3">
+                            <div class="card-content">
+                              <div class="card-text">
+                                <span class="text-name">Owned</span>
+                                <span class="text-value">30</span>
+                              </div>
+                              <div class="card-text">
+                                <span class="text-name">Available</span>
+                                <span class="text-value">5</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card-btn-wrap">
+                            <button type="button" class="btn btn-lg card-btn" data-target="#nft-withdraw-wrapper-7">
+                              <img src="./assets/images/icon-withdraw.png">
+                              Withdraw
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Wallet NFT Card - Withdraw Wrapper -->
+                    <div class="data-target-wrapper pt-4" style="display: none;" id="nft-withdraw-wrapper-7">
+                      <div class="col-12">
+                        <div class="row gy-4">
+                          <div class="col-12 col-lg-5">
+                            <div class="nft-withdraw-item-wrap">
+                              <div>
+                                <p class="item-title">Select Serial #</p>
+                              </div>
+                              <div class="item-list-group-wrap mb-4">
+                                <div class="list-group">
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="item-text">
+                                <span>Please do not deposit any other tokens to the above address, otherwise the assets will not be retrieve able; Deposit requires <strong>10 block</strong> confirmation to reach the account. Once the deposit is complete, you can go to the history page to track progress</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-7">
+                            <div class="nft-withdraw-content-wrap">
+                              <div class="mb-5">
+                                <p class="content-title">Withdraw ETH</p>
+                              </div>
+                              <div class="d-grid gap-4 mb-5">
+                                <div>
+                                  <div class="d-flex justify-content-between align-items-center">
+                                    <label class="content-select-label">Withdrawal Address</label>
+                                    <div class="content-select-label-btn">
+                                      <a class="me-3">Edit</a>
+                                      <a>Add</a>
+                                    </div>
+                                  </div>
+                                  <div class="content-select">
+                                    <select class="form-select form-select-lg" aria-label="Default select example">
+                                      <option selected>Withdrawal Address</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="d-flex justify-content-between content-text">
+                                  <span>Fee</span>
+                                  <span>0.01800000 ETH</span>
+                                </div>
+                                <div>
+                                  <div class="hr"><hr></div>
+                                </div>
+                                <div class="d-flex justify-content-between content-result">
+                                  <span>Total</span>
+                                  <strong>4.01800000 ETH</strong>
+                                </div>
+                              </div>
+                              <div class="mb-5">
+                                <div class="form-control form-control-wrap border-0 p-0">
+                                  <div class="form-check-wrap">
+                                    <input class="form-check-input" type="checkbox" value="" id="nft-input-checkbox-1" checked>
+                                    <label class="form-check-label" for="nft-input-checkbox-1">
+                                      I agree to <a class="text-decoration-none link-text fw-bold ms-1" href="#">Instructions and Precautions.</a>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <div class="content-btn d-inline-block w-100">
+                                  <button type="button" class="btn btn-lg h-100">
+                                    <a href="#"><strong>Submit</strong></a>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="wallet-nft-card-wrap-xs">
+                      <!-- Wallet NFT Card -->
+                      <div class="card wallet-nft-card">
+                        <div class="card-option-wrap">
+                          <span class="card-title">Product Title</span>
+                          <div class="card-option">
+                            <i class="xi-ellipsis-v"></i>
+                          </div>
+                        </div>
+                        <div class="card-option-wrap mb-2">
+                          <div class="card-option-img">
+                            <img src="./assets/images/creator1.png" alt="">
+                            <span>Creator</span>
+                          </div>
+                        </div>
+                        <div class="card-img mb-4">
+                          <img src="./assets/images/project3.jpg" alt="">
+                        </div>
+                        <div class="card-body py-0">
+                          <div class="d-flex justify-content-center mb-3">
+                            <div class="card-content">
+                              <div class="card-text">
+                                <span class="text-name">Owned</span>
+                                <span class="text-value">30</span>
+                              </div>
+                              <div class="card-text">
+                                <span class="text-name">Available</span>
+                                <span class="text-value">5</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card-btn-wrap">
+                            <button type="button" class="btn btn-lg card-btn" data-target="#nft-withdraw-wrapper-8">
+                              <img src="./assets/images/icon-withdraw.png">
+                              Withdraw
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Wallet NFT Card - Withdraw Wrapper -->
+                    <div class="data-target-wrapper pt-4" style="display: none;" id="nft-withdraw-wrapper-8">
+                      <div class="col-12">
+                        <div class="row gy-4">
+                          <div class="col-12 col-lg-5">
+                            <div class="nft-withdraw-item-wrap">
+                              <div>
+                                <p class="item-title">Select Serial #</p>
+                              </div>
+                              <div class="item-list-group-wrap mb-4">
+                                <div class="list-group">
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                  <label class="list-group-item">
+                                    <input class="me-2" type="radio" value="" name="radio">
+                                    #123
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="item-text">
+                                <span>Please do not deposit any other tokens to the above address, otherwise the assets will not be retrieve able; Deposit requires <strong>10 block</strong> confirmation to reach the account. Once the deposit is complete, you can go to the history page to track progress</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-12 col-lg-7">
+                            <div class="nft-withdraw-content-wrap">
+                              <div class="mb-5">
+                                <p class="content-title">Withdraw ETH</p>
+                              </div>
+                              <div class="d-grid gap-4 mb-5">
+                                <div>
+                                  <div class="d-flex justify-content-between align-items-center">
+                                    <label class="content-select-label">Withdrawal Address</label>
+                                    <div class="content-select-label-btn">
+                                      <a class="me-3">Edit</a>
+                                      <a>Add</a>
+                                    </div>
+                                  </div>
+                                  <div class="content-select">
+                                    <select class="form-select form-select-lg" aria-label="Default select example">
+                                      <option selected>Withdrawal Address</option>
+                                    </select>
+                                  </div>
+                                </div>
+                                <div class="d-flex justify-content-between content-text">
+                                  <span>Fee</span>
+                                  <span>0.01800000 ETH</span>
+                                </div>
+                                <div>
+                                  <div class="hr"><hr></div>
+                                </div>
+                                <div class="d-flex justify-content-between content-result">
+                                  <span>Total</span>
+                                  <strong>4.01800000 ETH</strong>
+                                </div>
+                              </div>
+                              <div class="mb-5">
+                                <div class="form-control form-control-wrap border-0 p-0">
+                                  <div class="form-check-wrap">
+                                    <input class="form-check-input" type="checkbox" value="" id="nft-input-checkbox-1" checked>
+                                    <label class="form-check-label" for="nft-input-checkbox-1">
+                                      I agree to <a class="text-decoration-none link-text fw-bold ms-1" href="#">Instructions and Precautions.</a>
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div>
+                                <div class="content-btn d-inline-block w-100">
+                                  <button type="button" class="btn btn-lg h-100">
+                                    <a href="#"><strong>Submit</strong></a>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="pane-pagination">
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination pagination-sm justify-content-center mb-0">
+                        <li class="page-item disabled">
+                          <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&lt;</span>
+                          </a>
+                        </li>
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&gt;</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- History Tab Panel -->
+        <div class="tab-pane fade" id="history" role="tabpanel" aria-labelledby="history-tab">
+          <!-- Crypto Currency Table -->
+          <div class="row justify-content-center" style="margin-bottom: 100px;">
+            <div class="col-12">
+              <div class="mb-5">
+                <h1 class="content-title">Crypto Currency</h1>
+              </div>
+              <div class="mb-4">
+                <div class="dropdown filter-dropdown d-inline-block me-5">
+                  <button class="btn text-end w-100" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    All
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li class="dropdown-item active">All</li>
+                    <li class="dropdown-item">EGI</li>
+                    <li class="dropdown-item">XRI</li>
+                    <li class="dropdown-item">ETH</li>
+                  </ul>
+                </div>
+                <div class="history-filter-btn d-inline-block me-3">
+                  <button class="btn" type="button">
+                    Deposit
+                  </button>
+                </div>
+                <div class="history-filter-btn d-inline-block">
+                  <button class="btn" type="button">
+                    Withdrawal
+                  </button>
+                </div>
+              </div>
+
+              <div class="table-responsive">
+                <table class="table table-borderless text-center" style="table-layout: fixed;">
+                  <colgroup>
+                    <col width="15%">
+                    <col width="20%">
+                    <col width="15%">
+                    <col width="10%">
+                    <col width="10%">
+                    <col width="20%">
+                    <col width="10%">
+                  </colgroup>
+                  <thead class="border-bottom">
+                    <tr>
+                      <th scope="col">Status</th>
+                      <th scope="col">Deposit / Withdrawal</th>
+                      <th scope="col">Coin / Token</th>
+                      <th scope="col">Amount</th>
+                      <th scope="col">Fee</th>
+                      <th scope="col">Date / Time</th>
+                      <th scope="col">Operation</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Pending</td>
+                      <td>Withdrawal</td>
+                      <td>EGI</td>
+                      <td>0.00112233</td>
+                      <td>0.00112233</td>
+                      <td>2022-01-13 11:11:11</td>
+                      <td>
+                        <div class="table-icon" data-target="#table-content-1">
+                          <i class="xi-eye-o"></i>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="data-target-wrapper-2" style="display: none;" id="table-content-1">
+                      <td colspan="7">
+                        <div class="table-content-wrap">
+                          <div class="table-content">
+                            <div class="d-flex">
+                              <div class="table-content-title"><strong>To</strong></div>
+                              <div class="table-content-text">0x45b4637d8229914987a38eb53ae7093ec1c6f4f8</div>
+                            </div>
+                            <div class="d-flex">
+                              <div class="table-content-title"><strong>TXID</strong></div>
+                              <div class="table-content-text">0xc9e1b9bb22ff33d3b29144fdb687d00d26e29b19c57bd648bae81590bee8a8a2</div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Received</td>
+                      <td>Deposit</td>
+                      <td>XRI</td>
+                      <td>0.00112233</td>
+                      <td>0.00112233</td>
+                      <td>2022-01-13 11:11:11</td>
+                      <td>
+                        <div class="table-icon" data-target="#table-content-2">
+                          <i class="xi-eye-o"></i>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="data-target-wrapper-2" style="display: none;" id="table-content-2">
+                      <td colspan="7">
+                        <div class="table-content-wrap">
+                          <div class="table-content">
+                            <div class="d-flex">
+                              <div class="table-content-title"><strong>To</strong></div>
+                              <div class="table-content-text">0x45b4637d8229914987a38eb53ae7093ec1c6f4f8</div>
+                            </div>
+                            <div class="d-flex">
+                              <div class="table-content-title"><strong>TXID</strong></div>
+                              <div class="table-content-text">0xc9e1b9bb22ff33d3b29144fdb687d00d26e29b19c57bd648bae81590bee8a8a2</div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Completed</td>
+                      <td>Deposit</td>
+                      <td>ETH</td>
+                      <td>0.00112233</td>
+                      <td>0.00112233</td>
+                      <td>2022-01-13 11:11:11</td>
+                      <td>
+                        <div class="table-icon" data-target="#table-content-3">
+                          <i class="xi-eye-o"></i>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="data-target-wrapper-2" style="display: none;" id="table-content-3">
+                      <td colspan="7">
+                        <div class="table-content-wrap">
+                          <div class="table-content">
+                            <div class="d-flex">
+                              <div class="table-content-title"><strong>To</strong></div>
+                              <div class="table-content-text">0x45b4637d8229914987a38eb53ae7093ec1c6f4f8</div>
+                            </div>
+                            <div class="d-flex">
+                              <div class="table-content-title"><strong>TXID</strong></div>
+                              <div class="table-content-text">0xc9e1b9bb22ff33d3b29144fdb687d00d26e29b19c57bd648bae81590bee8a8a2</div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Completed</td>
+                      <td>Withdrawal</td>
+                      <td>ETH</td>
+                      <td>0.00112233</td>
+                      <td>0.00112233</td>
+                      <td>2022-01-13 11:11:11</td>
+                      <td>
+                        <div class="table-icon" data-target="#table-content-4">
+                          <i class="xi-eye-o"></i>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="data-target-wrapper-2" style="display: none;" id="table-content-4">
+                      <td colspan="7">
+                        <div class="table-content-wrap">
+                          <div class="table-content">
+                            <div class="d-flex">
+                              <div class="table-content-title"><strong>To</strong></div>
+                              <div class="table-content-text">0x45b4637d8229914987a38eb53ae7093ec1c6f4f8</div>
+                            </div>
+                            <div class="d-flex">
+                              <div class="table-content-title"><strong>TXID</strong></div>
+                              <div class="table-content-text">0xc9e1b9bb22ff33d3b29144fdb687d00d26e29b19c57bd648bae81590bee8a8a2</div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="pane-pagination">
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination pagination-sm justify-content-center mb-0">
+                    <li class="page-item disabled">
+                      <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&lt;</span>
+                      </a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&gt;</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+
+          <!-- NFT Table -->
+          <div class="row">
+            <div class="col-12">
+              <div class="mb-5">
+                <h1 class="content-title">NFT</h1>
+              </div>
+              <div class="mb-4 d-flex justify-content-between">
+                <div class="d-flex">
+                  <div class="history-filter-btn d-inline-block me-3">
+                    <button class="btn" type="button">
+                      Deposit
+                    </button>
+                  </div>
+                  <div class="history-filter-btn d-inline-block">
+                    <button class="btn" type="button">
+                      Withdrawal
+                    </button>
+                  </div>
+                </div>
+                <div class="w-100">
+                  <div class="d-flex align-items-center justify-content-end">
+                    <div class="pane-search-calendar">
+                      <i class="bi bi-calendar-fill" data-provide="datepicker"></i>
+                    </div>
+                    <div class="input-group pane-search-input">
+                      <input type="text" class="form-control form-control-lg form-search" placeholder="Search" aria-label="Search" aria-describedby="button-addon1">
+                      <button class="btn form-search-btn" type="button" id="button-addon1">
+                        <i class="xi-search"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="table-responsive">
+                <table class="table table-borderless text-center" style="table-layout: fixed;">
+                  <colgroup>
+                    <col width="10%">
+                    <col width="20%">
+                    <col width="20%">
+                    <col width="10%">
+                    <col width="10%">
+                    <col width="15%">
+                    <col width="10%">
+                  </colgroup>
+                  <thead class="border-bottom">
+                    <tr>
+                      <th scope="col">Status</th>
+                      <th scope="col">Deposit / Withdrawal</th>
+                      <th scope="col">Title</th>
+                      <th scope="col">Serial ID</th>
+                      <th scope="col">Fee</th>
+                      <th scope="col">Date / Time</th>
+                      <th scope="col">Operation</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Pending</td>
+                      <td>Withdrawal</td>
+                      <td>Product Title 1</td>
+                      <td>#12345</td>
+                      <td>0.00112233</td>
+                      <td>2022-01-13 11:11:11</td>
+                      <td>
+                        <div class="table-icon" data-target="#table-content-5">
+                          <i class="xi-eye-o"></i>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="data-target-wrapper-2" style="display: none;" id="table-content-5">
+                      <td colspan="7">
+                        <div class="table-content-wrap">
+                          <div class="table-content">
+                            <div class="d-flex">
+                              <div class="table-content-title"><strong>To</strong></div>
+                              <div class="table-content-text">0x45b4637d8229914987a38eb53ae7093ec1c6f4f8</div>
+                            </div>
+                            <div class="d-flex">
+                              <div class="table-content-title"><strong>TXID</strong></div>
+                              <div class="table-content-text">0xc9e1b9bb22ff33d3b29144fdb687d00d26e29b19c57bd648bae81590bee8a8a2</div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Received</td>
+                      <td>Deposit</td>
+                      <td>Product Title 2</td>
+                      <td>#12345</td>
+                      <td>0.00112233</td>
+                      <td>2022-01-13 11:11:11</td>
+                      <td>
+                        <div class="table-icon" data-target="#table-content-6">
+                          <i class="xi-eye-o"></i>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="data-target-wrapper-2" style="display: none;" id="table-content-6">
+                      <td colspan="7">
+                        <div class="table-content-wrap">
+                          <div class="table-content">
+                            <div class="d-flex">
+                              <div class="table-content-title"><strong>To</strong></div>
+                              <div class="table-content-text">0x45b4637d8229914987a38eb53ae7093ec1c6f4f8</div>
+                            </div>
+                            <div class="d-flex">
+                              <div class="table-content-title"><strong>TXID</strong></div>
+                              <div class="table-content-text">0xc9e1b9bb22ff33d3b29144fdb687d00d26e29b19c57bd648bae81590bee8a8a2</div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Completed</td>
+                      <td>Deposit</td>
+                      <td>Product Title 3</td>
+                      <td>#12345</td>
+                      <td>0.00112233</td>
+                      <td>2022-01-13 11:11:11</td>
+                      <td>
+                        <div class="table-icon" data-target="#table-content-7">
+                          <i class="xi-eye-o"></i>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="data-target-wrapper-2" style="display: none;" id="table-content-7">
+                      <td colspan="7">
+                        <div class="table-content-wrap">
+                          <div class="table-content">
+                            <div class="d-flex">
+                              <div class="table-content-title"><strong>To</strong></div>
+                              <div class="table-content-text">0x45b4637d8229914987a38eb53ae7093ec1c6f4f8</div>
+                            </div>
+                            <div class="d-flex">
+                              <div class="table-content-title"><strong>TXID</strong></div>
+                              <div class="table-content-text">0xc9e1b9bb22ff33d3b29144fdb687d00d26e29b19c57bd648bae81590bee8a8a2</div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Completed</td>
+                      <td>Withdrawal</td>
+                      <td>Product Title 4</td>
+                      <td>#12345</td>
+                      <td>0.00112233</td>
+                      <td>2022-01-13 11:11:11</td>
+                      <td>
+                        <div class="table-icon" data-target="#table-content-8">
+                          <i class="xi-eye-o"></i>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="data-target-wrapper-2" style="display: none;" id="table-content-8">
+                      <td colspan="7">
+                        <div class="table-content-wrap">
+                          <div class="table-content">
+                            <div class="d-flex">
+                              <div class="table-content-title"><strong>To</strong></div>
+                              <div class="table-content-text">0x45b4637d8229914987a38eb53ae7093ec1c6f4f8</div>
+                            </div>
+                            <div class="d-flex">
+                              <div class="table-content-title"><strong>TXID</strong></div>
+                              <div class="table-content-text">0xc9e1b9bb22ff33d3b29144fdb687d00d26e29b19c57bd648bae81590bee8a8a2</div>
+                            </div>
+                          </div>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="pane-pagination">
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination pagination-sm justify-content-center mb-0">
+                    <li class="page-item disabled">
+                      <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&lt;</span>
+                      </a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&gt;</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Tab Panel End -->
+
+    </div>
+  </div>
+  <!-- Content End -->
+
+  <!-- Footer Start -->
+  <footer class="footer__1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 space-y-20">
+          <div class="footer__logo">
+            <a href="./">
+              <img src="./assets/images/logo.png" alt="logo">
+            </a>
+          </div>
+          <p class="footer__text">
+            GoodBlock NFT is a shared liquidity NFT market smart contract. Buy, sell, and discover exclusive digital items.
+          </p>
+          <div>
+            <ul class="footer__social">
+              <li><a href=""><i class="bi bi-facebook"></i></a></li>
+              <li><a href=""><i class="bi bi-messenger"></i></a></li>
+              <li><a href=""><i class="bi bi-discord"></i></a></li>
+              <li><a href=""><i class="bi bi-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-6">
+          <h6 class="footer__title">Marketplace</h6>
+          <ul class="footer__list">
+            <li> <a href="./drops.html"> NFT INO </a></li>
+            <li> <a href="./marketplace.html"> NFT Trade </a> </li>
+            <li> <a href="./drops.html"> NFT Auction </a> </li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-6">
+          <h6 class="footer__title">Community</h6>
+          <ul class="footer__list">
+            <li> <a href="#"> Creators </a></li>
+            <li> <a href="#"> Colletctions </a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-6">
+          <h6 class="footer__title">Company</h6>
+          <ul class="footer__list">
+            <li> <a href="https://good-block.com/about.html"> About </a></li>
+            <li> <a href="https://good-block.com/service.html"> Product & Service </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      <p class="copyright text-center">
+        © Copyright 2021 All Rights Reserved passion by GoodBlock LTD.
+      </p>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+  <!-- Swiper: JS -->
+  <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+  <!-- Jquery min -->
+  <script src="./assets/js/jquery-3.6.0.js"></script>
+  <!-- Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- Main : JS -->
+  <script src="./assets/js/main.js"></script>
+
+  <!-- Wallet Page Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/css-element-queries/1.2.3/ResizeSensor.min.js" integrity="sha512-Li66vFTPdL3BpG7YUS8/TdT+mpL4QWYe9N3f39LLZzxnPJL/w1Ih3C/CgEJmsQjSEy8Xx8+vTFDAS3A2s5NBUg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./assets/js/wallet.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js" integrity="sha512-T/tUfKSV1bihCnd+MxKD0Hm1uBBroVYBOYSk1knyvQ9VyZJpc/ALb4P0r6ubwVPSGB2GvjeoMAJJImBG12TiaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
