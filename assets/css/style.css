@@ -9,7 +9,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   color: #F8F3FF;
-  background-color: #0d0015;
+  background-color: #111432;
   min-height: 100vh;
   width: 100%;
   object-fit: cover;
@@ -112,6 +112,7 @@ Main page ( index & after login )
   padding-right: 25px;
   margin-top: 10px;
   margin-bottom: 10px;
+  width: 155px;
 }
 .navbar-toggler:focus {
   text-decoration: none;
@@ -130,11 +131,15 @@ Main page ( index & after login )
   color: #FDF2F7;
 }
 .navbar .btn__login {
-  background: linear-gradient(175.71deg, rgba(151, 79, 233, 0.88) 52.97%, rgba(61, 34, 119, 0.68) 90.74%);
+  border: 2px solid #febd09;
   border-radius: 24px;
   font-size: 0.9rem;
   font-weight: 700;
   padding: 0.5rem 1.5rem;
+}
+.navbar .btn__login:hover {
+  border: 2px solid #ffbe08;
+  background: linear-gradient(110deg,#ffbe08 52.97%, #febd09 90.74%);
 }
 
 .navbar .navbar-collapse .lang-collapse {
@@ -246,7 +251,7 @@ Main page ( index & after login )
 }
 
 .navbar .btn__logout {
-  background: linear-gradient(175.71deg, rgba(151, 79, 233, 0.88) 52.97%, rgba(61, 34, 119, 0.68) 90.74%);
+  background: linear-gradient(133deg, rgba(255, 190, 10, .8), #febd09);
   border-radius: 24px;
   font-size: 0.9rem;
   font-weight: 700;
@@ -276,11 +281,11 @@ Main page ( index & after login )
 }
 
 .navbar .navbar__avatar:hover {
-  background: linear-gradient(180deg, #3D2277 0%, #5F11AE 92.5%, #5F11AE 92.5%);
+  background: linear-gradient(133deg, rgba(255, 190, 10, .8), #febd09);
   box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.08), inset 3px 4px 3px rgba(255, 255, 255, 0.25);
   color: #FDF2F7;
   border: none;
-  transition: all 1.5s;
+  transition: all .5s;
 }
 
 .navbar .navbar__avatar .avatar {
@@ -349,6 +354,7 @@ Main page ( index & after login )
 
 .navbar .navbar__avatar .avatar_popup .coin {
   padding-bottom: 10px;
+  height: 48px;
 }
 .navbar .navbar__avatar .avatar_popup .text-sm {
   font-size: 0.9rem;
@@ -382,7 +388,7 @@ Main page ( index & after login )
 }
 
 .navbar .navbar__avatar .avatar_popup .links a:hover {
-  color: #974FE9;
+  color: #febd09;
   padding-left: 0.5rem;
 }
 
@@ -392,33 +398,76 @@ Main page ( index & after login )
 /* Main */
 
 main {
+  position: relative;
   margin-top: 86px;
+  max-height: 800px;
+  width: 100%;
+  max-width: 1920px;
+  overflow: hidden;
 }
-main .carousel-caption {
-  background: rgba(255, 255, 255, 0.1);
-  box-sizing: border-box;
-  box-shadow: outset 4px 4px 4px rgba(0, 0, 0, 0.48);
-  backdrop-filter: blur(15px);
-  /* border-radius: 25px; */
-  width: 40%;
+
+#mainVideo {
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.main-wrap {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+
+}
+.main-contents {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
   height: 100%;
   margin: auto;
+}
+.main-wrap .main__title {
+  position: absolute;
+  bottom: 50%;
+  left: 10%;
+  width: 100%;
+  max-width: 300px;
+}
+.main__title img {
+  width: 100%;
+  height: 100%;
+}
+.main-wrap .main__x {
+  position: absolute;
+  bottom: 50%;
+  left: 46%;
+  width: 100%;
+  max-width: 100px;
+}
+.main__x img{
+  width: 100%;
+  height: 100%;
+}
+.main-wrap .main__logo2 {
+  position: absolute;
+  bottom: 50%;
   left: 60%;
-  bottom: 0;
-  text-align:left;
-  padding: 200px 50px;
+  width: 300px;
 }
-main .carousel-caption h5 {
-  font-family: Noto Sans;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2rem;
-  line-height: 1.4;
+.main__logo2 img {
+  width: 100%;
 }
-main .carousel-caption p {
-  font-size: 1.2rem;
-  line-height: 1.4;
-  color: #F8F3FF;
+.main-wrap .main__text {
+  position: absolute;
+  border-radius: 20px;
+  bottom: 38%;
+  left: 0;
+  max-width: 900px;
+  width: 100%;
+}
+.main__text img {
+  width: 100%;
 }
 
 /* SECTION : NOTICE */
@@ -747,7 +796,7 @@ main .carousel-caption p {
 .banner-one .silde-wrap .silde-text .silde-btn-wrap .btn__inline {
   font-weight: 700;
   font-size: 14px;
-  border: 3px solid #3D2277;
+  border: 2px solid #5F11AE;
   border-radius: 24px;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -755,12 +804,12 @@ main .carousel-caption p {
   margin-right: 1rem;
 }
 .banner-one .silde-wrap .silde-text .silde-btn-wrap .btn__inline:hover {
-  background: linear-gradient(180deg, #3D2277 0%, #5F11AE 92.5%, #5F11AE 92.5%);
+  background: #5F11AE;
   box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.08), inset 2px 3px 3px rgba(255, 255, 255, 0.25);
 }
 
 .banner-one .silde-wrap .silde-text .silde-btn-wrap .btn__outline {
-  background: linear-gradient(158.75deg, #974FE9 13.02%, #3D2277 58.67%, #974FE9 86%);
+  background: #5F11AE;
   box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.08), inset 3px 4px 3px rgba(255, 255, 255, 0.25);
   border-radius: 24px;
   padding-left: 2rem;
@@ -768,12 +817,12 @@ main .carousel-caption p {
   color: #FDF2F7;
 }
 .banner-one .silde-wrap .silde-text .silde-btn-wrap .btn__outline:hover {
-  background: linear-gradient(180deg, #3D2277 0%, #5F11AE 92.5%, #5F11AE 92.5%);
+  background: linear-gradient(180deg, #5F11AE 0%, #5F11AE 92.5%, #5F11AE 92.5%);
   box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.08), inset 2px 3px 3px rgba(255, 255, 255, 0.25);
 }
 
 .swiper-scrollbar {
-  background: linear-gradient(180deg, #3D2277 0%, #5F11AE 92.5%, #5F11AE 92.5%);
+  background: linear-gradient(180deg, #5F11AE 0%, #5F11AE 92.5%, #5F11AE 92.5%);
   box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.08), inset 2px 3px 3px rgba(255, 255, 255, 0.25);
 }
 
@@ -956,11 +1005,12 @@ Drops & Market Place Page
   border-radius: 50px;
   padding: 0 10px;
   margin-bottom: 20px;
-  background-color: #FF3CAC;
-  background-image: -webkit-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
-  background-image: -moz-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
-  background-image: -o-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
-  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  background-color: #FAD961;
+  background-image: -webkit-linear-gradient(135deg, #FAD961 0%, #F76B1C 100%);
+  background-image: -moz-linear-gradient(135deg, #FAD961 0%, #F76B1C 100%);
+  background-image: -o-linear-gradient(135deg, #FAD961 0%, #F76B1C 100%);
+  background-image: linear-gradient(135deg, #FAD961 0%, #F76B1C 100%);
+
 }
 
 /* Rank Card : Top-Collection, Top-sale, Top-saller */
@@ -1009,7 +1059,7 @@ Drops & Market Place Page
 }
 
 .rank-card .card__wrap .card__contents:hover {
-  box-shadow:  -5px -5px 30px 5px #3D2277, 5px 5px 30px 5px #974FE9;
+  box-shadow:  -5px -5px 20px 5px #ffbd0880, 5px 5px 20px 5px #febd09;
   transition: all .4s linear;
 }
 
@@ -1140,7 +1190,7 @@ Drops & Market Place Page
   font-size: 0.8rem;
   color: rgba(253, 242, 247, 0.48);
   border: 2px solid;
-  border-color: #974FE9;
+  border-color: #febd09;
   padding: 0px 10px;
   margin-left: 10px;
   margin-bottom: 10px;
@@ -1150,7 +1200,7 @@ Drops & Market Place Page
 }
 .guide-contents .guide__btn:hover {
   font-weight: 400;
-  background-color:  #974FE9;;
+  background-color:  #febd09;;
   box-sizing: border-box;
   transition: .4s;
   color: #FDF2F7DB;
@@ -1239,7 +1289,7 @@ Drops & Market Place Page
 .project .inner .projectSwiper .swiper-wrapper .swiper-slide .project__contents .project__btn:hover {
   font-weight: 700;
   background-color: #974FE9;
-  background-image: linear-gradient(180deg, #3D2277 0%, #5F11AE 92.5%, #5F11AE 92.5%);
+  background-image: linear-gradient(180deg, #febd09 0%, #5F11AE 92.5%, #5F11AE 92.5%);
   box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.08), inset 2px 3px 3px rgba(255, 255, 255, 0.25);
   border: none;
   box-sizing: border-box;
@@ -1274,7 +1324,7 @@ Drops & Market Place Page
   font-weight: 700;
   padding: 5px 20px;
   border-radius: 4px;
-  border: 1px solid  #3D2277;
+  border: 1px solid  #ffbe09;
   transition: .4s linear;
   color: #FDF2F7;
   background-color: transparent;
@@ -1284,7 +1334,7 @@ Drops & Market Place Page
 .drops .menu-wrap .drop-menu .ino__btn:hover,
 .drops .menu-wrap .drop-menu .auction__btn:hover {
   font-weight: 700;
-  background: linear-gradient(180deg, #3D2277 0%, #5F11AE 92.5%, #5F11AE 92.5%);  
+  background: linear-gradient(180deg, #ffbe09, #febd09 92.5%, #febd09 92.5%);  
   box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.08), inset 2px 3px 3px rgba(255, 255, 255, 0.25);
   border: none;
   color: #FDF2F7;
@@ -1371,11 +1421,11 @@ Drops & Market Place Page
   color: rgba(253, 242, 247, 0.48);
   border-radius: 6px;
   background-color: transparent;
-  border: 1px solid #3D2277;
+  border: 1px solid #ffbd0880;
 }
 .option__start .panel button:hover,
 .option__start .panel button:focus {
-  background-color: #3D2277;
+  background-color: #febd09;
   color: #FDF2F7;
 }
 
@@ -1484,7 +1534,7 @@ Drops & Market Place Page
   overflow: hidden;
 }
 .ino-wrap .ino__card:hover {
-  box-shadow:  -5px -5px 20px 5px #3D2277, 5px 5px 20px 5px #974FE9;
+  box-shadow:  -5px -5px 20px 5px #ffbd0880, 5px 5px 20px 5px #febd09;
   transition: all .3s linear;
 }
 
@@ -1640,7 +1690,7 @@ Drops & Market Place Page
 .ino-wrap .ino__card .card__bar .bar__prog {
   height: 100%;
   width: 80%;
-  background: rgba(151, 79, 233, 0.88);
+  background: rgba(254, 189, 9, 0.88);
 }
 .ino-wrap .ino__card .card__bar .bar__status {
   position: absolute;
@@ -1693,7 +1743,7 @@ Auction & Marketplace Card
 .trading .market__card:hover,
 .auction-wrap .au__card:hover,
 .market-wrap .market__card:hover  {
-  box-shadow:  -5px -5px 30px 5px #3D2277, 5px 5px 30px 5px #974FE9;
+  box-shadow:  -5px -5px 20px 5px #ffbd0880, 5px 5px 20px 5px #febd09;
   transition: all .4s linear;
 }
 
@@ -1701,7 +1751,7 @@ Auction & Marketplace Card
   position: absolute;
   width: 170px;
   height: 45px;
-  background: linear-gradient(133deg, #3D2277, #974FE9);
+  background: linear-gradient(133deg, rgba(255, 190, 10, .8), #febd09);
   border-radius: 6px;
   left: 10px;
   bottom: 185px;
@@ -1956,7 +2006,7 @@ ul.breadcrumb li a:hover {
 }
 
 .tab__btn-active {
-  border-bottom: 3px solid #3D2277;
+  border-bottom: 3px solid #ffbe09;
 }
 
 .detail-sub .detail-wrap .detail__tab {
@@ -2123,7 +2173,7 @@ ul.breadcrumb li a:hover {
 .detail-sub .detail-wrap .detail__menu .item-wrap .item .item__badge:nth-child(1),
 .detail-sub .detail-wrap .detail__menu .item-wrap .item .item__badge:nth-child(2) {
   border: 2px solid none;
-  background: linear-gradient(158.08deg, #974FE9 23.22%, #3D2277 76.14%);
+  background: linear-gradient(133deg, rgba(255, 190, 10, .8), #febd09);
   border-radius: 4px;
   padding: 5px 15px;
 }
@@ -2177,7 +2227,7 @@ ul.breadcrumb li a:hover {
   width: 80%;
   height: 100%;
   border-radius: 2px;
-  background: rgba(151, 79, 233, 0.88);
+  background: #febd09e0;
 }
 .detail-sub .detail-wrap .detail__menu .item-wrap .item:nth-child(4) .bar__status {
   display: flex;
@@ -2275,15 +2325,15 @@ ul.breadcrumb li a:hover {
   color: #FDF2F7;
   font-weight: 700;
   border-radius: 24px;
-  background: linear-gradient(164.48deg, rgba(151, 79, 233, 0.88) 11.96%, rgba(96, 52, 163, 0.758044) 53%, rgba(151, 79, 233, 0.88) 79.27%);
+  background: linear-gradient(133deg, rgba(255, 190, 10, .8), #febd09);
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.38), inset 3px 4px 3px rgba(255, 255, 255, 0.25);
 }
 .detail-sub .detail-wrap .detail__menu .item-wrap .item:last-child .auto__btn {
-  background: #3D2277;
+  background: #febd09;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.38), inset 3px 4px 3px rgba(255, 255, 255, 0.25);
 }
 .detail-sub .detail-wrap .detail__menu .item-wrap .item:last-child .details__btn:hover {
-  background: linear-gradient(164.48deg, rgba(151, 79, 233, 1) 11.96%, rgba(96, 52, 163, 1) 53%, rgba(151, 79, 233, 1) 79.27%);
+  background: linear-gradient(133deg, rgba(255, 190, 10, .8), #febd09);
 }
 
 .item-wrap .countdown__inner {
@@ -2500,7 +2550,7 @@ ul.breadcrumb li a:hover {
 }
 
 .modal-body .item-wrap:nth-child(2) .group .item__price::after  {
-  content: " USDT";
+  content: " HCN";
 }
 .modal-body .item-wrap:nth-child(2) .group:nth-child(2) {
   margin-bottom: 0;
@@ -2590,7 +2640,7 @@ ul.breadcrumb li a:hover {
   background: white;
 }
 .radiobox .price::after {
-  content: ' USDT';
+  content: ' HCN';
 }
 #sellModal .radiobox .price::after {
   content: '';
@@ -2672,7 +2722,7 @@ ul.breadcrumb li a:hover {
   font-size: 1.2rem;
 }
 .modal-body .item-wrap:nth-child(4) .item:nth-child(2)::after  {
- content: " USDT";
+ content: " HCN";
 }
 .modal-body .item-wrap:nth-child(4) .item:nth-child(3) {
   display: block;
@@ -2767,7 +2817,7 @@ ul.breadcrumb li a:hover {
   margin: 0 5px;
   width: 100%;
   height: 60px;
-  background: linear-gradient(164.48deg, rgba(151, 79, 233, 0.88) 11.96%, rgba(96, 52, 163, 0.758044) 53%, rgba(151, 79, 233, 0.88) 79.27%);
+  background: linear-gradient(133deg, rgba(255, 190, 10, .8), #febd09);
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.38), inset 3px 4px 3px rgba(255, 255, 255, 0.25);
   border-radius: 38px;
 }
@@ -2815,7 +2865,7 @@ ul.breadcrumb li a:hover {
 .kyc .step-wrap .step-line {
   position: absolute;
   height: 4px;
-  background-color:#3D2277;
+  background-color:#febd09;
   width: 100%;
   max-width: 78%;
   left: 55px;
@@ -2842,7 +2892,7 @@ ul.breadcrumb li a:hover {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  border: 4px solid #3D2277;
+  border: 4px solid #febd09;
   text-align: center;
   padding-top: 12px;
   padding-left: 20px;
@@ -2851,7 +2901,7 @@ ul.breadcrumb li a:hover {
 .kyc .step-item:first-child .step-text:first-child,
 .kyc-two .step-item:nth-child(2) .step-text:first-child,
 .kyc-three .step-item .step-text:first-child {
-  background-color: #3D2277;
+  background-color: #febd09;
   color: #FDF2F7;
 }
 .kyc .step-item:first-child .step-text:last-child,
@@ -2970,13 +3020,13 @@ ul.breadcrumb li a:hover {
 }
 .kyc-two .step-contents .text-wrap .text:first-child::after {
   content: ' JPG / PNG';
-  color: #974FE9;
+  color: #fabb0a;
   margin-right: 20px;
   font-weight: 700;
 }
 .kyc-two .step-contents .text-wrap .text:nth-child(2)::after {
   content: ' 8MB';
-  color: #974FE9;
+  color: #fabb0a;
   margin-right: 20px;
   font-weight: 700;
 }
@@ -3060,7 +3110,7 @@ ul.breadcrumb li a:hover {
   bottom: 45px;
   position: absolute;
   text-align: center;
-  color: rgba(61, 34, 119, 0.68);
+  color: rgba(254, 189, 9, 0.68);
 }
 .kyc-two .photo-item .img-wrap .box img {
   height: 100%;
@@ -3156,7 +3206,7 @@ ul.breadcrumb li a:hover {
   max-height: 180px;
   width: 100%;
   height: 100%;
-  background-color: #3D2277;
+  background-color: #febd09;
   border-radius: 50%;
   text-align: center;
   font-size: 4.5rem;
@@ -3174,13 +3224,13 @@ ul.breadcrumb li a:hover {
   font-size: 4em;
   padding-bottom: 20px;
   width: 100%;
-  color: #3D2277;
+  color: #febd09;
   border-radius: 10px;
 }
 
 .upload__btn:focus + label,
 .upload__btn + label:hover {
-  color: purple;
+  color: #febd09;
 }
 
 .kyc .btn-wrap,
@@ -3212,9 +3262,10 @@ ul.breadcrumb li a:hover {
   font-weight: 700;
   text-align: center;
   border-radius: 24px;
-  background: #3D2277;
+  background: transparent;
   cursor: pointer;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.38), inset 3px 4px 3px rgba(255, 255, 255, 0.25);
+  border: 1px solid #ffbd0880;
+  /* box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.38), inset 3px 4px 3px rgba(255, 255, 255, 0.25); */
 }
 .kyc-submit .btn__one {
   width: 100%;
@@ -3229,12 +3280,12 @@ ul.breadcrumb li a:hover {
   font-weight: 700;
   border-radius: 24px;
   cursor: pointer;
-  background: linear-gradient(164.48deg, rgba(151, 79, 233, 0.88) 11.96%, rgba(96, 52, 163, 0.758044) 53%, rgba(151, 79, 233, 0.88) 79.27%);
+  background: linear-gradient(133deg, rgba(255, 190, 10, .8), #febd09);
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.38), inset 3px 4px 3px rgba(255, 255, 255, 0.25);
 }
 .btn__one:hover,
 .btn__two:hover {
-  background: linear-gradient(164.48deg, rgba(151, 79, 233, 1) 11.96%, rgba(96, 52, 163, 1) 53%, rgba(151, 79, 233, 1) 79.27%);
+  background: linear-gradient(133deg, rgba(255, 190, 10, .8), #febd09);
 }
 .anti,
 .change-pass,
@@ -3270,7 +3321,7 @@ ul.breadcrumb li a:hover {
 .change-pass .title-wrap p {
   font-size: 0.8rem;
   margin: 0;
-  color: #974FE9;
+  color: #ffbd0880;
 }
 .anti .contents-wrap,
 .change-pass .contents-wrap,
@@ -3430,7 +3481,7 @@ ul.breadcrumb li a:hover {
 .google-otp .item-wrap:nth-child(2) .text {
   width: 100%;
   font-size: 0.8rem;
-  color: #974FE9;
+  color: #fabb0a;
 }
 
 /* Footer */

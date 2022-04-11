@@ -154,7 +154,7 @@
 .container.content-wrap .form-btn {
   border-radius: 100px;
   border: 2px solid transparent;
-  background-image: linear-gradient(174.83deg, rgba(151, 79, 233, 0.7) 16.19%, rgba(61, 34, 119, 0.68) 114.12%), linear-gradient(119.11deg, rgba(151, 79, 233, 0.88) 22.29%, rgba(61, 34, 119, 0.68) 67.88%);
+  background: linear-gradient(110deg,#ffbe08 52.97%, #febd09 90.74%);  
   background-origin: border-box;
   background-clip: content-box, border-box;
   text-align: center;
@@ -251,13 +251,13 @@
 }
 
 .container.content-wrap .btn-check-inline-wrap input[type="checkbox"] + label {
-  background: linear-gradient(180deg, rgba(104, 43, 233, 0.76) 0%, #5F11AE 92.5%, #5F11AE 92.5%);
+  background: linear-gradient(110deg,#ffbe08 52.97%, #febd09 90.74%);
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.38), inset 1px 2px 3px rgba(255, 255, 255, 0.25);
   border-radius: 4px;
 }
 
 .container.content-wrap .btn-check-inline-wrap input[type="checkbox"]:checked + label {
-  background: linear-gradient(180deg, rgba(104, 43, 233, 0.76) 0%, #5F11AE 92.5%, #5F11AE 92.5%);
+  background: linear-gradient(110deg,#ffbe08 52.97%, #febd09 90.74%);  
   box-shadow: inset 2px 2px 3px rgba(11, 6, 18, 0.86);
   border-radius: 4px;
 }
@@ -431,7 +431,7 @@
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.38), inset 1px 2px 3px rgba(255, 255, 255, 0.25);
   border-radius: 6px;
   border: 1px solid transparent;
-  background-image: linear-gradient(#230B45, #230B45), linear-gradient(180deg, rgba(104, 43, 233, 0.5168) 0%, rgba(95, 17, 174, 0.68) 92.5%, rgba(95, 17, 174, 0.68) 92.5%);
+  background: rgba(255, 192, 0, 0.82);
   background-origin: border-box;
   background-clip: content-box, border-box;
   height: 2.5rem;
