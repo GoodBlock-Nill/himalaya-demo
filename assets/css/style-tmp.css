@@ -357,7 +357,7 @@
 }
 
 .content-header {
-  background: #150629;
+  /* background: #181818; */
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
@@ -404,7 +404,7 @@
   height: 106px;
   border-radius: 6px;
   border: 4px solid transparent;
-  background-image: linear-gradient(#150629, #150629), linear-gradient(170.66deg, rgba(151, 79, 233, 0.68) 54.43%, rgba(61, 34, 119, 0.68) 92.94%);
+  background-image: linear-gradient(#150629, #150629), linear-gradient(60deg,rgb(248, 225, 122) 52.97%, #be8d03 90.74%);
   background-origin: border-box;
   background-clip: content-box, border-box;
 }
@@ -528,6 +528,8 @@
 
 .container.content-wrap .wallet-crypto-card-wrap .wallet-crypto-card .card-img-wrap .card-img {
   min-height: 145px;
+  margin-bottom: 10px;
+  background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -657,7 +659,7 @@
 .container.content-wrap .wallet-crypto-card-wrap-xs .wallet-crypto-card .card-body .card-btn-wrap .card-btn.active,
 .container.content-wrap .wallet-nft-card-wrap-xs .wallet-nft-card .card-body .card-btn-wrap .card-btn.active {
   border: none;
-  background: #3D2277 !important;
+  background: #febd09 !important;
   box-shadow: inset 3px 4px 3px rgba(11, 6, 18, 0.86) !important;
 }
 
@@ -668,7 +670,7 @@
 }
 
 .container.content-wrap .inprogress-card-wrap:hover {
-  box-shadow: -5px -5px 30px 5px #3D2277, 5px 5px 30px 5px #974FE9;
+  box-shadow:  -5px -5px 20px 5px #ffbd0880, 5px 5px 20px 5px #febd09;
   transition: all .4s linear;
 }
 
@@ -709,10 +711,10 @@
 
 .container.content-wrap .inprogress-card-wrap .card-badge {
   display: inline-block;
-  background: linear-gradient(166.96deg, rgba(151, 79, 233, 0.5984) 56.77%, rgba(61, 34, 119, 0.4624) 87.21%);
+  background: linear-gradient(133deg, rgba(255, 190, 10, .8), #febd09);
   border-radius: 4px;
   border: 2px solid transparent;
-  background-image: linear-gradient(166.96deg, rgba(151, 79, 233, 0.5984) 56.77%, rgba(61, 34, 119, 0.4624) 87.21%), linear-gradient(119.11deg, rgba(151, 79, 233, 0.5984) 22.29%, rgba(61, 34, 119, 0.4624) 67.88%);
+  background-image: linear-gradient(133deg, rgba(255, 190, 10, .8), #febd09);
   background-origin: border-box;
   background-clip: content-box, border-box;
 }
@@ -763,7 +765,7 @@
 
 .container.content-wrap .inprogress-card-wrap .card-btn,
 .container.content-wrap .inprogress-card-wrap .card-btn-2 {
-  background: linear-gradient(164.48deg, rgba(151, 79, 233, 0.88) 11.96%, rgba(96, 52, 163, 0.758044) 53%, rgba(151, 79, 233, 0.88) 79.27%);
+  background: linear-gradient(133deg, rgba(255, 190, 10, .8), #febd09);
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.38), inset 3px 4px 3px rgba(255, 255, 255, 0.25) !important;
   border-radius: 38px;
   width: 5.25rem;
@@ -774,7 +776,13 @@
 }
 
 .container.content-wrap .inprogress-card-wrap .card-btn-2 {
-  background: #3D2277 !important;
+  border: 1px solid #febd09 !important;
+  background: none; 
+  box-shadow: none !important;
+}
+.container.content-wrap .inprogress-card-wrap .card-btn-2:hover {
+  background: linear-gradient(133deg, rgba(255, 190, 10, .8), #febd09);
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.38), inset 3px 4px 3px rgba(255, 255, 255, 0.25) !important;
 }
 
 .container.content-wrap .deposit-content-wrap,
@@ -823,7 +831,7 @@
 }
 
 .container.content-wrap .deposit-content-wrap-xs .content-input-btn .content-btn {
-  background: #3D2277;
+  background: #ffbd0880;
   backdrop-filter: blur(4px);
   border-radius: 2px;
   color: #FDF2F7;
